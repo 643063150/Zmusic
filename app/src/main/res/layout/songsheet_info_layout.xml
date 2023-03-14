@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:src="@mipmap/gdt_ic_express_back_to_port" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:text="@string/songsheetinfo"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <net.center.blurview.ShapeBlurView
+                android:id="@+id/blurview"
+                app:blur_overlay_color="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/songList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingBottom="10dp"
+                tools:listitem="@layout/song_item" />
+        </RelativeLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>

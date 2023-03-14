@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_shape">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/view"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/home"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_search_hint" />
+    </RelativeLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.zpp.mobile.zmusic.view.NestedScrollableHost
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.stx.xhb.androidx.XBanner
+                        android:id="@+id/banner4"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        app:AutoPlayTime="6000"
+                        app:isAutoPlay="true"
+                        app:isHandLoop="true"
+                        app:isShowIndicatorOnlyOne="true"
+                        app:isShowNumberIndicator="false"
+                        app:pageChangeDuration="800"
+                        app:pointNormal="@drawable/dot_shape_unselected"
+                        app:pointSelect="@drawable/dot_shape_selected"
+                        app:pointsContainerBackground="@android:color/transparent"
+                        app:pointsVisibility="false" />
+                </com.zpp.mobile.zmusic.view.NestedScrollableHost>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="歌单推荐"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <com.zpp.mobile.zmusic.view.NestedScrollableHost
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recomPlaylist"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.zpp.mobile.zmusic.view.NestedScrollableHost>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="新歌首发"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/songList"
+                    android:clipToPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp" />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

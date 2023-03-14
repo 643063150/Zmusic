@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyMusic</string>
+    <string name="home">主页</string>
+    <string name="song_sheet">歌单</string>
+    <string name="list">榜单</string>
+    <string name="search">搜索歌曲或专辑</string>
+    <string name="http_data_explain_error">数据解析异常</string>
+    <string name="http_response_error">请求错误</string>
+    <string name="http_response_null_body">数据为空</string>
+    <string name="http_request_cancel">网络请求被中断</string>
+    <string name="http_server_error">服务器异常</string>
+    <string name="http_network_error">网络异常</string>
+    <string name="songsheetinfo">歌单详情</string>
+    <string name="back">返回</string>
+</resources>

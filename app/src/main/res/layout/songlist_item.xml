@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="130dp"
+        app:cardCornerRadius="6dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        android:layout_height="150dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/cover"
+                android:src="@mipmap/a"
+                android:scaleType="centerCrop"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+            <net.center.blurview.ShapeBlurView
+                android:layout_above="@id/title"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/blurview"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+               />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Trap Rap丨慵懒毒性的迷幻说唱"
+                android:textColor="@color/purple_500"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

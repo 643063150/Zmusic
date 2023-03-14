@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.stx.xhb.androidx.XBanner
+        android:id="@+id/banner4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:AutoPlayTime="6000"
+        app:isAutoPlay="true"
+        app:pointsVisibility="false"
+        app:isClipChildrenMode="true"
+        app:isHandLoop="true"
+        app:isShowIndicatorOnlyOne="true"
+        app:isShowNumberIndicator="false"
+        app:pageChangeDuration="800"
+        app:clipChildrenTopBottomMargin="5dp"
+        app:pointNormal="@drawable/dot_shape_unselected"
+        app:pointSelect="@drawable/dot_shape_selected"
+        app:pointsContainerBackground="@android:color/transparent"
+         />
+</LinearLayout>

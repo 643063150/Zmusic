@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divider">0.5dp</dimen>
+    <dimen name="leftmargin">15dp</dimen>
+    <dimen name="rightmargin">15dp</dimen>
+    <dimen name="dividers">10dp</dimen>
+    <dimen name="sm_dividers">5dp</dimen>
+    <dimen name="re_sm_dividers">7.5dp</dimen>
+</resources>
