@@ -25,7 +25,7 @@ public class MyApp extends Application {
     public void onCreate() {
         super.onCreate();
         setOkhttp();
-        setMusicService();
+//        setMusicService();
         MMKV.initialize(this);
     }
 

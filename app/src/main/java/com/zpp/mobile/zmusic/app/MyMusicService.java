@@ -26,9 +26,9 @@ import snow.player.audio.MusicPlayer;
  */
 @PersistenceId("ZppMusicService")
 public class MyMusicService extends PlayerService {
-    @NonNull
-    @Override
-    protected MusicPlayer onCreateMusicPlayer(@NonNull Context context, @NonNull MusicItem musicItem, @NonNull Uri uri) {
-        return new ExoMusicPlayer(context, uri);
-    }
+//    @NonNull
+//    @Override
+//    protected MusicPlayer onCreateMusicPlayer(@NonNull Context context, @NonNull MusicItem musicItem, @NonNull Uri uri) {
+//        return new ExoMusicPlayer(context, uri);
+//    }
 }

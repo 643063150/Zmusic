@@ -7,36 +7,31 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 
 import com.bumptech.glide.Glide;
-import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.leaf.library.StatusBarUtil;
 import com.stx.xhb.androidx.transformers.Transformer;
 import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
 import com.zpp.mobile.zmusic.Adapter.HomeAdapter;
 import com.zpp.mobile.zmusic.Adapter.RecommendAdapter;
 import com.zpp.mobile.zmusic.R;
-import com.zpp.mobile.zmusic.app.MyMusicService;
 import com.zpp.mobile.zmusic.databinding.HomeFragmentBinding;
 import com.zpp.mobile.zmusic.enerty.HomeBanner;
 import com.zpp.mobile.zmusic.enerty.HomeEnerty;
 import com.zpp.mobile.zmusic.enerty.HomeSongEnerty;
+import com.zpp.mobile.zmusic.ui.MusicPlayerActivity;
 import com.zpp.mobile.zmusic.ui.SongSheetInfo;
 import com.zpp.mobile.zmusic.utils.Url;
 
 import java.util.ArrayList;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
-import kotlin.Unit;
-import kotlin.jvm.functions.Function3;
 import rxhttp.wrapper.param.RxHttp;
 
 
@@ -54,9 +49,8 @@ import rxhttp.wrapper.param.RxHttp;
 public class HomeFragment extends Fragment {
     HomeFragmentBinding homeFragmentBinding;
     RecommendAdapter recommendAdapter;
-    ArrayList<HomeEnerty.DataBean.ListBean> arrayList = new ArrayList<>();
     HomeAdapter homeAdapter;
-    ArrayList<HomeSongEnerty.DataBean.ListBean.SongBean> songEnertyArrayList = new ArrayList<>();
+    ArrayList<HomeSongEnerty.DataBean.DailySongsBean> songEnertyArrayList = new ArrayList<>();
 
     public static HomeFragment getInstance() {
         HomeFragment homeFragment = new HomeFragment();
@@ -82,6 +76,11 @@ public class HomeFragment extends Fragment {
             getBanner();
             getHomeSong();
             getListResult();
+        });
+        homeFragmentBinding.search.setOnClickListener(v -> {
+            Intent intent = new Intent();
+            intent.setClass(getActivity(), MusicPlayerActivity.class);
+            getActivity().startActivity(intent);
         });
     }
 
@@ -110,9 +109,9 @@ public class HomeFragment extends Fragment {
         recommendAdapter = new RecommendAdapter();
         homeFragmentBinding.recomPlaylist.setAdapter(recommendAdapter);
         recommendAdapter.setOnItemClickListener((vHotBeanBaseQuickAdapter, view, integer) -> {
-            Intent intent=new Intent();
+            Intent intent = new Intent();
             intent.setClass(getActivity(), SongSheetInfo.class);
-            intent.putExtra("id",recommendAdapter.getItems().get(integer).getContent_id()+"");
+            intent.putExtra("id", recommendAdapter.getItems().get(integer).getId() + "");
             getActivity().startActivity(intent);
             return null;
         });
@@ -125,10 +124,10 @@ public class HomeFragment extends Fragment {
      */
     private void setBanner(HomeBanner homeBanner) {
         homeFragmentBinding.banner4.setPageTransformer(Transformer.Default);
-        homeFragmentBinding.banner4.setBannerData(R.layout.home_banner, homeBanner.getData());
+        homeFragmentBinding.banner4.setBannerData(R.layout.home_banner, homeBanner.getBanners());
         homeFragmentBinding.banner4.loadImage((banner, model, view, psition) -> {
             ImageView imageView = view.findViewById(R.id.bannerimg);
-            Glide.with(getActivity()).load(homeBanner.getData().get(psition).getPicUrl()).into(imageView);
+            Glide.with(getActivity()).load(homeBanner.getBanners().get(psition).getPic()).into(imageView);
         });
     }
 
@@ -138,10 +137,7 @@ public class HomeFragment extends Fragment {
      * @param homeSongEnerty
      */
     private void setSongEnertyArrayList(HomeSongEnerty homeSongEnerty) {
-        songEnertyArrayList.clear();
-        for (int i = 0; i < homeSongEnerty.getData().get(0).getList().size(); i++) {
-            songEnertyArrayList.addAll(homeSongEnerty.getData().get(0).getList().get(i).getSong());
-        }
+        songEnertyArrayList.addAll(homeSongEnerty.getData().getDailySongs());
         homeAdapter.submitList(songEnertyArrayList);
     }
 
@@ -150,10 +146,8 @@ public class HomeFragment extends Fragment {
      */
     private void getListResult() {
         RxHttp.postForm(Url.homeRecommend).toObservable(HomeEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(homeEnerty -> {
-            arrayList.clear();
             homeFragmentBinding.refresh.setRefreshing(false);
-            arrayList.addAll(homeEnerty.getData().getList());
-            recommendAdapter.submitList(arrayList);
+            recommendAdapter.submitList(homeEnerty.getResult());
         }, throwable -> {
             homeFragmentBinding.refresh.setRefreshing(false);
             throwable.printStackTrace();
@@ -164,7 +158,7 @@ public class HomeFragment extends Fragment {
      * 获取banner
      */
     private void getBanner() {
-        RxHttp.get(Url.BANNER).toObservable(HomeBanner.class).observeOn(AndroidSchedulers.mainThread()).subscribe(homeBanner -> {
+        RxHttp.get(Url.BANNER).add("type", 1).toObservable(HomeBanner.class).observeOn(AndroidSchedulers.mainThread()).subscribe(homeBanner -> {
             setBanner(homeBanner);
         }, throwable -> {
             throwable.printStackTrace();
@@ -175,7 +169,7 @@ public class HomeFragment extends Fragment {
      * 每日推荐歌曲
      */
     private void getHomeSong() {
-        RxHttp.get(Url.homeSong).add("showDetail", 1).toObservable(HomeSongEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(this::setSongEnertyArrayList, Throwable::printStackTrace);
+        RxHttp.get(Url.homeSong).toObservable(HomeSongEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(this::setSongEnertyArrayList, Throwable::printStackTrace);
     }
 
 }

@@ -15,17 +15,15 @@ import rxhttp.wrapper.annotation.DefaultDomain;
  */
 public class Url {
     @DefaultDomain
-    public static String baseUrl="http://xyjnsk.natappfree.cc";
+    public static String baseUrl="http://39gpx2.natappfree.cc";
 
-    public static String homeRecommend="/recommend/playlist/u";
+    public static String homeRecommend="/personalized";
 
-    public static String BANNER="/recommend/banner";
+    public static String BANNER="/banner";
 
-    public static String RECOMMENDSONG="/new/songs";
+    public static String homeSong="/recommend/songs";
 
-    public static String homeSong="/top/category";
+    public static String songsheetinfo="/playlist/detail";
 
-    public static String songsheetinfo="/songlist";
-
-    public static String songPlyer="/song/urls";
+    public static String songPlyer="/song/url/v1";
 }

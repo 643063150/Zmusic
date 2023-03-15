@@ -27,13 +27,13 @@ import java.util.List;
  * @UpdateDate: 2023/3/8 13:40
  * @UpdateRemark:
  */
-public class RecommendAdapter extends BaseQuickAdapter<HomeEnerty.DataBean.ListBean, RecommendAdapter.ViewHolder> {
+public class RecommendAdapter extends BaseQuickAdapter<HomeEnerty.ResultBean, RecommendAdapter.ViewHolder> {
     SonglistItemBinding songlistItemBinding;
 
     @Override
-    protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable HomeEnerty.DataBean.ListBean vHotBean) {
-        Glide.with(getContext()).load(vHotBean.getCover()).into(songlistItemBinding.cover);
-        songlistItemBinding.title.setText(vHotBean.getTitle());
+    protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable HomeEnerty.ResultBean vHotBean) {
+        Glide.with(getContext()).load(vHotBean.getPicUrl()).into(songlistItemBinding.cover);
+        songlistItemBinding.title.setText(vHotBean.getName());
     }
 
     @NonNull
@@ -44,7 +44,7 @@ public class RecommendAdapter extends BaseQuickAdapter<HomeEnerty.DataBean.ListB
     }
 
     @Override
-    protected int getItemViewType(int position, @NonNull List<? extends HomeEnerty.DataBean.ListBean> list) {
+    protected int getItemViewType(int position, @NonNull List<? extends HomeEnerty.ResultBean> list) {
         return position;
     }
 

@@ -14,244 +14,164 @@ import java.util.List;
  * @UpdateRemark:
  */
 public class HomeEnerty {
-    private int result;
-    private DataBean data;
 
-    public int getResult() {
+    /**
+     * hasTaste : false
+     * code : 200
+     * category : 0
+     * result : [{"id":156934569,"type":0,"name":"这些充满『强烈画面感』的音乐","copywriter":"","picUrl":"https://p1.music.126.net/uXbDB1aWsp36_I_lQs-DeA==/1411772930113118.jpg","canDislike":true,"trackNumberUpdateTime":1508504406552,"playCount":70209168,"trackCount":422,"highQuality":true,"alg":"alg_high_quality"},{"id":2235097256,"type":0,"name":"〖纯音乐〗轻旋淡律，也可以抓住你的耳朵","copywriter":"","picUrl":"https://p1.music.126.net/7yf2kfPh7wlMGC-d-3AEsw==/109951163309396149.jpg","canDislike":true,"trackNumberUpdateTime":1666713002929,"playCount":31219214,"trackCount":213,"highQuality":false,"alg":"alg_high_quality"},{"id":698720887,"type":0,"name":"华语百首 | 回忆伤人无声，唱不尽世间遗憾","copywriter":"","picUrl":"https://p1.music.126.net/4L--5jGuNNCdRxL10n_0-g==/19057835044326350.jpg","canDislike":true,"trackNumberUpdateTime":1678678112492,"playCount":214854032,"trackCount":250,"highQuality":false,"alg":"alg_high_quality"},{"id":737535139,"type":0,"name":"『一百首』经典华语怀旧老歌","copywriter":"","picUrl":"https://p1.music.126.net/vuPDRsBSPjjRUG2D_CGngw==/109951162933606208.jpg","canDislike":true,"trackNumberUpdateTime":1577178120726,"playCount":43432888,"trackCount":100,"highQuality":false,"alg":"alg_high_quality"},{"id":2312165875,"type":0,"name":"100首华语民谣，因为懂得才有共鸣","copywriter":"","picUrl":"https://p1.music.126.net/Cl0-NpZ0ESTDjJ1HmZ33KA==/109951163460576279.jpg","canDislike":true,"trackNumberUpdateTime":1633415786197,"playCount":34465984,"trackCount":99,"highQuality":true,"alg":"alg_high_quality"},{"id":367649303,"type":0,"name":"【B.G.M.】游戏必备战歌","copywriter":"","picUrl":"https://p1.music.126.net/mqTKX_-Llqif4oFJkfWpRw==/109951164206445553.jpg","canDislike":true,"trackNumberUpdateTime":1677318203169,"playCount":37302848,"trackCount":111,"highQuality":false,"alg":"alg_high_quality"},{"id":961246075,"type":0,"name":"终于听懂每首情歌，却再也没有可以联系的人","copywriter":"","picUrl":"https://p1.music.126.net/qO5IXdtPmWIMTNbmXgxK8Q==/109951163058256684.jpg","canDislike":true,"trackNumberUpdateTime":1678844586462,"playCount":45867920,"trackCount":48,"highQuality":false,"alg":"alg_high_quality"},{"id":2703033645,"type":0,"name":"『1w+热评』欧美万评撩耳男声（单曲循环）","copywriter":"","picUrl":"https://p1.music.126.net/xLDdcvX4nVVHePy8qcvYVQ==/109951163994703160.jpg","canDislike":true,"trackNumberUpdateTime":1666931436098,"playCount":68675520,"trackCount":227,"highQuality":false,"alg":"alg_high_quality"},{"id":610040691,"type":0,"name":"听首老歌 回味永不褪色的华语经典","copywriter":"","picUrl":"https://p1.music.126.net/FoF5_ROj-jU37263LhInsw==/109951163203287436.jpg","canDislike":true,"trackNumberUpdateTime":1678700619085,"playCount":28536002,"trackCount":222,"highQuality":false,"alg":"alg_high_quality"},{"id":2821115454,"type":0,"name":"[一周原创发现] 痛仰陪你迎接万物复苏","copywriter":"","picUrl":"https://p1.music.126.net/XfSPhhlm8A00mWfDVkE5Wg==/109951168458696851.jpg","canDislike":true,"trackNumberUpdateTime":1678464000000,"playCount":59695648,"trackCount":30,"highQuality":false,"alg":"alg_high_quality"},{"id":158010361,"type":0,"name":"『1963-至今』日本经典动漫音乐大盘点","copywriter":"","picUrl":"https://p1.music.126.net/WPHAmuqQaaQGIcx199t5XQ==/3272146613241669.jpg","canDislike":true,"trackNumberUpdateTime":1676170235399,"playCount":29911706,"trackCount":738,"highQuality":false,"alg":"alg_high_quality"},{"id":2900343697,"type":0,"name":"[一周影视热歌] Twins献唱电影《心想事成》片头主题曲","copywriter":"","picUrl":"https://p1.music.126.net/GxJLHfL3FRlL9DyamZduFw==/109951168466780941.jpg","canDislike":true,"trackNumberUpdateTime":1678399200000,"playCount":25368918,"trackCount":30,"highQuality":false,"alg":"alg_high_quality"},{"id":5461537154,"type":0,"name":"是不是把所有委屈咽下，才显得懂事","copywriter":"","picUrl":"https://p1.music.126.net/Xqi_9FN9ikLx7X3ChTR7jw==/109951165623877859.jpg","canDislike":true,"trackNumberUpdateTime":1678842170244,"playCount":28588210,"trackCount":113,"highQuality":false,"alg":"alg_high_quality"},{"id":2476663154,"type":0,"name":"经典粤语合集【无损音质】黑胶唱片会员专属","copywriter":"","picUrl":"https://p1.music.126.net/zAuVCW-cUvn29s9IxuQh-w==/109951167071306612.jpg","canDislike":true,"trackNumberUpdateTime":1632816059172,"playCount":79921088,"trackCount":100,"highQuality":false,"alg":"alg_high_quality"},{"id":2230318386,"type":0,"name":"予你情诗百首，余生你是我的所有","copywriter":"","picUrl":"https://p1.music.126.net/hoGRbppqaUIYkKpQGPwilw==/109951168031132211.jpg","canDislike":true,"trackNumberUpdateTime":1678833764234,"playCount":64090268,"trackCount":109,"highQuality":false,"alg":"alg_high_quality"}]
+     */
+
+    private boolean hasTaste;
+    private int code;
+    private int category;
+    private List<ResultBean> result;
+
+    public boolean isHasTaste() {
+        return hasTaste;
+    }
+
+    public void setHasTaste(boolean hasTaste) {
+        this.hasTaste = hasTaste;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public int getCategory() {
+        return category;
+    }
+
+    public void setCategory(int category) {
+        this.category = category;
+    }
+
+    public List<ResultBean> getResult() {
         return result;
     }
 
-    public void setResult(int result) {
+    public void setResult(List<ResultBean> result) {
         this.result = result;
     }
 
-    public DataBean getData() {
-        return data;
-    }
-
-    public void setData(DataBean data) {
-        this.data = data;
-    }
-
-    public static class DataBean {
+    public static class ResultBean {
         /**
-         * list : [{"album_pic_mid":"","content_id":7745421521,"cover":"http://qpic.y.qq.com/music_cover/zQII3lJrGSNNoWObRlPoys4sNl35qyw1JX0NNIVlGDR9GDu4dK7R4Q/300?n=1","creator":2749180238,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":44250084,"pic_mid":"","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"时代少年团｜我们一起并肩前行","tjreport":"","type":10014,"username":"顾雨菲"},{"album_pic_mid":"004QHJ0A3rXB9Y","content_id":7675104902,"cover":"http://qpic.y.qq.com/music_cover/NdzibUgT17lZoDhtI4ozl86fWZOuXuCfP7iaduiauuv9kxiciayXicoXp1icQ/300?n=1","creator":2186002180,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":14004025,"pic_mid":"","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"纯音乐☁超治愈☁适合学习喔～","tjreport":"","type":10014,"username":"平泽唯唯"},{"album_pic_mid":"","content_id":3540484302,"cover":"http://qpic.y.qq.com/music_cover/Cz8Z9ECDQia3gE2YticLiaJ22KNOu00Czu4RYkZmia3kAhUCYhiaPZ6qXQg/300?n=1","creator":931905769,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":70847393,"pic_mid":"000r2wk20Ko2OZ","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"学霸必备：专心写作业 享受轻音乐好时光","tjreport":"","type":10014,"username":"陈哲"},{"album_pic_mid":"003SK5X22P15Fc","content_id":8029241405,"cover":"http://qpic.y.qq.com/music_cover/kGLjZpdYBzic5qRiclmCYnIqA1cicEhE2iaiaVQ2VsrNfkDL3VTlF41vQeicJo3TORyjEP/300?n=1","creator":1152921504768511500,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":2901501,"pic_mid":"","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"『独家欧美』晚风踩着云朵贩卖爱","tjreport":"","type":10014,"username":"honeysea🍯"},{"album_pic_mid":"000I5jJB3blWeN","content_id":892344800,"cover":"http://qpic.y.qq.com/music_cover/H4L7icoRhSgTiaJ9e6rNiaM8UDZPUUVp2YNicNcGwXfIBevr2FUPTEia5Tg/300?n=1","creator":1587080800,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":11579863,"pic_mid":"002SOanN36Cn6W","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"\u201c三杰\u201d 时光荏苒,追寻逝去流年","tjreport":"","type":10014,"username":"鲸落化为孤岛"},{"album_pic_mid":"","content_id":4144081013,"cover":"http://qpic.y.qq.com/music_cover/sCdyUKgxMOFRx0cRlichSyiblJsoZwNMjfXbCsSHFN5VzMaPKfiaVvKLw/300?n=1","creator":294109499,"edge_mark":"","id":0,"is_dj":false,"is_vip":false,"jump_url":"","listen_num":5446994,"pic_mid":"001kKNCs05X1U7","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"Trap Rap丨慵懒毒性的迷幻说唱","tjreport":"","type":10014,"username":"冷山集"},{"album_pic_mid":"004BMRwh1rFgxf","content_id":7915412634,"cover":"http://qpic.y.qq.com/music_cover/ebxVDMSrIr0KHic07h73iaczzoeyZsjb9j01rmmlCafZmJSH4TfF4aKQ/300?n=1","creator":1242012453,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":2355965,"pic_mid":"","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"纯音入眠佳曲: 治愈午后小时光","tjreport":"","type":10014,"username":"自渡·"},{"album_pic_mid":"","content_id":7727231376,"cover":"http://qpic.y.qq.com/music_cover/EXVh00J0l1orGx5nKZymFUySLctkBibpFtNX47YA5Hxo07icA9KtVvPQ/300?n=1","creator":2638819171,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":3524679,"pic_mid":"","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"中文MC感情麦：喊出人生道理","tjreport":"","type":10014,"username":"王亚鹏"},{"album_pic_mid":"0032YJyg2yF6Dd","content_id":7950589030,"cover":"http://qpic.y.qq.com/music_cover/Zqn9d9hvgT1O39PeFzU41Hp5NT1aq0rvZlanf9D1ediaAKibx9NIOSlQ/300?n=1","creator":2900403492,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":88742525,"pic_mid":"","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"「独享时光」独处是一个人的清欢","tjreport":"","type":10014,"username":"安可"},{"album_pic_mid":"000tgRoL13FtLP","content_id":8119485961,"cover":"http://qpic.y.qq.com/music_cover/S9gjdWgE7YHcVKbco05ibzZicnhn2uZ8YcQg0yaqBpxMHCW5h38NJV8Q/300?n=1","creator":471328934,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":6905727,"pic_mid":"","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"古风戏腔 |戏已开场 八方开听","tjreport":"","type":10014,"username":"青春猪头少年"},{"album_pic_mid":"000n3m8q2rGbs7","content_id":8039753464,"cover":"http://qpic.y.qq.com/music_cover/DuKUYHgAKNJF4HrKEl0FiazorlnZJYhBuT2vib9xCILP21q5tVPyibqew/300?n=1","creator":1805446925,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":18170569,"pic_mid":"","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"片段翻唱 ｜把落日余晖藏在心里","tjreport":"","type":10014,"username":"半岛"},{"album_pic_mid":"002PWhAB3xF3YX","content_id":8054858756,"cover":"http://qpic.y.qq.com/music_cover/It6JAhhBKnxpIb5RK4NEW74QhjWicIRqXys99libXsibAteuJy7kribNicCtGEhaUQ1icy/300?n=1","creator":1152921505114010400,"edge_mark":"","id":0,"is_dj":false,"is_vip":true,"jump_url":"","listen_num":5193804,"pic_mid":"","rcmdcontent":"","rcmdtemplate":"编辑推荐","rcmdtype":0,"singerid":0,"title":"Rapper情话看世间万物皆是浪漫","tjreport":"","type":10014,"username":"Koi"}]
-         * count : 12
+         * id : 156934569
+         * type : 0
+         * name : 这些充满『强烈画面感』的音乐
+         * copywriter :
+         * picUrl : https://p1.music.126.net/uXbDB1aWsp36_I_lQs-DeA==/1411772930113118.jpg
+         * canDislike : true
+         * trackNumberUpdateTime : 1508504406552
+         * playCount : 70209168
+         * trackCount : 422
+         * highQuality : true
+         * alg : alg_high_quality
          */
 
-        private int count;
-        private List<ListBean> list;
+        private String id;
+        private int type;
+        private String name;
+        private String copywriter;
+        private String picUrl;
+        private boolean canDislike;
+        private long trackNumberUpdateTime;
+        private int playCount;
+        private int trackCount;
+        private boolean highQuality;
+        private String alg;
 
-        public int getCount() {
-            return count;
+        public String getId() {
+            return id;
         }
 
-        public void setCount(int count) {
-            this.count = count;
+        public void setId(String id) {
+            this.id = id;
         }
 
-        public List<ListBean> getList() {
-            return list;
+        public int getType() {
+            return type;
         }
 
-        public void setList(List<ListBean> list) {
-            this.list = list;
+        public void setType(int type) {
+            this.type = type;
         }
 
-        public static class ListBean {
-            /**
-             * album_pic_mid :
-             * content_id : 7745421521
-             * cover : http://qpic.y.qq.com/music_cover/zQII3lJrGSNNoWObRlPoys4sNl35qyw1JX0NNIVlGDR9GDu4dK7R4Q/300?n=1
-             * creator : 2749180238
-             * edge_mark :
-             * id : 0
-             * is_dj : false
-             * is_vip : true
-             * jump_url :
-             * listen_num : 44250084
-             * pic_mid :
-             * rcmdcontent :
-             * rcmdtemplate : 编辑推荐
-             * rcmdtype : 0
-             * singerid : 0
-             * title : 时代少年团｜我们一起并肩前行
-             * tjreport :
-             * type : 10014
-             * username : 顾雨菲
-             */
+        public String getName() {
+            return name;
+        }
 
-            private String album_pic_mid;
-            private long content_id;
-            private String cover;
-            private long creator;
-            private String edge_mark;
-            private int id;
-            private boolean is_dj;
-            private boolean is_vip;
-            private String jump_url;
-            private int listen_num;
-            private String pic_mid;
-            private String rcmdcontent;
-            private String rcmdtemplate;
-            private int rcmdtype;
-            private int singerid;
-            private String title;
-            private String tjreport;
-            private int type;
-            private String username;
+        public void setName(String name) {
+            this.name = name;
+        }
 
-            public String getAlbum_pic_mid() {
-                return album_pic_mid;
-            }
+        public String getCopywriter() {
+            return copywriter;
+        }
 
-            public void setAlbum_pic_mid(String album_pic_mid) {
-                this.album_pic_mid = album_pic_mid;
-            }
+        public void setCopywriter(String copywriter) {
+            this.copywriter = copywriter;
+        }
 
-            public long getContent_id() {
-                return content_id;
-            }
+        public String getPicUrl() {
+            return picUrl;
+        }
 
-            public void setContent_id(long content_id) {
-                this.content_id = content_id;
-            }
+        public void setPicUrl(String picUrl) {
+            this.picUrl = picUrl;
+        }
 
-            public String getCover() {
-                return cover;
-            }
+        public boolean isCanDislike() {
+            return canDislike;
+        }
 
-            public void setCover(String cover) {
-                this.cover = cover;
-            }
+        public void setCanDislike(boolean canDislike) {
+            this.canDislike = canDislike;
+        }
 
-            public long getCreator() {
-                return creator;
-            }
+        public long getTrackNumberUpdateTime() {
+            return trackNumberUpdateTime;
+        }
 
-            public void setCreator(long creator) {
-                this.creator = creator;
-            }
+        public void setTrackNumberUpdateTime(long trackNumberUpdateTime) {
+            this.trackNumberUpdateTime = trackNumberUpdateTime;
+        }
 
-            public String getEdge_mark() {
-                return edge_mark;
-            }
+        public int getPlayCount() {
+            return playCount;
+        }
 
-            public void setEdge_mark(String edge_mark) {
-                this.edge_mark = edge_mark;
-            }
+        public void setPlayCount(int playCount) {
+            this.playCount = playCount;
+        }
 
-            public int getId() {
-                return id;
-            }
+        public int getTrackCount() {
+            return trackCount;
+        }
 
-            public void setId(int id) {
-                this.id = id;
-            }
+        public void setTrackCount(int trackCount) {
+            this.trackCount = trackCount;
+        }
 
-            public boolean isIs_dj() {
-                return is_dj;
-            }
+        public boolean isHighQuality() {
+            return highQuality;
+        }
 
-            public void setIs_dj(boolean is_dj) {
-                this.is_dj = is_dj;
-            }
+        public void setHighQuality(boolean highQuality) {
+            this.highQuality = highQuality;
+        }
 
-            public boolean isIs_vip() {
-                return is_vip;
-            }
+        public String getAlg() {
+            return alg;
+        }
 
-            public void setIs_vip(boolean is_vip) {
-                this.is_vip = is_vip;
-            }
-
-            public String getJump_url() {
-                return jump_url;
-            }
-
-            public void setJump_url(String jump_url) {
-                this.jump_url = jump_url;
-            }
-
-            public int getListen_num() {
-                return listen_num;
-            }
-
-            public void setListen_num(int listen_num) {
-                this.listen_num = listen_num;
-            }
-
-            public String getPic_mid() {
-                return pic_mid;
-            }
-
-            public void setPic_mid(String pic_mid) {
-                this.pic_mid = pic_mid;
-            }
-
-            public String getRcmdcontent() {
-                return rcmdcontent;
-            }
-
-            public void setRcmdcontent(String rcmdcontent) {
-                this.rcmdcontent = rcmdcontent;
-            }
-
-            public String getRcmdtemplate() {
-                return rcmdtemplate;
-            }
-
-            public void setRcmdtemplate(String rcmdtemplate) {
-                this.rcmdtemplate = rcmdtemplate;
-            }
-
-            public int getRcmdtype() {
-                return rcmdtype;
-            }
-
-            public void setRcmdtype(int rcmdtype) {
-                this.rcmdtype = rcmdtype;
-            }
-
-            public int getSingerid() {
-                return singerid;
-            }
-
-            public void setSingerid(int singerid) {
-                this.singerid = singerid;
-            }
-
-            public String getTitle() {
-                return title;
-            }
-
-            public void setTitle(String title) {
-                this.title = title;
-            }
-
-            public String getTjreport() {
-                return tjreport;
-            }
-
-            public void setTjreport(String tjreport) {
-                this.tjreport = tjreport;
-            }
-
-            public int getType() {
-                return type;
-            }
-
-            public void setType(int type) {
-                this.type = type;
-            }
-
-            public String getUsername() {
-                return username;
-            }
-
-            public void setUsername(String username) {
-                this.username = username;
-            }
+        public void setAlg(String alg) {
+            this.alg = alg;
         }
     }
 }

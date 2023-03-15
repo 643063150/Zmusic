@@ -30,16 +30,14 @@ import java.util.List;
  * @UpdateDate: 2023/3/10 16:14
  * @UpdateRemark:
  */
-public class SongAdapter extends BaseQuickAdapter<SongSheetInfoEnerty.DataBean.SonglistBean, SongAdapter.ViewHolder> {
+public class SongAdapter extends BaseQuickAdapter<SongSheetInfoEnerty.PlaylistBean.TracksBean, SongAdapter.ViewHolder> {
     SongItemBinding songItemBinding;
 
     @Override
-    protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable SongSheetInfoEnerty.DataBean.SonglistBean songlistBean) {
-        String url = SongUtils.getSongCover(songlistBean.getAlbummid());
-        Log.e("URl:", url);
-        Glide.with(getContext()).load(url).error(R.mipmap.a4).into(songItemBinding.cover);
-        songItemBinding.title.setText(songlistBean.getSongname());
-        songItemBinding.singer.setText(songlistBean.getSinger().get(0).getName());
+    protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable SongSheetInfoEnerty.PlaylistBean.TracksBean songlistBean) {
+        Glide.with(getContext()).load(songlistBean.getAl().getPicUrl()).error(R.mipmap.a4).into(songItemBinding.cover);
+        songItemBinding.title.setText(songlistBean.getName());
+        songItemBinding.singer.setText(songlistBean.getAr().get(0).getName());
     }
 
     @NonNull
@@ -50,7 +48,7 @@ public class SongAdapter extends BaseQuickAdapter<SongSheetInfoEnerty.DataBean.S
     }
 
     @Override
-    protected int getItemViewType(int position, @NonNull List<? extends SongSheetInfoEnerty.DataBean.SonglistBean> list) {
+    protected int getItemViewType(int position, @NonNull List<? extends SongSheetInfoEnerty.PlaylistBean.TracksBean> list) {
         return position;
     }
 
