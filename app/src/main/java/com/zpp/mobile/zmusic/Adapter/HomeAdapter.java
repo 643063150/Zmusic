@@ -26,7 +26,7 @@ import com.zpp.mobile.zmusic.enerty.SongEnerty;
  * @UpdateDate: 2023/3/9 9:07
  * @UpdateRemark:
  */
-public class HomeAdapter extends BaseQuickAdapter<HomeSongEnerty.DataBean.DailySongsBean, HomeAdapter.ViewHolder> {
+public class HomeAdapter extends BaseQuickAdapter<HomeSongEnerty.ResultBean, HomeAdapter.ViewHolder> {
     SongItemBinding binding;
 
 
@@ -39,10 +39,10 @@ public class HomeAdapter extends BaseQuickAdapter<HomeSongEnerty.DataBean.DailyS
     }
 
     @Override
-    protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable HomeSongEnerty.DataBean.DailySongsBean songBean) {
-        Glide.with(getContext()).load(songBean.getAl().getPicUrl()).into(binding.cover);
+    protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable HomeSongEnerty.ResultBean songBean) {
+        Glide.with(getContext()).load(songBean.getPicUrl()).into(binding.cover);
         binding.title.setText(songBean.getName());
-        binding.singer.setText(songBean.getAr().get(0).getName());
+        binding.singer.setText(songBean.getSong().getArtists().get(0).getName());
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

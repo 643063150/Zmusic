@@ -1,5 +1,15 @@
 package com.zpp.mobile.zmusic.utils;
 
+import com.tencent.mmkv.MMKV;
+import com.zpp.mobile.zmusic.enerty.HomeSongEnerty;
+import com.zpp.mobile.zmusic.enerty.PlayUrlsEnerty;
+import com.zpp.mobile.zmusic.enerty.SongSheetInfoEnerty;
+
+import java.util.ArrayList;
+
+import snow.player.audio.MusicItem;
+import snow.player.playlist.Playlist;
+
 /**
  * @ProjectName: Zmusic
  * @Package: com.zpp.mobile.zmusic.utils
@@ -13,12 +23,19 @@ package com.zpp.mobile.zmusic.utils;
  */
 public class SongUtils {
     /**
-     * 获取歌曲封面
-     * @param mid
+     * 首页歌曲id集合
+     * @param songEnertyArrayList
      * @return
      */
-    public static String getSongCover(String mid){
-        String url="https://y.qq.com/music/photo_new/T002R300x300M000"+ mid +".jpg";
-        return  url;
-    }
+     public static String getHomeSongId(ArrayList<HomeSongEnerty.ResultBean> songEnertyArrayList ){
+         String mids="";
+         for ( int i=0;i<songEnertyArrayList.size();i++){
+             mids=mids+","+songEnertyArrayList.get(i).getId();
+         }
+         if (mids.startsWith(",")){
+             mids=mids.substring(1);
+         }
+         return mids;
+     }
+
 }

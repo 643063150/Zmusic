@@ -123,7 +123,12 @@ public class SongSheetInfo extends BaseActivity {
                     hexColor = String.format("#%06X", (0xFFFFFF & palette.getDarkMutedSwatch().getRgb()));
                 }catch (Exception e){
                     e.printStackTrace();
-                    hexColor = String.format("#%06X", (0xFFFFFF & palette.getDarkVibrantSwatch().getRgb()));
+                    try {
+                        hexColor = String.format("#%06X", (0xFFFFFF & palette.getDarkVibrantSwatch().getRgb()));
+                    }catch (Exception e2){
+                        e2.printStackTrace();
+                        hexColor="#FFBB86FC";
+                    }
                 }
                 binding.toolbar.setBackground(SongSheetBg.getDrawable(Color.parseColor(hexColor)));
                 return false;
@@ -142,7 +147,7 @@ public class SongSheetInfo extends BaseActivity {
              mids=mids+","+setAdapter.getItems().get(i).getId();
         }
         if (mids.startsWith(",")){
-            mids=mids.substring(1,mids.length());
+            mids=mids.substring(1);
         }
         return mids;
     }
@@ -155,22 +160,24 @@ public class SongSheetInfo extends BaseActivity {
      * 缓存当前歌单
      */
     private void playSongSheet(int integer,PlayUrlsEnerty playUrlsEnerty){
-        MMKV.defaultMMKV().putString("playlist",id);
-        String json=new Gson().toJson(playUrlsEnerty);
-        MMKV.defaultMMKV().putString("playlistInfo",json);
+        MMKV.defaultMMKV().putString("playlistInfo",setSongMid());
         ArrayList<MusicItem> arrayList=new ArrayList<>();
-        for (int i=0;i<playUrlsEnerty.getData().size();i++){
+        for (int i=0;i<setAdapter.getItems().size();i++){
             SongSheetInfoEnerty.PlaylistBean.TracksBean songlistBean=setAdapter.getItems().get(i);
-            PlayUrlsEnerty.DataBean dataBean=playUrlsEnerty.getData().get(i);
-            MusicItem song = new MusicItem.Builder()
-                    .setTitle(songlistBean.getName())
-                    .setArtist(songlistBean.getAr().get(0).getName())
-                    .setAlbum(songlistBean.getAl().getName())
-                    .setDuration(dataBean.getTime())
-                    .setUri(dataBean.getUrl()== null ? "" : dataBean.getUrl())
-                    .setIconUri(songlistBean.getAl().getPicUrl())
-                    .build();
-            arrayList.add(song);
+            for (int j=0;j<playUrlsEnerty.getData().size();j++){
+                PlayUrlsEnerty.DataBean dataBean=playUrlsEnerty.getData().get(j);
+                if (dataBean.getId().equals(songlistBean.getId())){
+                    MusicItem song = new MusicItem.Builder()
+                            .setTitle(songlistBean.getName())
+                            .setArtist(songlistBean.getAr().get(0).getName())
+                            .setAlbum(songlistBean.getAl().getName())
+                            .setDuration(dataBean.getTime())
+                            .setUri(dataBean.getUrl()== null ? "" : dataBean.getUrl())
+                            .setIconUri(songlistBean.getAl().getPicUrl())
+                            .build();
+                    arrayList.add(song);
+                }
+            }
         }
         Playlist playlist=new Playlist("",arrayList,true,null);
         mPlayerViewModel.getPlayerClient().setPlaylist(playlist, integer,true);

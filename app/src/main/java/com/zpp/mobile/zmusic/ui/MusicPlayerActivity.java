@@ -118,7 +118,7 @@ public class MusicPlayerActivity extends BaseActivity {
                                     hexColor = String.format("#%06X", (0xFFFFFF & palette.getLightVibrantSwatch().getRgb()));
                                 }catch (Exception e1){
                                     e1.printStackTrace();
-                                    hexColor = "FFBB86FC";
+                                    hexColor = "#FFBB86FC";
                                 }
                             }
                             binding.bg.setBackground(SongSheetBg.getDrawable(Color.parseColor(hexColor)));

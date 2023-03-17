@@ -1355,7 +1355,7 @@ public class SongSheetInfoEnerty {
              */
 
             private String name;
-            private int id;
+            private String id;
             private int pst;
             private int t;
             private int pop;
@@ -1409,11 +1409,11 @@ public class SongSheetInfoEnerty {
                 this.name = name;
             }
 
-            public int getId() {
+            public String getId() {
                 return id;
             }
 
-            public void setId(int id) {
+            public void setId(String id) {
                 this.id = id;
             }
 

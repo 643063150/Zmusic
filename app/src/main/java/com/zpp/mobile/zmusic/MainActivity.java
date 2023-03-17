@@ -1,18 +1,15 @@
 package com.zpp.mobile.zmusic;
-
+import android.content.Context;
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
+import android.os.PowerManager;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.viewpager2.widget.ViewPager2;
-
 import com.leaf.library.StatusBarUtil;
 import com.zpp.mobile.zmusic.app.BaseActivity;
 import com.zpp.mobile.zmusic.app.MyMusicService;
 import com.zpp.mobile.zmusic.databinding.ActivityMainBinding;
 import com.zpp.mobile.zmusic.mainfragment.PageAdapter;
 import com.zpp.mobile.zmusic.utils.PlayerUtil;
-
 import snow.player.lifecycle.PlayerViewModel;
 
 
@@ -38,6 +35,16 @@ public class MainActivity extends BaseActivity {
         ViewModelProvider viewModelProvider = new ViewModelProvider(this);
         mPlayerViewModel = viewModelProvider.get(PlayerViewModel.class);
         PlayerUtil.initPlayerViewModel(this, mPlayerViewModel, MyMusicService.class);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
     }
 
     /**

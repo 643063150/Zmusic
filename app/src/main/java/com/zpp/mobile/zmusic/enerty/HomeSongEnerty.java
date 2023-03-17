@@ -15,13 +15,16 @@ import java.util.List;
  */
 public class HomeSongEnerty {
 
+
     /**
      * code : 200
-     * data : {"dailySongs":[{"name":"Skellige Ard-Skellig Settlements Exploration Layer","id":1820603565,"pst":0,"t":0,"ar":[{"id":1195052,"name":"Super Xiang","tns":[],"alias":[]}],"alia":[],"pop":90,"st":0,"rt":"","fee":8,"v":8,"crbt":null,"cf":"","al":{"id":123071508,"name":"Skellige Ard-Skellig Settlements Exploration Layer","picUrl":"http://p3.music.126.net/-W3AVAIG5e7cdF4lghzong==/109951165730391214.jpg","tns":[],"pic_str":"109951165730391214","pic":109951165730391220},"dt":140564,"h":{"br":320000,"fid":0,"size":5624729,"vd":46875,"sr":44100},"m":{"br":192000,"fid":0,"size":3374855,"vd":49514,"sr":44100},"l":{"br":128000,"fid":0,"size":2249918,"vd":51337,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":131136,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":8,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":0,"reason":"小众推荐","recommendReason":"小众推荐","privilege":{"id":1820603565,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":2,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Salt","id":1904139626,"pst":0,"t":0,"ar":[{"id":28343826,"name":"Vikki Leigh","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":"","fee":8,"v":5,"crbt":null,"cf":"","al":{"id":137608111,"name":"Salt","picUrl":"http://p3.music.126.net/he7BEscj-CU-puwMVFzg7w==/109951166737681452.jpg","tns":[],"pic_str":"109951166737681452","pic":109951166737681460},"dt":180000,"h":{"br":320002,"fid":0,"size":7202525,"vd":-68817,"sr":44100},"m":{"br":192002,"fid":0,"size":4321533,"vd":-66217,"sr":44100},"l":{"br":128002,"fid":0,"size":2881036,"vd":-64607,"sr":44100},"sq":{"br":979803,"fid":0,"size":22045588,"vd":-68805,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270464,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":5,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":1416512,"mv":0,"rtype":0,"rurl":null,"publishTime":1581955200000,"reason":"超70%人播放","recommendReason":"超70%人播放","privilege":{"id":1904139626,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":261,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"The Slopes of the Blessure","id":416011555,"pst":0,"t":0,"ar":[{"id":999109,"name":"Piotr Musial","tns":[],"alias":[]}],"alia":[],"pop":85,"st":0,"rt":null,"fee":8,"v":28,"crbt":null,"cf":"","al":{"id":34726477,"name":"The Witcher 3: Wild Hunt - Blood and Wine (Official Soundtrack)","picUrl":"http://p4.music.126.net/OWtLPj3F4zlW4ahsfNb7XQ==/109951166490733839.jpg","tns":[],"pic_str":"109951166490733839","pic":109951166490733840},"dt":242000,"h":{"br":320002,"fid":0,"size":9683113,"vd":-989,"sr":44100},"m":{"br":192001,"fid":0,"size":5809885,"vd":1626,"sr":44100},"l":{"br":128001,"fid":0,"size":3873271,"vd":3315,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":18,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":139392,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":28,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":743010,"mv":0,"rtype":0,"rurl":null,"publishTime":1465193672279,"reason":null,"recommendReason":null,"privilege":{"id":416011555,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":5,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Khmer","id":1793244,"pst":0,"t":0,"ar":[{"id":40461,"name":"Nils Petter Molvær","tns":[],"alias":[]}],"alia":[],"pop":10,"st":0,"rt":"","fee":1,"v":15,"crbt":null,"cf":"","al":{"id":181115,"name":"Khmer","picUrl":"http://p3.music.126.net/urEvG-aVbzk7MwgWGLNlTg==/6657542906399454.jpg","tns":[],"pic":6657542906399454},"dt":301000,"h":{"br":320000,"fid":0,"size":12060400,"vd":11365,"sr":44100},"m":{"br":192000,"fid":0,"size":7236315,"vd":14328,"sr":44100},"l":{"br":128000,"fid":0,"size":4824272,"vd":15107,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":139264,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":15,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7003,"mv":0,"rtype":0,"rurl":null,"publishTime":902764800007,"reason":null,"recommendReason":null,"privilege":{"id":1793244,"fee":1,"payed":0,"st":0,"pl":0,"dl":0,"sp":0,"cp":0,"subp":0,"cs":false,"maxbr":320000,"fl":0,"toast":false,"flag":260,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"none","dlLevel":"none","flLevel":"none","rscl":null,"freeTrialPrivilege":{"resConsumable":true,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"daily_free_audition_artist_0_bak"},{"name":"Trouble Is a Friend","id":498331769,"pst":0,"t":0,"ar":[{"id":64143,"name":"Lenka","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":11,"crbt":null,"cf":"","al":{"id":35903500,"name":"Coffee Times","picUrl":"http://p4.music.126.net/0tfDIALhJzK7DqOG1dP_Yg==/109951165970560395.jpg","tns":[],"pic_str":"109951165970560395","pic":109951165970560400},"dt":215797,"h":{"br":320000,"fid":0,"size":8632991,"vd":-69437,"sr":44100},"m":{"br":192000,"fid":0,"size":5179812,"vd":-66888,"sr":44100},"l":{"br":128000,"fid":0,"size":3453222,"vd":-65262,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":16,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270336,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":11,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7001,"mv":0,"rtype":0,"rurl":null,"publishTime":1502726400000,"reason":null,"recommendReason":null,"privilege":{"id":498331769,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Yesterday Once More","id":26688672,"pst":0,"t":0,"ar":[{"id":89363,"name":"Carpenters","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":"","fee":8,"v":80,"crbt":null,"cf":"","al":{"id":2547504,"name":"The Ultimate Collection","picUrl":"http://p4.music.126.net/11WJjh49RbLQnpd6RQWf1w==/1891159999826375.jpg","tns":[],"pic":1891159999826375},"dt":238120,"h":{"br":320000,"fid":0,"size":9527422,"vd":-11327,"sr":44100},"m":{"br":192000,"fid":0,"size":5716470,"vd":-11327,"sr":44100},"l":{"br":128000,"fid":0,"size":3810994,"vd":-11327,"sr":44100},"sq":{"br":887871,"fid":0,"size":26427481,"vd":-11327,"sr":44100},"hr":null,"a":null,"cd":"1","no":14,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270336,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":80,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7003,"mv":0,"rtype":0,"rurl":null,"publishTime":1163952000007,"reason":null,"recommendReason":null,"privilege":{"id":26688672,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"天才白痴梦","id":172416,"pst":0,"t":0,"ar":[{"id":5782,"name":"许冠杰","tns":[],"alias":[]}],"alia":["电影《天才与白痴》插曲"],"pop":100,"st":0,"rt":"600902000005388223","fee":8,"v":21,"crbt":null,"cf":"","al":{"id":17319,"name":"天才与白痴","picUrl":"http://p4.music.126.net/8QO6nVFfiHzk0m6Rjz-vGg==/109951166108918121.jpg","tns":[],"pic_str":"109951166108918121","pic":109951166108918130},"dt":149974,"h":{"br":320000,"fid":0,"size":6001938,"vd":3424,"sr":44100},"m":{"br":192000,"fid":0,"size":3601180,"vd":6034,"sr":44100},"l":{"br":128000,"fid":0,"size":2400801,"vd":7770,"sr":44100},"sq":{"br":854704,"fid":0,"size":16022979,"vd":3431,"sr":44100},"hr":null,"a":null,"cd":"1","no":4,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":8192,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":21,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7003,"mv":0,"rtype":0,"rurl":null,"publishTime":915120000000,"reason":null,"recommendReason":null,"privilege":{"id":172416,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Assassin's Creed IV Black Flag Main Theme","id":27853157,"pst":0,"t":0,"ar":[{"id":29444,"name":"Brian Tyler","tns":[],"alias":[]},{"id":53524208,"name":"Assassin's Creed","tns":[],"alias":[]}],"alia":["刺客信条4：黑旗 主题曲"],"pop":80,"st":0,"rt":"","fee":8,"v":36,"crbt":null,"cf":"","al":{"id":2685158,"name":"Assassin's Creed 4: Black Flag (Original Game Soundtrack)","picUrl":"http://p4.music.126.net/UJCPBes8FjB0sO59xbIsRw==/109951167791328143.jpg","tns":[],"pic_str":"109951167791328143","pic":109951167791328140},"dt":133378,"h":{"br":320000,"fid":0,"size":5337645,"vd":-16912,"sr":48000},"m":{"br":192000,"fid":0,"size":3202605,"vd":-14316,"sr":48000},"l":{"br":128000,"fid":0,"size":2135085,"vd":-12646,"sr":48000},"sq":{"br":779591,"fid":0,"size":12997561,"vd":-16943,"sr":48000},"hr":{"br":1532222,"fid":0,"size":25545631,"vd":-16906,"sr":48000},"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":537010304,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":36,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":1416426,"mv":0,"rtype":0,"rurl":null,"publishTime":1381680000000,"reason":null,"recommendReason":null,"privilege":{"id":27853157,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":5,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"hires","playMaxBrLevel":"hires","downloadMaxBrLevel":"hires","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":1999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Mother","id":421639627,"pst":0,"t":0,"ar":[{"id":14408,"name":"久石譲","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":8,"crbt":null,"cf":"","al":{"id":34773500,"name":"菊次郎 (Original Motion Picture Soundtrack)","picUrl":"http://p4.music.126.net/nOhFczgnXcBbCSn6uLhmPg==/18416819765513414.jpg","tns":[],"pic_str":"18416819765513414","pic":18416819765513416},"dt":133877,"h":{"br":320000,"fid":0,"size":5356191,"vd":44066,"sr":44100},"m":{"br":192000,"fid":0,"size":3213732,"vd":44066,"sr":44100},"l":{"br":128000,"fid":0,"size":2142502,"vd":44066,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":10,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":131072,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":8,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7002,"mv":0,"rtype":0,"rurl":null,"publishTime":1467734400007,"reason":null,"recommendReason":null,"privilege":{"id":421639627,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":0,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"望春词（粤）","id":1929266834,"pst":0,"t":0,"ar":[{"id":1006030,"name":"洪尘","tns":[],"alias":[]}],"alia":[],"pop":90,"st":0,"rt":"","fee":8,"v":8,"crbt":null,"cf":"","al":{"id":142030293,"name":"望春词","picUrl":"http://p4.music.126.net/F_SlUbV4sFcx1Ormx9i-xA==/109951167164229609.jpg","tns":[],"pic_str":"109951167164229609","pic":109951167164229620},"dt":192381,"h":{"br":320000,"fid":0,"size":7697807,"vd":-36406,"sr":44100},"m":{"br":192000,"fid":0,"size":4618702,"vd":-33767,"sr":44100},"l":{"br":128000,"fid":0,"size":3079149,"vd":-31926,"sr":44100},"sq":{"br":817791,"fid":0,"size":19666036,"vd":-36152,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":64,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":8,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":0,"reason":null,"recommendReason":null,"privilege":{"id":1929266834,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":2,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Honey Take My Hand","id":1312528250,"pst":0,"t":0,"ar":[{"id":28766743,"name":"Cody Francis","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":11,"crbt":null,"cf":"","al":{"id":73584268,"name":"Rose In The Garden","picUrl":"http://p3.music.126.net/zaPkseOE2374F7hlLEuo3Q==/109951163567849730.jpg","tns":[],"pic_str":"109951163567849730","pic":109951163567849730},"dt":187606,"h":{"br":320000,"fid":0,"size":7506591,"vd":-34273,"sr":44100},"m":{"br":192000,"fid":0,"size":4503972,"vd":-34273,"sr":44100},"l":{"br":128000,"fid":0,"size":3002662,"vd":-34273,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":2,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270464,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":11,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":743010,"mv":0,"rtype":0,"rurl":null,"publishTime":1540483200007,"reason":null,"recommendReason":null,"privilege":{"id":1312528250,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":5,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"时间的尽头 (《三体》电视剧片头曲) - 陈雪燃","id":2016103069,"pst":0,"t":0,"ar":[{"id":54988808,"name":"野兔","tns":[],"alias":[]}],"alia":[],"pop":90,"st":0,"rt":"","fee":8,"v":7,"crbt":null,"cf":"","al":{"id":158547645,"name":"时间的尽头-陈雪燃","picUrl":"http://p4.music.126.net/GlP_oRwrD65nxGelGLTHWg==/109951168168463044.jpg","tns":[],"pic_str":"109951168168463044","pic":109951168168463040},"dt":202390,"h":{"br":320000,"fid":0,"size":8098003,"vd":28143,"sr":44100},"m":{"br":192000,"fid":0,"size":4858819,"vd":30773,"sr":44100},"l":{"br":128000,"fid":0,"size":3239227,"vd":32534,"sr":44100},"sq":{"br":680915,"fid":0,"size":17226311,"vd":27794,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":0,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":7,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":0,"reason":null,"recommendReason":null,"privilege":{"id":2016103069,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":0,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Above the Planets","id":1638481,"pst":0,"t":0,"ar":[{"id":37825,"name":"Kondor","tns":[],"alias":[]}],"alia":[],"pop":85,"st":0,"rt":"","fee":8,"v":19,"crbt":null,"cf":"","al":{"id":166495,"name":"Beyond the Clouds","picUrl":"http://p3.music.126.net/9UtJNHod0Z1ktk585E5YLQ==/109951168296024587.jpg","tns":[],"pic_str":"109951168296024587","pic":109951168296024590},"dt":153392,"h":{"br":320000,"fid":0,"size":6138819,"vd":-29010,"sr":44100},"m":{"br":192000,"fid":0,"size":3683309,"vd":-26397,"sr":44100},"l":{"br":128000,"fid":0,"size":2455554,"vd":-24663,"sr":44100},"sq":{"br":803029,"fid":0,"size":15397298,"vd":-29036,"sr":44100},"hr":null,"a":null,"cd":"1","no":2,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":401536,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":19,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":743010,"mv":0,"rtype":0,"rurl":null,"publishTime":1311696000007,"reason":null,"tns":["行星之上"],"recommendReason":null,"privilege":{"id":1638481,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":5,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Nightingale","id":20744697,"pst":0,"t":0,"ar":[{"id":46198,"name":"Yanni","tns":[],"alias":[]}],"alia":[],"pop":75,"st":0,"rt":"","fee":8,"v":27,"crbt":null,"cf":"","al":{"id":1926659,"name":"Yanni - Live at El Morro, Puerto Rico","picUrl":"http://p4.music.126.net/J1NtGnfvQtDOAPvoY-5pow==/109951166598522611.jpg","tns":[],"pic_str":"109951166598522611","pic":109951166598522610},"dt":319000,"h":{"br":320000,"fid":0,"size":12780354,"vd":-64489,"sr":44100},"m":{"br":192000,"fid":0,"size":7668295,"vd":-64489,"sr":44100},"l":{"br":128000,"fid":0,"size":5112265,"vd":-64489,"sr":44100},"sq":{"br":896918,"fid":0,"size":35813964,"vd":-64489,"sr":44100},"hr":null,"a":null,"cd":"1","no":7,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":139264,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":27,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7001,"mv":0,"rtype":0,"rurl":null,"publishTime":1332691200000,"reason":null,"recommendReason":null,"privilege":{"id":20744697,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"跟太阳系说再见","id":1321297488,"pst":0,"t":0,"ar":[{"id":12139464,"name":"祝乾亮","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":0,"v":58,"crbt":null,"cf":"","al":{"id":74132771,"name":"起航","picUrl":"http://p3.music.126.net/5fa3JCnX5fQbFbjZE1bT3A==/109951163632200237.jpg","tns":[],"pic_str":"109951163632200237","pic":109951163632200240},"dt":374677,"h":{"br":320000,"fid":0,"size":14990150,"vd":-47064,"sr":44100},"m":{"br":192000,"fid":0,"size":8994107,"vd":-47064,"sr":44100},"l":{"br":128000,"fid":0,"size":5996086,"vd":-47064,"sr":44100},"sq":{"br":920480,"fid":0,"size":43110367,"vd":-47064,"sr":48000},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":131136,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":58,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1540656000000,"reason":null,"recommendReason":null,"privilege":{"id":1321297488,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":2,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_371788462&1321297488"},{"name":"金风·绣明月","id":1302215448,"pst":0,"t":0,"ar":[{"id":12037037,"name":"扬灵","tns":[],"alias":[]}],"alia":[],"pop":25,"st":0,"rt":null,"fee":0,"v":17,"crbt":null,"cf":"","al":{"id":72333715,"name":"【七夕粤语情歌】金风·绣明月","picUrl":"http://p4.music.126.net/aM4SXgQPtukmtBjInhk_OA==/109951163463466283.jpg","tns":[],"pic_str":"109951163463466283","pic":109951163463466290},"dt":172000,"h":{"br":320000,"fid":0,"size":6882787,"vd":6374,"sr":44100},"m":{"br":192000,"fid":0,"size":4129689,"vd":6374,"sr":44100},"l":{"br":128000,"fid":0,"size":2753141,"vd":6374,"sr":44100},"sq":{"br":792084,"fid":0,"size":17029816,"vd":6374,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":262208,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":17,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1534176000000,"reason":null,"recommendReason":null,"privilege":{"id":1302215448,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":130,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"舰队VS水滴-Part1","id":479677031,"pst":0,"t":0,"ar":[{"id":12194208,"name":"陈君劼","tns":[],"alias":[]},{"id":12272980,"name":"赫尔辛根默斯肯","tns":[],"alias":[]}],"alia":[],"pop":35,"st":0,"rt":null,"fee":0,"v":52,"crbt":null,"cf":"","al":{"id":35222578,"name":"三体同人OST","picUrl":"http://p3.music.126.net/JKv63tUiowYcAUAJRv-iXw==/109951162866702089.jpg","tns":[],"pic_str":"109951162866702089","pic":109951162866702100},"dt":191294,"h":{"br":320000,"fid":0,"size":7653921,"vd":-32898,"sr":44100},"m":{"br":192000,"fid":0,"size":4592370,"vd":-32898,"sr":44100},"l":{"br":128000,"fid":0,"size":3061595,"vd":-32898,"sr":44100},"sq":{"br":652035,"fid":0,"size":15591314,"vd":-32898,"sr":44100},"hr":null,"a":null,"cd":"1","no":5,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":131136,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":52,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1487952000000,"reason":null,"recommendReason":null,"privilege":{"id":479677031,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":2,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_320005656&479677031"},{"name":"少年锦时","id":29567192,"pst":0,"t":0,"ar":[{"id":6731,"name":"赵雷","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":52,"crbt":null,"cf":"","al":{"id":3048030,"name":"吉姆餐厅","picUrl":"http://p4.music.126.net/PJNV84mjt_mDXEkxtjzB4w==/18957779486268444.jpg","tns":[],"pic_str":"18957779486268444","pic":18957779486268444},"dt":308600,"h":{"br":320000,"fid":0,"size":12346558,"vd":-23362,"sr":44100},"m":{"br":192000,"fid":0,"size":7407952,"vd":-23362,"sr":44100},"l":{"br":128000,"fid":0,"size":4938649,"vd":-23362,"sr":44100},"sq":{"br":762965,"fid":0,"size":29431389,"vd":-23362,"sr":44100},"hr":null,"a":null,"cd":"1","no":2,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":8192,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":52,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":1400821,"mv":0,"rtype":0,"rurl":null,"publishTime":1413648000007,"reason":null,"recommendReason":null,"privilege":{"id":29567192,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"风起云落","id":1840065469,"pst":0,"t":0,"ar":[{"id":13151417,"name":"令狐笑","tns":[],"alias":[]}],"alia":[],"pop":25,"st":0,"rt":"","fee":0,"v":9,"crbt":null,"cf":"","al":{"id":126513208,"name":"余烬","picUrl":"http://p4.music.126.net/omMWx1UYw7K6AlW1xQaWIw==/109951165921960868.jpg","tns":[],"pic_str":"109951165921960868","pic":109951165921960860},"dt":252865,"h":{"br":320000,"fid":0,"size":10116746,"vd":-63932,"sr":44100},"m":{"br":192000,"fid":0,"size":6070065,"vd":-61482,"sr":44100},"l":{"br":128000,"fid":0,"size":4046724,"vd":-60244,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":131200,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":9,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":0,"reason":null,"recommendReason":null,"privilege":{"id":1840065469,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":257,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"exhigh","dlLevel":"exhigh","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_349799911&1840065469"},{"name":"夜、萤火虫和你","id":509720124,"pst":0,"t":0,"ar":[{"id":12259037,"name":"AniFace","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":44,"crbt":null,"cf":"","al":{"id":36417372,"name":"夜、萤火虫和你","picUrl":"http://p4.music.126.net/VM7ZmBeI1B1eZzh7_z73JA==/109951163036196252.jpg","tns":[],"pic_str":"109951163036196252","pic":109951163036196260},"dt":188943,"h":{"br":320000,"fid":0,"size":7560925,"vd":-23055,"sr":44100},"m":{"br":192000,"fid":0,"size":4536573,"vd":-20426,"sr":44100},"l":{"br":128000,"fid":0,"size":3024396,"vd":-18628,"sr":44100},"sq":{"br":749778,"fid":0,"size":17708258,"vd":-23058,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":131136,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":44,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1506614400000,"reason":null,"recommendReason":null,"privilege":{"id":509720124,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":2,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_1377176528&509720124"},{"name":"Colors of Love","id":29460372,"pst":0,"t":0,"ar":[{"id":45336,"name":"Thomas Bergersen","tns":[],"alias":[]}],"alia":[],"pop":70,"st":0,"rt":null,"fee":8,"v":18,"crbt":null,"cf":"","al":{"id":3029236,"name":"Sun","picUrl":"http://p3.music.126.net/g423Jr5ifWV3BLBj3U8njQ==/109951164985317990.jpg","tns":[],"pic_str":"109951164985317990","pic":109951164985317980},"dt":391426,"h":{"br":320000,"fid":0,"size":15659929,"vd":-59317,"sr":44100},"m":{"br":192000,"fid":0,"size":9395975,"vd":-56735,"sr":44100},"l":{"br":128000,"fid":0,"size":6263998,"vd":-55153,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":9,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":270464,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":18,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":743010,"mv":0,"rtype":0,"rurl":null,"publishTime":1412006400007,"reason":null,"recommendReason":null,"privilege":{"id":29460372,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":5,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"平凡的一天","id":569214247,"pst":0,"t":0,"ar":[{"id":12138269,"name":"毛不易","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":116,"crbt":null,"cf":"","al":{"id":39483040,"name":"平凡的一天","picUrl":"http://p4.music.126.net/vmCcDvD1H04e9gm97xsCqg==/109951163350929740.jpg","tns":[],"pic_str":"109951163350929740","pic":109951163350929740},"dt":276773,"h":{"br":320000,"fid":0,"size":11073872,"vd":-21350,"sr":44100},"m":{"br":192000,"fid":0,"size":6644341,"vd":-18724,"sr":44100},"l":{"br":128000,"fid":0,"size":4429575,"vd":-16948,"sr":44100},"sq":{"br":815661,"fid":0,"size":28219178,"vd":-20962,"sr":44100},"hr":null,"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":8192,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":116,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":2708402,"mv":5952085,"rtype":0,"rurl":null,"publishTime":1530547200007,"reason":"第26届东方风云榜","recommendReason":"第26届东方风云榜","privilege":{"id":569214247,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"四季歌","id":330090,"pst":0,"t":0,"ar":[{"id":10575,"name":"周璇","tns":[],"alias":[]}],"alia":["电影《马路天使《玻璃画》插曲"],"pop":95,"st":0,"rt":"","fee":8,"v":34,"crbt":null,"cf":"","al":{"id":32603,"name":"Denon Mastersonic周璇","picUrl":"http://p4.music.126.net/bz4uHuqDZeina-tswaBiSw==/109951165994431201.jpg","tns":[],"pic_str":"109951165994431201","pic":109951165994431200},"dt":129000,"h":{"br":320000,"fid":0,"size":5198573,"vd":-17398,"sr":44100},"m":{"br":192000,"fid":0,"size":3119226,"vd":-17398,"sr":44100},"l":{"br":128000,"fid":0,"size":2079553,"vd":-17398,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":9,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":8192,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":34,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7003,"mv":0,"rtype":0,"rurl":null,"publishTime":852048000000,"reason":null,"recommendReason":null,"privilege":{"id":330090,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_8072227952&330090"},{"name":"Håll Om Mig","id":28224395,"pst":0,"t":0,"ar":[{"id":27941865,"name":"Nanne Grönvall","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":"","fee":0,"v":143,"crbt":null,"cf":"","al":{"id":2756383,"name":"Melodifestivalen 1958-2013","picUrl":"http://p4.music.126.net/CgREGnQGH02p_HTiZzxCJw==/2539871861248260.jpg","tns":[],"pic":2539871861248260},"dt":184000,"h":{"br":320000,"fid":0,"size":7375127,"vd":-42486,"sr":44100},"m":{"br":192000,"fid":0,"size":4425171,"vd":-42486,"sr":44100},"l":{"br":128000,"fid":0,"size":2950193,"vd":-42486,"sr":44100},"sq":{"br":953397,"fid":0,"size":21964680,"vd":-42486,"sr":44100},"hr":null,"a":null,"cd":"1","no":88,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":262144,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":143,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1389715200007,"reason":null,"tns":["抱紧我吧"],"recommendReason":null,"privilege":{"id":28224395,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":256,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"待涂抹的诗","id":1916700251,"pst":0,"t":0,"ar":[{"id":51337900,"name":"彻晓","tns":[],"alias":[]}],"alia":[],"pop":65,"st":0,"rt":"","fee":0,"v":7,"crbt":null,"cf":"","al":{"id":139710736,"name":"夕照。","picUrl":"http://p4.music.126.net/X9iuAUrIjzELVW_aCC4UbA==/109951167002552700.jpg","tns":[],"pic_str":"109951167002552700","pic":109951167002552700},"dt":170898,"h":{"br":320000,"fid":0,"size":6839509,"vd":-23379,"sr":44100},"m":{"br":192000,"fid":0,"size":4103966,"vd":-20736,"sr":44100},"l":{"br":128000,"fid":0,"size":2736194,"vd":-18942,"sr":44100},"sq":{"br":573047,"fid":0,"size":12241656,"vd":-23111,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":131200,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":7,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":0,"reason":null,"recommendReason":null,"privilege":{"id":1916700251,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":1,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"天路(Live)","id":31877629,"pst":0,"t":0,"ar":[{"id":7891,"name":"韩红","tns":[],"alias":[]}],"alia":[],"pop":95,"st":0,"rt":null,"fee":8,"v":686,"crbt":null,"cf":"","al":{"id":3142085,"name":"我是歌手第三季 总决赛","picUrl":"http://p3.music.126.net/C69zO6_wapO94TOE5DnIBg==/2941193605503524.jpg","tns":[],"pic":2941193605503524},"dt":281000,"h":{"br":320000,"fid":0,"size":11266257,"vd":-22776,"sr":44100},"m":{"br":192000,"fid":0,"size":6759821,"vd":-22776,"sr":44100},"l":{"br":128000,"fid":0,"size":4506603,"vd":-22776,"sr":44100},"sq":{"br":856089,"fid":0,"size":30132482,"vd":-22776,"sr":44100},"hr":null,"a":null,"cd":"2","no":5,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":65536,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":686,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":404023,"mv":0,"rtype":0,"rurl":null,"publishTime":1427385600007,"reason":null,"recommendReason":null,"privilege":{"id":31877629,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":256,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"空山鸟语","id":408280661,"pst":0,"t":0,"ar":[{"id":1023010,"name":"魏小涵","tns":[],"alias":[]}],"alia":[],"pop":85,"st":0,"rt":"","fee":0,"v":205,"crbt":null,"cf":"","al":{"id":34594699,"name":"天行九歌 原声音乐","picUrl":"http://p3.music.126.net/k_WRxDY1qQ4ztB5uFFrvoA==/17907745881679448.jpg","tns":[],"pic_str":"17907745881679448","pic":17907745881679448},"dt":191242,"h":{"br":320000,"fid":0,"size":7650787,"vd":11600,"sr":44100},"m":{"br":192000,"fid":0,"size":4590489,"vd":14299,"sr":44100},"l":{"br":128000,"fid":0,"size":3060341,"vd":16000,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"01","no":12,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":262144,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":205,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1486828800000,"reason":null,"recommendReason":null,"privilege":{"id":408280661,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"exhigh","dlLevel":"exhigh","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_1868661456&408280661"},{"name":"Faded","id":36990266,"pst":0,"t":0,"ar":[{"id":1045123,"name":"Alan Walker","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":527,"crbt":null,"cf":"","al":{"id":3406843,"name":"Faded","picUrl":"http://p3.music.126.net/OEZ0FzlPU-GPUjqHgCRqjA==/109951165976856263.jpg","tns":[],"pic_str":"109951165976856263","pic":109951165976856260},"dt":212688,"h":{"br":320000,"fid":0,"size":8507603,"vd":-62343,"sr":44100},"m":{"br":192000,"fid":0,"size":5104579,"vd":-60009,"sr":44100},"l":{"br":128000,"fid":0,"size":3403067,"vd":-58643,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270336,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":527,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7001,"mv":524116,"rtype":0,"rurl":null,"publishTime":1449158400000,"reason":null,"recommendReason":null,"privilege":{"id":36990266,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_1326003661&36990266"},{"name":"Sold Out","id":31010566,"pst":0,"t":0,"ar":[{"id":34518,"name":"Hawk Nelson","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":28,"crbt":null,"cf":"","al":{"id":3109316,"name":"Diamonds","picUrl":"http://p4.music.126.net/K8hM5Y5U2CNUY8o7-_IOUQ==/109951168234104467.jpg","tns":[],"pic_str":"109951168234104467","pic":109951168234104460},"dt":213093,"h":{"br":320002,"fid":0,"size":8526411,"vd":-85271,"sr":44100},"m":{"br":192002,"fid":0,"size":5115864,"vd":-82733,"sr":44100},"l":{"br":128002,"fid":0,"size":3410591,"vd":-81205,"sr":44100},"sq":{"br":1036944,"fid":0,"size":27620745,"vd":-85264,"sr":44100},"hr":null,"a":null,"cd":"1","no":5,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270336,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":28,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":1416336,"mv":0,"rtype":0,"rurl":null,"publishTime":1426521600000,"reason":null,"recommendReason":null,"privilege":{"id":31010566,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"别走","id":306979,"pst":0,"t":0,"ar":[{"id":9942,"name":"许美静","tns":[],"alias":[]}],"alia":[],"pop":55,"st":0,"rt":"","fee":8,"v":22,"crbt":null,"cf":"","al":{"id":30488,"name":"都是夜归人","picUrl":"http://p4.music.126.net/tujGmilZzfthd7HhVOl2Pw==/109951167320353104.jpg","tns":[],"pic_str":"109951167320353104","pic":109951167320353100},"dt":209493,"h":{"br":320000,"fid":0,"size":8382215,"vd":-632,"sr":44100},"m":{"br":192000,"fid":0,"size":5029346,"vd":1976,"sr":44100},"l":{"br":128000,"fid":0,"size":3352912,"vd":3813,"sr":44100},"sq":{"br":748322,"fid":0,"size":19596080,"vd":-631,"sr":44100},"hr":null,"a":null,"cd":"1","no":4,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":8192,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":22,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7003,"mv":0,"rtype":0,"rurl":null,"publishTime":852048000000,"reason":null,"recommendReason":null,"privilege":{"id":306979,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"仲夏酿","id":466765813,"pst":0,"t":0,"ar":[{"id":12100058,"name":"清黛半夏","tns":[],"alias":[]}],"alia":[],"pop":25,"st":0,"rt":null,"fee":0,"v":17,"crbt":null,"cf":"","al":{"id":35294020,"name":"仲夏半","picUrl":"http://p4.music.126.net/DXGNTCM29IY9D1AiPLG-tg==/109951162880451562.jpg","tns":[],"pic_str":"109951162880451562","pic":109951162880451570},"dt":257280,"h":{"br":320000,"fid":0,"size":10293333,"vd":8174,"sr":44100},"m":{"br":192000,"fid":0,"size":6176017,"vd":9983,"sr":44100},"l":{"br":128000,"fid":0,"size":4117359,"vd":11226,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":64,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":17,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1489896357630,"reason":null,"recommendReason":null,"privilege":{"id":466765813,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":2,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"exhigh","dlLevel":"exhigh","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"清风徐来","id":34586075,"pst":0,"t":0,"ar":[{"id":9621,"name":"王菲","tns":[],"alias":[]}],"alia":["电影《港囧》主题曲"],"pop":100,"st":0,"rt":null,"fee":1,"v":32,"crbt":null,"cf":"","al":{"id":3288025,"name":"清风徐来","picUrl":"http://p3.music.126.net/HoA-JTIrGIN-0WxaGqmu8A==/3367804116560203.jpg","tns":[],"pic":3367804116560203},"dt":284949,"h":{"br":320000,"fid":0,"size":11400924,"vd":-59165,"sr":44100},"m":{"br":192000,"fid":0,"size":6840572,"vd":-59165,"sr":44100},"l":{"br":128000,"fid":0,"size":4560395,"vd":-59165,"sr":44100},"sq":{"br":919559,"fid":0,"size":32753476,"vd":-59165,"sr":44100},"hr":null,"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":8192,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":32,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":600011,"mv":480256,"rtype":0,"rurl":null,"publishTime":1441814400007,"reason":null,"recommendReason":null,"privilege":{"id":34586075,"fee":1,"payed":0,"st":0,"pl":0,"dl":0,"sp":0,"cp":0,"subp":0,"cs":false,"maxbr":999000,"fl":0,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"none","dlLevel":"none","flLevel":"none","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"daily_audition_embedUpdate"}],"orderSongs":[],"recommendReasons":[{"songId":1820603565,"reason":"小众推荐","reasonId":"title_10012","targetUrl":null},{"songId":1904139626,"reason":"超70%人播放","reasonId":"title_10004","targetUrl":null},{"songId":569214247,"reason":"第26届东方风云榜","reasonId":"title_10016","targetUrl":null}],"mvResourceInfos":null}
+     * category : 5
+     * result : [{"id":2030766928,"type":4,"name":"想见你想见你想见你 (Live版)","copywriter":null,"picUrl":"http://p1.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg","canDislike":true,"trackNumberUpdateTime":null,"song":{"name":"想见你想见你想见你 (Live版)","id":2030766928,"position":0,"alias":[],"status":0,"fee":8,"copyrightId":2712403,"disc":"01","no":15,"artists":[{"name":"张杰","id":6472,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"声生不息·宝岛季 第1期","id":161799333,"type":"专辑","size":16,"picId":109951168469139970,"blurPicUrl":"http://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg","companyId":0,"pic":109951168469139970,"picUrl":"http://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg","publishTime":1678896000000,"description":"","tags":"","company":"","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":[],"status":1,"copyrightId":2712403,"commentThreadId":"R_AL_3_161799333","artists":[{"name":"声生不息","id":52391958,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168469139967"},"starred":false,"popularity":100,"score":100,"starredNum":0,"duration":236588,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":{"name":null,"id":7968728710,"size":28536168,"extension":"flac","sr":48000,"dfsId":0,"bitrate":964919,"playTime":236588,"volumeDelta":-40352},"hrMusic":{"name":null,"id":7968728705,"size":51279443,"extension":"flac","sr":48000,"dfsId":0,"bitrate":1733958,"playTime":236588,"volumeDelta":-40177},"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2030766928","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"transName":null,"sign":null,"mark":0,"originCoverType":2,"originSongSimpleData":{"songId":1403215687,"name":"想见你想见你想见你","artists":[{"id":11109,"name":"八三夭"}],"albumMeta":{"id":83291813,"name":"想见你想见你想见你"}},"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":0,"bMusic":{"name":null,"id":7968728711,"size":3786285,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":236588,"volumeDelta":-35985},"hMusic":{"name":null,"id":7968728712,"size":9465645,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":320000,"playTime":236588,"volumeDelta":-40155},"mMusic":{"name":null,"id":7968728714,"size":5679405,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":192000,"playTime":236588,"volumeDelta":-37615},"lMusic":{"name":null,"id":7968728711,"size":3786285,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":236588,"volumeDelta":-35985},"exclusive":false,"privilege":{"id":2030766928,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"hires","playMaxBrLevel":"hires","downloadMaxBrLevel":"hires","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":1999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},"alg":"hot_server"},{"id":2030493019,"type":4,"name":"归人","copywriter":null,"picUrl":"http://p1.music.126.net/2EP3wmxu9ySmJz7icJE8FA==/109951168471392742.jpg","canDislike":true,"trackNumberUpdateTime":null,"song":{"name":"归人","id":2030493019,"position":0,"alias":["影视剧《花琉璃轶闻》挚爱主题曲"],"status":0,"fee":8,"copyrightId":22036,"disc":"01","no":1,"artists":[{"name":"郑云龙","id":31357997,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"归人","id":161860180,"type":"Single","size":2,"picId":109951168471392740,"blurPicUrl":"http://p4.music.126.net/2EP3wmxu9ySmJz7icJE8FA==/109951168471392742.jpg","companyId":0,"pic":109951168471392740,"picUrl":"http://p3.music.126.net/2EP3wmxu9ySmJz7icJE8FA==/109951168471392742.jpg","publishTime":1678982400000,"description":"","tags":"","company":"太合麦田","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":["影视剧《花琉璃轶闻》挚爱主题曲"],"status":1,"copyrightId":22036,"commentThreadId":"R_AL_3_161860180","artists":[{"name":"郑云龙","id":31357997,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168471392742"},"starred":false,"popularity":5,"score":5,"starredNum":0,"duration":235248,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":null,"hrMusic":null,"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2030493019","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":1,"transName":null,"sign":null,"mark":0,"originCoverType":0,"originSongSimpleData":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":14613443,"bMusic":{"name":null,"id":7966158458,"size":3764397,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":235248,"volumeDelta":-25965},"hMusic":{"name":null,"id":7966158461,"size":9410925,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":320000,"playTime":235248,"volumeDelta":-30347},"mMusic":{"name":null,"id":7966158460,"size":5646573,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":192000,"playTime":235248,"volumeDelta":-27728},"lMusic":{"name":null,"id":7966158458,"size":3764397,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":235248,"volumeDelta":-25965},"exclusive":false,"privilege":{"id":2030493019,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},"alg":"hot_server"},{"id":2030799490,"type":4,"name":"最爱是谁My Dearest","copywriter":null,"picUrl":"http://p1.music.126.net/izdbCUU6msR7_kxOjxgvhg==/109951168473697907.jpg","canDislike":true,"trackNumberUpdateTime":null,"song":{"name":"最爱是谁My Dearest","id":2030799490,"position":0,"alias":[],"status":0,"fee":8,"copyrightId":7003,"disc":"01","no":1,"artists":[{"name":"张国荣","id":6457,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"最爱是谁 My Dearest","id":161927994,"type":"Single","size":1,"picId":109951168473697900,"blurPicUrl":"http://p3.music.126.net/izdbCUU6msR7_kxOjxgvhg==/109951168473697907.jpg","companyId":0,"pic":109951168473697900,"picUrl":"http://p3.music.126.net/izdbCUU6msR7_kxOjxgvhg==/109951168473697907.jpg","publishTime":1678982400000,"description":"","tags":"","company":"Universal Music Ltd.","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":[],"status":1,"copyrightId":7003,"commentThreadId":"R_AL_3_161927994","artists":[{"name":"张国荣","id":6457,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168473697907"},"starred":false,"popularity":5,"score":5,"starredNum":0,"duration":232000,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":{"name":null,"id":7968882021,"size":22314398,"extension":"flac","sr":44100,"dfsId":0,"bitrate":769462,"playTime":232000,"volumeDelta":-17125},"hrMusic":null,"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2030799490","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":1,"transName":null,"sign":null,"mark":0,"originCoverType":0,"originSongSimpleData":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":0,"bMusic":{"name":null,"id":7968882019,"size":3713193,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128002,"playTime":232000,"volumeDelta":-13096},"hMusic":{"name":null,"id":7968882027,"size":9282917,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320002,"playTime":232000,"volumeDelta":-17453},"mMusic":{"name":null,"id":7968882022,"size":5569768,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192002,"playTime":232000,"volumeDelta":-14822},"lMusic":{"name":null,"id":7968882019,"size":3713193,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128002,"playTime":232000,"volumeDelta":-13096},"exclusive":false,"privilege":{"id":2030799490,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},"alg":"hot_server"},{"id":2030744063,"type":4,"name":"望道","copywriter":null,"picUrl":"http://p1.music.126.net/ISP9Ev5WeeraATj0gTeR5w==/109951168473243851.jpg","canDislike":true,"trackNumberUpdateTime":null,"song":{"name":"望道","id":2030744063,"position":0,"alias":["电影《望道》同名主题曲"],"status":0,"fee":8,"copyrightId":7003,"disc":"01","no":1,"artists":[{"name":"摩登兄弟刘宇宁","id":1094010,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},{"name":"8点组乐团","id":12059066,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"望道","id":161917036,"type":"Single","size":1,"picId":109951168473243860,"blurPicUrl":"http://p3.music.126.net/ISP9Ev5WeeraATj0gTeR5w==/109951168473243851.jpg","companyId":0,"pic":109951168473243860,"picUrl":"http://p3.music.126.net/ISP9Ev5WeeraATj0gTeR5w==/109951168473243851.jpg","publishTime":1678982400000,"description":"","tags":"","company":"Go East Music Entertainment Consulting Limited","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":["电影《望道》同名主题曲"],"status":1,"copyrightId":7003,"commentThreadId":"R_AL_3_161917036","artists":[{"name":"摩登兄弟刘宇宁","id":1094010,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},{"name":"8点组乐团","id":12059066,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168473243851"},"starred":false,"popularity":5,"score":5,"starredNum":0,"duration":196937,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":{"name":null,"id":7968409403,"size":24421388,"extension":"flac","sr":44100,"dfsId":0,"bitrate":992046,"playTime":196937,"volumeDelta":-66229},"hrMusic":null,"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2030744063","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":1,"transName":null,"sign":null,"mark":0,"originCoverType":0,"originSongSimpleData":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":0,"bMusic":{"name":null,"id":7968409396,"size":3152292,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":196937,"volumeDelta":-62142},"hMusic":{"name":null,"id":7968409402,"size":7880664,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":196937,"volumeDelta":-66072},"mMusic":{"name":null,"id":7968409399,"size":4728416,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":196937,"volumeDelta":-63583},"lMusic":{"name":null,"id":7968409396,"size":3152292,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":196937,"volumeDelta":-62142},"exclusive":false,"privilege":{"id":2030744063,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},"alg":"hot_server"},{"id":2030358712,"type":4,"name":"DEATH","copywriter":null,"picUrl":"http://p1.music.126.net/CzPME16co-rNgPjywh-dtw==/109951168470601829.jpg","canDislike":true,"trackNumberUpdateTime":null,"song":{"name":"DEATH","id":2030358712,"position":0,"alias":[],"status":0,"fee":8,"copyrightId":7002,"disc":"01","no":1,"artists":[{"name":"Melanie Martinez","id":816507,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"DEATH","id":161829826,"type":"Single","size":0,"picId":109951168470601820,"blurPicUrl":"http://p4.music.126.net/CzPME16co-rNgPjywh-dtw==/109951168470601829.jpg","companyId":0,"pic":109951168470601820,"picUrl":"http://p3.music.126.net/CzPME16co-rNgPjywh-dtw==/109951168470601829.jpg","publishTime":1678982400000,"description":"","tags":"","company":"华纳音乐","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":[],"status":1,"copyrightId":7002,"commentThreadId":"R_AL_3_161829826","artists":[{"name":"Melanie Martinez","id":816507,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168470601829"},"starred":false,"popularity":5,"score":5,"starredNum":0,"duration":306655,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":{"name":null,"id":7964875742,"size":61496640,"extension":"flac","sr":44100,"dfsId":0,"bitrate":1604316,"playTime":306655,"volumeDelta":-42519},"hrMusic":null,"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2030358712","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":1,"transName":null,"sign":null,"mark":0,"originCoverType":0,"originSongSimpleData":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":0,"bMusic":{"name":null,"id":7964875735,"size":4907720,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":306655,"volumeDelta":-38359},"hMusic":{"name":null,"id":7964875740,"size":12269236,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":320000,"playTime":306655,"volumeDelta":-42528},"mMusic":{"name":null,"id":7964875738,"size":7361559,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":192000,"playTime":306655,"volumeDelta":-39957},"lMusic":{"name":null,"id":7964875735,"size":4907720,"extension":"mp3","sr":44100,"dfsId":0,"bitrate":128000,"playTime":306655,"volumeDelta":-38359},"exclusive":false,"privilege":{"id":2030358712,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},"alg":"hot_server"},{"id":2030160666,"type":4,"name":"诉月","copywriter":null,"picUrl":"http://p1.music.126.net/0Dfkd7QKEkcvtBJC_Sav8g==/109951168468718732.jpg","canDislike":true,"trackNumberUpdateTime":null,"song":{"name":"诉月","id":2030160666,"position":0,"alias":["影视剧《花琉璃轶闻》唯爱主题曲"],"status":0,"fee":8,"copyrightId":22036,"disc":"01","no":1,"artists":[{"name":"刘惜君","id":8334,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"诉月","id":161790733,"type":"Single","size":0,"picId":109951168468718740,"blurPicUrl":"http://p4.music.126.net/0Dfkd7QKEkcvtBJC_Sav8g==/109951168468718732.jpg","companyId":0,"pic":109951168468718740,"picUrl":"http://p4.music.126.net/0Dfkd7QKEkcvtBJC_Sav8g==/109951168468718732.jpg","publishTime":1678809600000,"description":"","tags":"","company":"太合麦田","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":["影视剧《花琉璃轶闻》唯爱主题曲"],"status":1,"copyrightId":22036,"commentThreadId":"R_AL_3_161790733","artists":[{"name":"刘惜君","id":8334,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168468718732"},"starred":false,"popularity":100,"score":100,"starredNum":0,"duration":242304,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":null,"hrMusic":null,"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2030160666","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":1,"transName":null,"sign":null,"mark":0,"originCoverType":0,"originSongSimpleData":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":14612582,"bMusic":{"name":null,"id":7963344471,"size":3877293,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":242304,"volumeDelta":-28841},"hMusic":{"name":null,"id":7963344467,"size":9693165,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":320000,"playTime":242304,"volumeDelta":-33129},"mMusic":{"name":null,"id":7963344472,"size":5815917,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":192000,"playTime":242304,"volumeDelta":-30549},"lMusic":{"name":null,"id":7963344471,"size":3877293,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":242304,"volumeDelta":-28841},"exclusive":false,"privilege":{"id":2030160666,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},"alg":"hot_server"},{"id":2029858984,"type":4,"name":"白色情人","copywriter":null,"picUrl":"http://p1.music.126.net/omFdn0r4XHPUuCzl4yYV7A==/109951168466215185.jpg","canDislike":true,"trackNumberUpdateTime":null,"song":{"name":"白色情人","id":2029858984,"position":0,"alias":[],"status":0,"fee":8,"copyrightId":2708742,"disc":"01","no":1,"artists":[{"name":"黄子韬","id":1025202,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"白色情人","id":161721316,"type":"Single","size":1,"picId":109951168466215180,"blurPicUrl":"http://p4.music.126.net/omFdn0r4XHPUuCzl4yYV7A==/109951168466215185.jpg","companyId":0,"pic":109951168466215180,"picUrl":"http://p3.music.126.net/omFdn0r4XHPUuCzl4yYV7A==/109951168466215185.jpg","publishTime":1678723200000,"description":"","tags":"","company":"北京龙韬娱乐文化有限公司","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":[],"status":1,"copyrightId":2708742,"commentThreadId":"R_AL_3_161721316","artists":[{"name":"黄子韬","id":1025202,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168466215185"},"starred":false,"popularity":100,"score":100,"starredNum":0,"duration":236129,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":{"name":null,"id":7961753726,"size":25860898,"extension":"flac","sr":48000,"dfsId":0,"bitrate":876161,"playTime":236129,"volumeDelta":-42347},"hrMusic":{"name":null,"id":7961753720,"size":48409849,"extension":"flac","sr":48000,"dfsId":0,"bitrate":1640115,"playTime":236129,"volumeDelta":-42400},"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2029858984","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"transName":null,"sign":null,"mark":0,"originCoverType":0,"originSongSimpleData":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":0,"bMusic":{"name":null,"id":7961753724,"size":3778989,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128002,"playTime":236129,"volumeDelta":-38224},"hMusic":{"name":null,"id":7961753728,"size":9447405,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":320002,"playTime":236129,"volumeDelta":-42458},"mMusic":{"name":null,"id":7961753721,"size":5668461,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":192002,"playTime":236129,"volumeDelta":-39848},"lMusic":{"name":null,"id":7961753724,"size":3778989,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128002,"playTime":236129,"volumeDelta":-38224},"exclusive":false,"privilege":{"id":2029858984,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":0,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"hires","playMaxBrLevel":"hires","downloadMaxBrLevel":"hires","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":1999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},"alg":"hot_server"},{"id":2028871737,"type":4,"name":"伤感列车","copywriter":null,"picUrl":"http://p1.music.126.net/fFTOzcGzTILgOKGu4OyiVw==/109951168456239893.jpg","canDislike":true,"trackNumberUpdateTime":null,"song":{"name":"伤感列车","id":2028871737,"position":0,"alias":[],"status":0,"fee":0,"copyrightId":2706817,"disc":"01","no":1,"artists":[{"name":"AKB48 Team SH","id":30892300,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"伤感列车","id":161533101,"type":"Single","size":2,"picId":109951168456239890,"blurPicUrl":"http://p3.music.126.net/fFTOzcGzTILgOKGu4OyiVw==/109951168456239893.jpg","companyId":0,"pic":109951168456239890,"picUrl":"http://p3.music.126.net/fFTOzcGzTILgOKGu4OyiVw==/109951168456239893.jpg","publishTime":1678809600000,"description":"","tags":"","company":"上海尚越文化发展有限公司","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":[],"status":1,"copyrightId":2706817,"commentThreadId":"R_AL_3_161533101","artists":[{"name":"AKB48 Team SH","id":30892300,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168456239893"},"starred":false,"popularity":95,"score":95,"starredNum":0,"duration":260000,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":{"name":null,"id":7953530343,"size":35879708,"extension":"flac","sr":48000,"dfsId":0,"bitrate":1103991,"playTime":260000,"volumeDelta":-53475},"hrMusic":{"name":null,"id":7953530342,"size":60907113,"extension":"flac","sr":48000,"dfsId":0,"bitrate":1874065,"playTime":260000,"volumeDelta":-53483},"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2028871737","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"transName":null,"sign":null,"mark":0,"originCoverType":0,"originSongSimpleData":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":0,"bMusic":{"name":null,"id":7953530339,"size":4161069,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128001,"playTime":260000,"volumeDelta":-49964},"hMusic":{"name":null,"id":7953530338,"size":10402605,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":320001,"playTime":260000,"volumeDelta":-53507},"mMusic":{"name":null,"id":7953530341,"size":6241581,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":192001,"playTime":260000,"volumeDelta":-51077},"lMusic":{"name":null,"id":7953530339,"size":4161069,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128001,"playTime":260000,"volumeDelta":-49964},"exclusive":false,"privilege":{"id":2028871737,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":1,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"hires","playMaxBrLevel":"hires","downloadMaxBrLevel":"hires","plLevel":"exhigh","dlLevel":"hires","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":1999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},"alg":"hot_server"},{"id":2029386701,"type":4,"name":"是我","copywriter":null,"picUrl":"http://p1.music.126.net/gvzs-MLwOy0O2Te_2Db4ng==/109951168460495276.jpg","canDislike":true,"trackNumberUpdateTime":null,"song":{"name":"是我","id":2029386701,"position":0,"alias":[],"status":0,"fee":8,"copyrightId":7002,"disc":"01","no":1,"artists":[{"name":"于文文","id":816248,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"是我","id":161653066,"type":"Single","size":1,"picId":109951168460495280,"blurPicUrl":"http://p4.music.126.net/gvzs-MLwOy0O2Te_2Db4ng==/109951168460495276.jpg","companyId":0,"pic":109951168460495280,"picUrl":"http://p3.music.126.net/gvzs-MLwOy0O2Te_2Db4ng==/109951168460495276.jpg","publishTime":1678723200000,"description":"","tags":"","company":"华纳音乐","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":[],"status":1,"copyrightId":7002,"commentThreadId":"R_AL_3_161653066","artists":[{"name":"于文文","id":816248,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168460495276"},"starred":false,"popularity":100,"score":100,"starredNum":0,"duration":253512,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":{"name":null,"id":7957984878,"size":25678616,"extension":"flac","sr":48000,"dfsId":0,"bitrate":810330,"playTime":253512,"volumeDelta":-35108},"hrMusic":{"name":null,"id":7957984879,"size":49956244,"extension":"flac","sr":48000,"dfsId":0,"bitrate":1576450,"playTime":253512,"volumeDelta":-35939},"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2029386701","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":1,"transName":null,"sign":null,"mark":0,"originCoverType":0,"originSongSimpleData":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":0,"bMusic":{"name":null,"id":7957984877,"size":4057389,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":253512,"volumeDelta":-31645},"hMusic":{"name":null,"id":7957984875,"size":10143405,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":320000,"playTime":253512,"volumeDelta":-35941},"mMusic":{"name":null,"id":7957984881,"size":6086061,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":192000,"playTime":253512,"volumeDelta":-33336},"lMusic":{"name":null,"id":7957984877,"size":4057389,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":253512,"volumeDelta":-31645},"exclusive":false,"privilege":{"id":2029386701,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"hires","playMaxBrLevel":"hires","downloadMaxBrLevel":"hires","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":1999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},"alg":"hot_server"},{"id":2029882977,"type":4,"name":"教我如何做你的爱人","copywriter":null,"picUrl":"http://p1.music.126.net/Abwnxj_joqWNgyEUrCMoIg==/109951168466451508.jpg","canDislike":true,"trackNumberUpdateTime":null,"song":{"name":"教我如何做你的爱人","id":2029882977,"position":0,"alias":[],"status":0,"fee":8,"copyrightId":1416663,"disc":"01","no":1,"artists":[{"name":"陈珊妮","id":7216,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"教我如何做你的爱人","id":161725020,"type":"Single","size":0,"picId":109951168466451500,"blurPicUrl":"http://p3.music.126.net/Abwnxj_joqWNgyEUrCMoIg==/109951168466451508.jpg","companyId":0,"pic":109951168466451500,"picUrl":"http://p3.music.126.net/Abwnxj_joqWNgyEUrCMoIg==/109951168466451508.jpg","publishTime":1678723200000,"description":"","tags":"","company":"容合音乐娱乐有限公司","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":[],"status":1,"copyrightId":1416663,"commentThreadId":"R_AL_3_161725020","artists":[{"name":"陈珊妮","id":7216,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168466451508"},"starred":false,"popularity":100,"score":100,"starredNum":0,"duration":257568,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":null,"hrMusic":null,"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2029882977","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":1,"transName":null,"sign":null,"mark":0,"originCoverType":0,"originSongSimpleData":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":0,"bMusic":{"name":null,"id":7961061540,"size":4121517,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":257568,"volumeDelta":3403},"hMusic":{"name":null,"id":7961061539,"size":10303725,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":320000,"playTime":257568,"volumeDelta":-1038},"mMusic":{"name":null,"id":7961061543,"size":6182253,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":192000,"playTime":257568,"volumeDelta":1603},"lMusic":{"name":null,"id":7961061540,"size":4121517,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":257568,"volumeDelta":3403},"exclusive":false,"privilege":{"id":2029882977,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},"alg":"hot_server"}]
      */
 
     private int code;
-    private DataBean data;
+    private int category;
+    private List<ResultBean> result;
 
     public int getCode() {
         return code;
@@ -31,165 +34,215 @@ public class HomeSongEnerty {
         this.code = code;
     }
 
-    public DataBean getData() {
-        return data;
+    public int getCategory() {
+        return category;
     }
 
-    public void setData(DataBean data) {
-        this.data = data;
+    public void setCategory(int category) {
+        this.category = category;
     }
 
-    public static class DataBean {
+    public List<ResultBean> getResult() {
+        return result;
+    }
+
+    public void setResult(List<ResultBean> result) {
+        this.result = result;
+    }
+
+    public static class ResultBean {
         /**
-         * dailySongs : [{"name":"Skellige Ard-Skellig Settlements Exploration Layer","id":1820603565,"pst":0,"t":0,"ar":[{"id":1195052,"name":"Super Xiang","tns":[],"alias":[]}],"alia":[],"pop":90,"st":0,"rt":"","fee":8,"v":8,"crbt":null,"cf":"","al":{"id":123071508,"name":"Skellige Ard-Skellig Settlements Exploration Layer","picUrl":"http://p3.music.126.net/-W3AVAIG5e7cdF4lghzong==/109951165730391214.jpg","tns":[],"pic_str":"109951165730391214","pic":109951165730391220},"dt":140564,"h":{"br":320000,"fid":0,"size":5624729,"vd":46875,"sr":44100},"m":{"br":192000,"fid":0,"size":3374855,"vd":49514,"sr":44100},"l":{"br":128000,"fid":0,"size":2249918,"vd":51337,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":131136,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":8,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":0,"reason":"小众推荐","recommendReason":"小众推荐","privilege":{"id":1820603565,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":2,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Salt","id":1904139626,"pst":0,"t":0,"ar":[{"id":28343826,"name":"Vikki Leigh","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":"","fee":8,"v":5,"crbt":null,"cf":"","al":{"id":137608111,"name":"Salt","picUrl":"http://p3.music.126.net/he7BEscj-CU-puwMVFzg7w==/109951166737681452.jpg","tns":[],"pic_str":"109951166737681452","pic":109951166737681460},"dt":180000,"h":{"br":320002,"fid":0,"size":7202525,"vd":-68817,"sr":44100},"m":{"br":192002,"fid":0,"size":4321533,"vd":-66217,"sr":44100},"l":{"br":128002,"fid":0,"size":2881036,"vd":-64607,"sr":44100},"sq":{"br":979803,"fid":0,"size":22045588,"vd":-68805,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270464,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":5,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":1416512,"mv":0,"rtype":0,"rurl":null,"publishTime":1581955200000,"reason":"超70%人播放","recommendReason":"超70%人播放","privilege":{"id":1904139626,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":261,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"The Slopes of the Blessure","id":416011555,"pst":0,"t":0,"ar":[{"id":999109,"name":"Piotr Musial","tns":[],"alias":[]}],"alia":[],"pop":85,"st":0,"rt":null,"fee":8,"v":28,"crbt":null,"cf":"","al":{"id":34726477,"name":"The Witcher 3: Wild Hunt - Blood and Wine (Official Soundtrack)","picUrl":"http://p4.music.126.net/OWtLPj3F4zlW4ahsfNb7XQ==/109951166490733839.jpg","tns":[],"pic_str":"109951166490733839","pic":109951166490733840},"dt":242000,"h":{"br":320002,"fid":0,"size":9683113,"vd":-989,"sr":44100},"m":{"br":192001,"fid":0,"size":5809885,"vd":1626,"sr":44100},"l":{"br":128001,"fid":0,"size":3873271,"vd":3315,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":18,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":139392,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":28,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":743010,"mv":0,"rtype":0,"rurl":null,"publishTime":1465193672279,"reason":null,"recommendReason":null,"privilege":{"id":416011555,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":5,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Khmer","id":1793244,"pst":0,"t":0,"ar":[{"id":40461,"name":"Nils Petter Molvær","tns":[],"alias":[]}],"alia":[],"pop":10,"st":0,"rt":"","fee":1,"v":15,"crbt":null,"cf":"","al":{"id":181115,"name":"Khmer","picUrl":"http://p3.music.126.net/urEvG-aVbzk7MwgWGLNlTg==/6657542906399454.jpg","tns":[],"pic":6657542906399454},"dt":301000,"h":{"br":320000,"fid":0,"size":12060400,"vd":11365,"sr":44100},"m":{"br":192000,"fid":0,"size":7236315,"vd":14328,"sr":44100},"l":{"br":128000,"fid":0,"size":4824272,"vd":15107,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":139264,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":15,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7003,"mv":0,"rtype":0,"rurl":null,"publishTime":902764800007,"reason":null,"recommendReason":null,"privilege":{"id":1793244,"fee":1,"payed":0,"st":0,"pl":0,"dl":0,"sp":0,"cp":0,"subp":0,"cs":false,"maxbr":320000,"fl":0,"toast":false,"flag":260,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"none","dlLevel":"none","flLevel":"none","rscl":null,"freeTrialPrivilege":{"resConsumable":true,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"daily_free_audition_artist_0_bak"},{"name":"Trouble Is a Friend","id":498331769,"pst":0,"t":0,"ar":[{"id":64143,"name":"Lenka","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":11,"crbt":null,"cf":"","al":{"id":35903500,"name":"Coffee Times","picUrl":"http://p4.music.126.net/0tfDIALhJzK7DqOG1dP_Yg==/109951165970560395.jpg","tns":[],"pic_str":"109951165970560395","pic":109951165970560400},"dt":215797,"h":{"br":320000,"fid":0,"size":8632991,"vd":-69437,"sr":44100},"m":{"br":192000,"fid":0,"size":5179812,"vd":-66888,"sr":44100},"l":{"br":128000,"fid":0,"size":3453222,"vd":-65262,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":16,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270336,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":11,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7001,"mv":0,"rtype":0,"rurl":null,"publishTime":1502726400000,"reason":null,"recommendReason":null,"privilege":{"id":498331769,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Yesterday Once More","id":26688672,"pst":0,"t":0,"ar":[{"id":89363,"name":"Carpenters","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":"","fee":8,"v":80,"crbt":null,"cf":"","al":{"id":2547504,"name":"The Ultimate Collection","picUrl":"http://p4.music.126.net/11WJjh49RbLQnpd6RQWf1w==/1891159999826375.jpg","tns":[],"pic":1891159999826375},"dt":238120,"h":{"br":320000,"fid":0,"size":9527422,"vd":-11327,"sr":44100},"m":{"br":192000,"fid":0,"size":5716470,"vd":-11327,"sr":44100},"l":{"br":128000,"fid":0,"size":3810994,"vd":-11327,"sr":44100},"sq":{"br":887871,"fid":0,"size":26427481,"vd":-11327,"sr":44100},"hr":null,"a":null,"cd":"1","no":14,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270336,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":80,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7003,"mv":0,"rtype":0,"rurl":null,"publishTime":1163952000007,"reason":null,"recommendReason":null,"privilege":{"id":26688672,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"天才白痴梦","id":172416,"pst":0,"t":0,"ar":[{"id":5782,"name":"许冠杰","tns":[],"alias":[]}],"alia":["电影《天才与白痴》插曲"],"pop":100,"st":0,"rt":"600902000005388223","fee":8,"v":21,"crbt":null,"cf":"","al":{"id":17319,"name":"天才与白痴","picUrl":"http://p4.music.126.net/8QO6nVFfiHzk0m6Rjz-vGg==/109951166108918121.jpg","tns":[],"pic_str":"109951166108918121","pic":109951166108918130},"dt":149974,"h":{"br":320000,"fid":0,"size":6001938,"vd":3424,"sr":44100},"m":{"br":192000,"fid":0,"size":3601180,"vd":6034,"sr":44100},"l":{"br":128000,"fid":0,"size":2400801,"vd":7770,"sr":44100},"sq":{"br":854704,"fid":0,"size":16022979,"vd":3431,"sr":44100},"hr":null,"a":null,"cd":"1","no":4,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":8192,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":21,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7003,"mv":0,"rtype":0,"rurl":null,"publishTime":915120000000,"reason":null,"recommendReason":null,"privilege":{"id":172416,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Assassin's Creed IV Black Flag Main Theme","id":27853157,"pst":0,"t":0,"ar":[{"id":29444,"name":"Brian Tyler","tns":[],"alias":[]},{"id":53524208,"name":"Assassin's Creed","tns":[],"alias":[]}],"alia":["刺客信条4：黑旗 主题曲"],"pop":80,"st":0,"rt":"","fee":8,"v":36,"crbt":null,"cf":"","al":{"id":2685158,"name":"Assassin's Creed 4: Black Flag (Original Game Soundtrack)","picUrl":"http://p4.music.126.net/UJCPBes8FjB0sO59xbIsRw==/109951167791328143.jpg","tns":[],"pic_str":"109951167791328143","pic":109951167791328140},"dt":133378,"h":{"br":320000,"fid":0,"size":5337645,"vd":-16912,"sr":48000},"m":{"br":192000,"fid":0,"size":3202605,"vd":-14316,"sr":48000},"l":{"br":128000,"fid":0,"size":2135085,"vd":-12646,"sr":48000},"sq":{"br":779591,"fid":0,"size":12997561,"vd":-16943,"sr":48000},"hr":{"br":1532222,"fid":0,"size":25545631,"vd":-16906,"sr":48000},"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":537010304,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":36,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":1416426,"mv":0,"rtype":0,"rurl":null,"publishTime":1381680000000,"reason":null,"recommendReason":null,"privilege":{"id":27853157,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":5,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"hires","playMaxBrLevel":"hires","downloadMaxBrLevel":"hires","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":1999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Mother","id":421639627,"pst":0,"t":0,"ar":[{"id":14408,"name":"久石譲","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":8,"crbt":null,"cf":"","al":{"id":34773500,"name":"菊次郎 (Original Motion Picture Soundtrack)","picUrl":"http://p4.music.126.net/nOhFczgnXcBbCSn6uLhmPg==/18416819765513414.jpg","tns":[],"pic_str":"18416819765513414","pic":18416819765513416},"dt":133877,"h":{"br":320000,"fid":0,"size":5356191,"vd":44066,"sr":44100},"m":{"br":192000,"fid":0,"size":3213732,"vd":44066,"sr":44100},"l":{"br":128000,"fid":0,"size":2142502,"vd":44066,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":10,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":131072,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":8,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7002,"mv":0,"rtype":0,"rurl":null,"publishTime":1467734400007,"reason":null,"recommendReason":null,"privilege":{"id":421639627,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":0,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"望春词（粤）","id":1929266834,"pst":0,"t":0,"ar":[{"id":1006030,"name":"洪尘","tns":[],"alias":[]}],"alia":[],"pop":90,"st":0,"rt":"","fee":8,"v":8,"crbt":null,"cf":"","al":{"id":142030293,"name":"望春词","picUrl":"http://p4.music.126.net/F_SlUbV4sFcx1Ormx9i-xA==/109951167164229609.jpg","tns":[],"pic_str":"109951167164229609","pic":109951167164229620},"dt":192381,"h":{"br":320000,"fid":0,"size":7697807,"vd":-36406,"sr":44100},"m":{"br":192000,"fid":0,"size":4618702,"vd":-33767,"sr":44100},"l":{"br":128000,"fid":0,"size":3079149,"vd":-31926,"sr":44100},"sq":{"br":817791,"fid":0,"size":19666036,"vd":-36152,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":64,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":8,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":0,"reason":null,"recommendReason":null,"privilege":{"id":1929266834,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":2,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Honey Take My Hand","id":1312528250,"pst":0,"t":0,"ar":[{"id":28766743,"name":"Cody Francis","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":11,"crbt":null,"cf":"","al":{"id":73584268,"name":"Rose In The Garden","picUrl":"http://p3.music.126.net/zaPkseOE2374F7hlLEuo3Q==/109951163567849730.jpg","tns":[],"pic_str":"109951163567849730","pic":109951163567849730},"dt":187606,"h":{"br":320000,"fid":0,"size":7506591,"vd":-34273,"sr":44100},"m":{"br":192000,"fid":0,"size":4503972,"vd":-34273,"sr":44100},"l":{"br":128000,"fid":0,"size":3002662,"vd":-34273,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":2,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270464,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":11,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":743010,"mv":0,"rtype":0,"rurl":null,"publishTime":1540483200007,"reason":null,"recommendReason":null,"privilege":{"id":1312528250,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":5,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"时间的尽头 (《三体》电视剧片头曲) - 陈雪燃","id":2016103069,"pst":0,"t":0,"ar":[{"id":54988808,"name":"野兔","tns":[],"alias":[]}],"alia":[],"pop":90,"st":0,"rt":"","fee":8,"v":7,"crbt":null,"cf":"","al":{"id":158547645,"name":"时间的尽头-陈雪燃","picUrl":"http://p4.music.126.net/GlP_oRwrD65nxGelGLTHWg==/109951168168463044.jpg","tns":[],"pic_str":"109951168168463044","pic":109951168168463040},"dt":202390,"h":{"br":320000,"fid":0,"size":8098003,"vd":28143,"sr":44100},"m":{"br":192000,"fid":0,"size":4858819,"vd":30773,"sr":44100},"l":{"br":128000,"fid":0,"size":3239227,"vd":32534,"sr":44100},"sq":{"br":680915,"fid":0,"size":17226311,"vd":27794,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":0,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":7,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":0,"reason":null,"recommendReason":null,"privilege":{"id":2016103069,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":0,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Above the Planets","id":1638481,"pst":0,"t":0,"ar":[{"id":37825,"name":"Kondor","tns":[],"alias":[]}],"alia":[],"pop":85,"st":0,"rt":"","fee":8,"v":19,"crbt":null,"cf":"","al":{"id":166495,"name":"Beyond the Clouds","picUrl":"http://p3.music.126.net/9UtJNHod0Z1ktk585E5YLQ==/109951168296024587.jpg","tns":[],"pic_str":"109951168296024587","pic":109951168296024590},"dt":153392,"h":{"br":320000,"fid":0,"size":6138819,"vd":-29010,"sr":44100},"m":{"br":192000,"fid":0,"size":3683309,"vd":-26397,"sr":44100},"l":{"br":128000,"fid":0,"size":2455554,"vd":-24663,"sr":44100},"sq":{"br":803029,"fid":0,"size":15397298,"vd":-29036,"sr":44100},"hr":null,"a":null,"cd":"1","no":2,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":401536,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":19,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":743010,"mv":0,"rtype":0,"rurl":null,"publishTime":1311696000007,"reason":null,"tns":["行星之上"],"recommendReason":null,"privilege":{"id":1638481,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":5,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"Nightingale","id":20744697,"pst":0,"t":0,"ar":[{"id":46198,"name":"Yanni","tns":[],"alias":[]}],"alia":[],"pop":75,"st":0,"rt":"","fee":8,"v":27,"crbt":null,"cf":"","al":{"id":1926659,"name":"Yanni - Live at El Morro, Puerto Rico","picUrl":"http://p4.music.126.net/J1NtGnfvQtDOAPvoY-5pow==/109951166598522611.jpg","tns":[],"pic_str":"109951166598522611","pic":109951166598522610},"dt":319000,"h":{"br":320000,"fid":0,"size":12780354,"vd":-64489,"sr":44100},"m":{"br":192000,"fid":0,"size":7668295,"vd":-64489,"sr":44100},"l":{"br":128000,"fid":0,"size":5112265,"vd":-64489,"sr":44100},"sq":{"br":896918,"fid":0,"size":35813964,"vd":-64489,"sr":44100},"hr":null,"a":null,"cd":"1","no":7,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":139264,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":27,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7001,"mv":0,"rtype":0,"rurl":null,"publishTime":1332691200000,"reason":null,"recommendReason":null,"privilege":{"id":20744697,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"跟太阳系说再见","id":1321297488,"pst":0,"t":0,"ar":[{"id":12139464,"name":"祝乾亮","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":0,"v":58,"crbt":null,"cf":"","al":{"id":74132771,"name":"起航","picUrl":"http://p3.music.126.net/5fa3JCnX5fQbFbjZE1bT3A==/109951163632200237.jpg","tns":[],"pic_str":"109951163632200237","pic":109951163632200240},"dt":374677,"h":{"br":320000,"fid":0,"size":14990150,"vd":-47064,"sr":44100},"m":{"br":192000,"fid":0,"size":8994107,"vd":-47064,"sr":44100},"l":{"br":128000,"fid":0,"size":5996086,"vd":-47064,"sr":44100},"sq":{"br":920480,"fid":0,"size":43110367,"vd":-47064,"sr":48000},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":131136,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":58,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1540656000000,"reason":null,"recommendReason":null,"privilege":{"id":1321297488,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":2,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_371788462&1321297488"},{"name":"金风·绣明月","id":1302215448,"pst":0,"t":0,"ar":[{"id":12037037,"name":"扬灵","tns":[],"alias":[]}],"alia":[],"pop":25,"st":0,"rt":null,"fee":0,"v":17,"crbt":null,"cf":"","al":{"id":72333715,"name":"【七夕粤语情歌】金风·绣明月","picUrl":"http://p4.music.126.net/aM4SXgQPtukmtBjInhk_OA==/109951163463466283.jpg","tns":[],"pic_str":"109951163463466283","pic":109951163463466290},"dt":172000,"h":{"br":320000,"fid":0,"size":6882787,"vd":6374,"sr":44100},"m":{"br":192000,"fid":0,"size":4129689,"vd":6374,"sr":44100},"l":{"br":128000,"fid":0,"size":2753141,"vd":6374,"sr":44100},"sq":{"br":792084,"fid":0,"size":17029816,"vd":6374,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":262208,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":17,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1534176000000,"reason":null,"recommendReason":null,"privilege":{"id":1302215448,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":130,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"舰队VS水滴-Part1","id":479677031,"pst":0,"t":0,"ar":[{"id":12194208,"name":"陈君劼","tns":[],"alias":[]},{"id":12272980,"name":"赫尔辛根默斯肯","tns":[],"alias":[]}],"alia":[],"pop":35,"st":0,"rt":null,"fee":0,"v":52,"crbt":null,"cf":"","al":{"id":35222578,"name":"三体同人OST","picUrl":"http://p3.music.126.net/JKv63tUiowYcAUAJRv-iXw==/109951162866702089.jpg","tns":[],"pic_str":"109951162866702089","pic":109951162866702100},"dt":191294,"h":{"br":320000,"fid":0,"size":7653921,"vd":-32898,"sr":44100},"m":{"br":192000,"fid":0,"size":4592370,"vd":-32898,"sr":44100},"l":{"br":128000,"fid":0,"size":3061595,"vd":-32898,"sr":44100},"sq":{"br":652035,"fid":0,"size":15591314,"vd":-32898,"sr":44100},"hr":null,"a":null,"cd":"1","no":5,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":131136,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":52,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1487952000000,"reason":null,"recommendReason":null,"privilege":{"id":479677031,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":2,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_320005656&479677031"},{"name":"少年锦时","id":29567192,"pst":0,"t":0,"ar":[{"id":6731,"name":"赵雷","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":52,"crbt":null,"cf":"","al":{"id":3048030,"name":"吉姆餐厅","picUrl":"http://p4.music.126.net/PJNV84mjt_mDXEkxtjzB4w==/18957779486268444.jpg","tns":[],"pic_str":"18957779486268444","pic":18957779486268444},"dt":308600,"h":{"br":320000,"fid":0,"size":12346558,"vd":-23362,"sr":44100},"m":{"br":192000,"fid":0,"size":7407952,"vd":-23362,"sr":44100},"l":{"br":128000,"fid":0,"size":4938649,"vd":-23362,"sr":44100},"sq":{"br":762965,"fid":0,"size":29431389,"vd":-23362,"sr":44100},"hr":null,"a":null,"cd":"1","no":2,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":8192,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":52,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":1400821,"mv":0,"rtype":0,"rurl":null,"publishTime":1413648000007,"reason":null,"recommendReason":null,"privilege":{"id":29567192,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"风起云落","id":1840065469,"pst":0,"t":0,"ar":[{"id":13151417,"name":"令狐笑","tns":[],"alias":[]}],"alia":[],"pop":25,"st":0,"rt":"","fee":0,"v":9,"crbt":null,"cf":"","al":{"id":126513208,"name":"余烬","picUrl":"http://p4.music.126.net/omMWx1UYw7K6AlW1xQaWIw==/109951165921960868.jpg","tns":[],"pic_str":"109951165921960868","pic":109951165921960860},"dt":252865,"h":{"br":320000,"fid":0,"size":10116746,"vd":-63932,"sr":44100},"m":{"br":192000,"fid":0,"size":6070065,"vd":-61482,"sr":44100},"l":{"br":128000,"fid":0,"size":4046724,"vd":-60244,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":131200,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":9,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":0,"reason":null,"recommendReason":null,"privilege":{"id":1840065469,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":257,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"exhigh","dlLevel":"exhigh","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_349799911&1840065469"},{"name":"夜、萤火虫和你","id":509720124,"pst":0,"t":0,"ar":[{"id":12259037,"name":"AniFace","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":44,"crbt":null,"cf":"","al":{"id":36417372,"name":"夜、萤火虫和你","picUrl":"http://p4.music.126.net/VM7ZmBeI1B1eZzh7_z73JA==/109951163036196252.jpg","tns":[],"pic_str":"109951163036196252","pic":109951163036196260},"dt":188943,"h":{"br":320000,"fid":0,"size":7560925,"vd":-23055,"sr":44100},"m":{"br":192000,"fid":0,"size":4536573,"vd":-20426,"sr":44100},"l":{"br":128000,"fid":0,"size":3024396,"vd":-18628,"sr":44100},"sq":{"br":749778,"fid":0,"size":17708258,"vd":-23058,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":131136,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":44,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1506614400000,"reason":null,"recommendReason":null,"privilege":{"id":509720124,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":2,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_1377176528&509720124"},{"name":"Colors of Love","id":29460372,"pst":0,"t":0,"ar":[{"id":45336,"name":"Thomas Bergersen","tns":[],"alias":[]}],"alia":[],"pop":70,"st":0,"rt":null,"fee":8,"v":18,"crbt":null,"cf":"","al":{"id":3029236,"name":"Sun","picUrl":"http://p3.music.126.net/g423Jr5ifWV3BLBj3U8njQ==/109951164985317990.jpg","tns":[],"pic_str":"109951164985317990","pic":109951164985317980},"dt":391426,"h":{"br":320000,"fid":0,"size":15659929,"vd":-59317,"sr":44100},"m":{"br":192000,"fid":0,"size":9395975,"vd":-56735,"sr":44100},"l":{"br":128000,"fid":0,"size":6263998,"vd":-55153,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":9,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":270464,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":18,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":743010,"mv":0,"rtype":0,"rurl":null,"publishTime":1412006400007,"reason":null,"recommendReason":null,"privilege":{"id":29460372,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":5,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"平凡的一天","id":569214247,"pst":0,"t":0,"ar":[{"id":12138269,"name":"毛不易","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":116,"crbt":null,"cf":"","al":{"id":39483040,"name":"平凡的一天","picUrl":"http://p4.music.126.net/vmCcDvD1H04e9gm97xsCqg==/109951163350929740.jpg","tns":[],"pic_str":"109951163350929740","pic":109951163350929740},"dt":276773,"h":{"br":320000,"fid":0,"size":11073872,"vd":-21350,"sr":44100},"m":{"br":192000,"fid":0,"size":6644341,"vd":-18724,"sr":44100},"l":{"br":128000,"fid":0,"size":4429575,"vd":-16948,"sr":44100},"sq":{"br":815661,"fid":0,"size":28219178,"vd":-20962,"sr":44100},"hr":null,"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":8192,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":116,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":2708402,"mv":5952085,"rtype":0,"rurl":null,"publishTime":1530547200007,"reason":"第26届东方风云榜","recommendReason":"第26届东方风云榜","privilege":{"id":569214247,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"四季歌","id":330090,"pst":0,"t":0,"ar":[{"id":10575,"name":"周璇","tns":[],"alias":[]}],"alia":["电影《马路天使《玻璃画》插曲"],"pop":95,"st":0,"rt":"","fee":8,"v":34,"crbt":null,"cf":"","al":{"id":32603,"name":"Denon Mastersonic周璇","picUrl":"http://p4.music.126.net/bz4uHuqDZeina-tswaBiSw==/109951165994431201.jpg","tns":[],"pic_str":"109951165994431201","pic":109951165994431200},"dt":129000,"h":{"br":320000,"fid":0,"size":5198573,"vd":-17398,"sr":44100},"m":{"br":192000,"fid":0,"size":3119226,"vd":-17398,"sr":44100},"l":{"br":128000,"fid":0,"size":2079553,"vd":-17398,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":9,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":8192,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":34,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7003,"mv":0,"rtype":0,"rurl":null,"publishTime":852048000000,"reason":null,"recommendReason":null,"privilege":{"id":330090,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_8072227952&330090"},{"name":"Håll Om Mig","id":28224395,"pst":0,"t":0,"ar":[{"id":27941865,"name":"Nanne Grönvall","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":"","fee":0,"v":143,"crbt":null,"cf":"","al":{"id":2756383,"name":"Melodifestivalen 1958-2013","picUrl":"http://p4.music.126.net/CgREGnQGH02p_HTiZzxCJw==/2539871861248260.jpg","tns":[],"pic":2539871861248260},"dt":184000,"h":{"br":320000,"fid":0,"size":7375127,"vd":-42486,"sr":44100},"m":{"br":192000,"fid":0,"size":4425171,"vd":-42486,"sr":44100},"l":{"br":128000,"fid":0,"size":2950193,"vd":-42486,"sr":44100},"sq":{"br":953397,"fid":0,"size":21964680,"vd":-42486,"sr":44100},"hr":null,"a":null,"cd":"1","no":88,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":262144,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":143,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1389715200007,"reason":null,"tns":["抱紧我吧"],"recommendReason":null,"privilege":{"id":28224395,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":256,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"待涂抹的诗","id":1916700251,"pst":0,"t":0,"ar":[{"id":51337900,"name":"彻晓","tns":[],"alias":[]}],"alia":[],"pop":65,"st":0,"rt":"","fee":0,"v":7,"crbt":null,"cf":"","al":{"id":139710736,"name":"夕照。","picUrl":"http://p4.music.126.net/X9iuAUrIjzELVW_aCC4UbA==/109951167002552700.jpg","tns":[],"pic_str":"109951167002552700","pic":109951167002552700},"dt":170898,"h":{"br":320000,"fid":0,"size":6839509,"vd":-23379,"sr":44100},"m":{"br":192000,"fid":0,"size":4103966,"vd":-20736,"sr":44100},"l":{"br":128000,"fid":0,"size":2736194,"vd":-18942,"sr":44100},"sq":{"br":573047,"fid":0,"size":12241656,"vd":-23111,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":131200,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":7,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":0,"reason":null,"recommendReason":null,"privilege":{"id":1916700251,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":1,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"天路(Live)","id":31877629,"pst":0,"t":0,"ar":[{"id":7891,"name":"韩红","tns":[],"alias":[]}],"alia":[],"pop":95,"st":0,"rt":null,"fee":8,"v":686,"crbt":null,"cf":"","al":{"id":3142085,"name":"我是歌手第三季 总决赛","picUrl":"http://p3.music.126.net/C69zO6_wapO94TOE5DnIBg==/2941193605503524.jpg","tns":[],"pic":2941193605503524},"dt":281000,"h":{"br":320000,"fid":0,"size":11266257,"vd":-22776,"sr":44100},"m":{"br":192000,"fid":0,"size":6759821,"vd":-22776,"sr":44100},"l":{"br":128000,"fid":0,"size":4506603,"vd":-22776,"sr":44100},"sq":{"br":856089,"fid":0,"size":30132482,"vd":-22776,"sr":44100},"hr":null,"a":null,"cd":"2","no":5,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":65536,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":686,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":404023,"mv":0,"rtype":0,"rurl":null,"publishTime":1427385600007,"reason":null,"recommendReason":null,"privilege":{"id":31877629,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":256,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"空山鸟语","id":408280661,"pst":0,"t":0,"ar":[{"id":1023010,"name":"魏小涵","tns":[],"alias":[]}],"alia":[],"pop":85,"st":0,"rt":"","fee":0,"v":205,"crbt":null,"cf":"","al":{"id":34594699,"name":"天行九歌 原声音乐","picUrl":"http://p3.music.126.net/k_WRxDY1qQ4ztB5uFFrvoA==/17907745881679448.jpg","tns":[],"pic_str":"17907745881679448","pic":17907745881679448},"dt":191242,"h":{"br":320000,"fid":0,"size":7650787,"vd":11600,"sr":44100},"m":{"br":192000,"fid":0,"size":4590489,"vd":14299,"sr":44100},"l":{"br":128000,"fid":0,"size":3060341,"vd":16000,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"01","no":12,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":262144,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":205,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1486828800000,"reason":null,"recommendReason":null,"privilege":{"id":408280661,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":0,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"exhigh","dlLevel":"exhigh","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_1868661456&408280661"},{"name":"Faded","id":36990266,"pst":0,"t":0,"ar":[{"id":1045123,"name":"Alan Walker","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":527,"crbt":null,"cf":"","al":{"id":3406843,"name":"Faded","picUrl":"http://p3.music.126.net/OEZ0FzlPU-GPUjqHgCRqjA==/109951165976856263.jpg","tns":[],"pic_str":"109951165976856263","pic":109951165976856260},"dt":212688,"h":{"br":320000,"fid":0,"size":8507603,"vd":-62343,"sr":44100},"m":{"br":192000,"fid":0,"size":5104579,"vd":-60009,"sr":44100},"l":{"br":128000,"fid":0,"size":3403067,"vd":-58643,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270336,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":527,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7001,"mv":524116,"rtype":0,"rurl":null,"publishTime":1449158400000,"reason":null,"recommendReason":null,"privilege":{"id":36990266,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on","s_ctrp":"yunbeiRcmd_rcmdInfo_1326003661&36990266"},{"name":"Sold Out","id":31010566,"pst":0,"t":0,"ar":[{"id":34518,"name":"Hawk Nelson","tns":[],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":null,"fee":8,"v":28,"crbt":null,"cf":"","al":{"id":3109316,"name":"Diamonds","picUrl":"http://p4.music.126.net/K8hM5Y5U2CNUY8o7-_IOUQ==/109951168234104467.jpg","tns":[],"pic_str":"109951168234104467","pic":109951168234104460},"dt":213093,"h":{"br":320002,"fid":0,"size":8526411,"vd":-85271,"sr":44100},"m":{"br":192002,"fid":0,"size":5115864,"vd":-82733,"sr":44100},"l":{"br":128002,"fid":0,"size":3410591,"vd":-81205,"sr":44100},"sq":{"br":1036944,"fid":0,"size":27620745,"vd":-85264,"sr":44100},"hr":null,"a":null,"cd":"1","no":5,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":270336,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":28,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":1416336,"mv":0,"rtype":0,"rurl":null,"publishTime":1426521600000,"reason":null,"recommendReason":null,"privilege":{"id":31010566,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"别走","id":306979,"pst":0,"t":0,"ar":[{"id":9942,"name":"许美静","tns":[],"alias":[]}],"alia":[],"pop":55,"st":0,"rt":"","fee":8,"v":22,"crbt":null,"cf":"","al":{"id":30488,"name":"都是夜归人","picUrl":"http://p4.music.126.net/tujGmilZzfthd7HhVOl2Pw==/109951167320353104.jpg","tns":[],"pic_str":"109951167320353104","pic":109951167320353100},"dt":209493,"h":{"br":320000,"fid":0,"size":8382215,"vd":-632,"sr":44100},"m":{"br":192000,"fid":0,"size":5029346,"vd":1976,"sr":44100},"l":{"br":128000,"fid":0,"size":3352912,"vd":3813,"sr":44100},"sq":{"br":748322,"fid":0,"size":19596080,"vd":-631,"sr":44100},"hr":null,"a":null,"cd":"1","no":4,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":8192,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":22,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":7003,"mv":0,"rtype":0,"rurl":null,"publishTime":852048000000,"reason":null,"recommendReason":null,"privilege":{"id":306979,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":260,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"仲夏酿","id":466765813,"pst":0,"t":0,"ar":[{"id":12100058,"name":"清黛半夏","tns":[],"alias":[]}],"alia":[],"pop":25,"st":0,"rt":null,"fee":0,"v":17,"crbt":null,"cf":"","al":{"id":35294020,"name":"仲夏半","picUrl":"http://p4.music.126.net/DXGNTCM29IY9D1AiPLG-tg==/109951162880451562.jpg","tns":[],"pic_str":"109951162880451562","pic":109951162880451570},"dt":257280,"h":{"br":320000,"fid":0,"size":10293333,"vd":8174,"sr":44100},"m":{"br":192000,"fid":0,"size":6176017,"vd":9983,"sr":44100},"l":{"br":128000,"fid":0,"size":4117359,"vd":11226,"sr":44100},"sq":null,"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":2,"s_id":0,"mark":64,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":17,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":0,"mv":0,"rtype":0,"rurl":null,"publishTime":1489896357630,"reason":null,"recommendReason":null,"privilege":{"id":466765813,"fee":0,"payed":0,"st":0,"pl":320000,"dl":320000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":320000,"toast":false,"flag":2,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"exhigh","dlLevel":"exhigh","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"itembased_on"},{"name":"清风徐来","id":34586075,"pst":0,"t":0,"ar":[{"id":9621,"name":"王菲","tns":[],"alias":[]}],"alia":["电影《港囧》主题曲"],"pop":100,"st":0,"rt":null,"fee":1,"v":32,"crbt":null,"cf":"","al":{"id":3288025,"name":"清风徐来","picUrl":"http://p3.music.126.net/HoA-JTIrGIN-0WxaGqmu8A==/3367804116560203.jpg","tns":[],"pic":3367804116560203},"dt":284949,"h":{"br":320000,"fid":0,"size":11400924,"vd":-59165,"sr":44100},"m":{"br":192000,"fid":0,"size":6840572,"vd":-59165,"sr":44100},"l":{"br":128000,"fid":0,"size":4560395,"vd":-59165,"sr":44100},"sq":{"br":919559,"fid":0,"size":32753476,"vd":-59165,"sr":44100},"hr":null,"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":8192,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":32,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"mst":9,"cp":600011,"mv":480256,"rtype":0,"rurl":null,"publishTime":1441814400007,"reason":null,"recommendReason":null,"privilege":{"id":34586075,"fee":1,"payed":0,"st":0,"pl":0,"dl":0,"sp":0,"cp":0,"subp":0,"cs":false,"maxbr":999000,"fl":0,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"none","dlLevel":"none","flLevel":"none","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]},"alg":"daily_audition_embedUpdate"}]
-         * orderSongs : []
-         * recommendReasons : [{"songId":1820603565,"reason":"小众推荐","reasonId":"title_10012","targetUrl":null},{"songId":1904139626,"reason":"超70%人播放","reasonId":"title_10004","targetUrl":null},{"songId":569214247,"reason":"第26届东方风云榜","reasonId":"title_10016","targetUrl":null}]
-         * mvResourceInfos : null
+         * id : 2030766928
+         * type : 4
+         * name : 想见你想见你想见你 (Live版)
+         * copywriter : null
+         * picUrl : http://p1.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg
+         * canDislike : true
+         * trackNumberUpdateTime : null
+         * song : {"name":"想见你想见你想见你 (Live版)","id":2030766928,"position":0,"alias":[],"status":0,"fee":8,"copyrightId":2712403,"disc":"01","no":15,"artists":[{"name":"张杰","id":6472,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"album":{"name":"声生不息·宝岛季 第1期","id":161799333,"type":"专辑","size":16,"picId":109951168469139970,"blurPicUrl":"http://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg","companyId":0,"pic":109951168469139970,"picUrl":"http://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg","publishTime":1678896000000,"description":"","tags":"","company":"","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":[],"status":1,"copyrightId":2712403,"commentThreadId":"R_AL_3_161799333","artists":[{"name":"声生不息","id":52391958,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168469139967"},"starred":false,"popularity":100,"score":100,"starredNum":0,"duration":236588,"playedNum":0,"dayPlays":0,"hearTime":0,"sqMusic":{"name":null,"id":7968728710,"size":28536168,"extension":"flac","sr":48000,"dfsId":0,"bitrate":964919,"playTime":236588,"volumeDelta":-40352},"hrMusic":{"name":null,"id":7968728705,"size":51279443,"extension":"flac","sr":48000,"dfsId":0,"bitrate":1733958,"playTime":236588,"volumeDelta":-40177},"ringtone":"","crbt":null,"audition":null,"copyFrom":"","commentThreadId":"R_SO_4_2030766928","rtUrl":null,"ftype":0,"rtUrls":[],"copyright":0,"transName":null,"sign":null,"mark":0,"originCoverType":2,"originSongSimpleData":{"songId":1403215687,"name":"想见你想见你想见你","artists":[{"id":11109,"name":"八三夭"}],"albumMeta":{"id":83291813,"name":"想见你想见你想见你"}},"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mp3Url":null,"mvid":0,"bMusic":{"name":null,"id":7968728711,"size":3786285,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":236588,"volumeDelta":-35985},"hMusic":{"name":null,"id":7968728712,"size":9465645,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":320000,"playTime":236588,"volumeDelta":-40155},"mMusic":{"name":null,"id":7968728714,"size":5679405,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":192000,"playTime":236588,"volumeDelta":-37615},"lMusic":{"name":null,"id":7968728711,"size":3786285,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":236588,"volumeDelta":-35985},"exclusive":false,"privilege":{"id":2030766928,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"hires","playMaxBrLevel":"hires","downloadMaxBrLevel":"hires","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":1999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}}
+         * alg : hot_server
          */
 
-        private Object mvResourceInfos;
-        private List<DailySongsBean> dailySongs;
-        private List<?> orderSongs;
-        private List<RecommendReasonsBean> recommendReasons;
+        private String id;
+        private int type;
+        private String name;
+        private Object copywriter;
+        private String picUrl;
+        private boolean canDislike;
+        private Object trackNumberUpdateTime;
+        private SongBean song;
+        private String alg;
 
-        public Object getMvResourceInfos() {
-            return mvResourceInfos;
+        public String getId() {
+            return id;
         }
 
-        public void setMvResourceInfos(Object mvResourceInfos) {
-            this.mvResourceInfos = mvResourceInfos;
+        public void setId(String id) {
+            this.id = id;
         }
 
-        public List<DailySongsBean> getDailySongs() {
-            return dailySongs;
+        public int getType() {
+            return type;
         }
 
-        public void setDailySongs(List<DailySongsBean> dailySongs) {
-            this.dailySongs = dailySongs;
+        public void setType(int type) {
+            this.type = type;
         }
 
-        public List<?> getOrderSongs() {
-            return orderSongs;
+        public String getName() {
+            return name;
         }
 
-        public void setOrderSongs(List<?> orderSongs) {
-            this.orderSongs = orderSongs;
+        public void setName(String name) {
+            this.name = name;
         }
 
-        public List<RecommendReasonsBean> getRecommendReasons() {
-            return recommendReasons;
+        public Object getCopywriter() {
+            return copywriter;
         }
 
-        public void setRecommendReasons(List<RecommendReasonsBean> recommendReasons) {
-            this.recommendReasons = recommendReasons;
+        public void setCopywriter(Object copywriter) {
+            this.copywriter = copywriter;
         }
 
-        public static class DailySongsBean {
+        public String getPicUrl() {
+            return picUrl;
+        }
+
+        public void setPicUrl(String picUrl) {
+            this.picUrl = picUrl;
+        }
+
+        public boolean isCanDislike() {
+            return canDislike;
+        }
+
+        public void setCanDislike(boolean canDislike) {
+            this.canDislike = canDislike;
+        }
+
+        public Object getTrackNumberUpdateTime() {
+            return trackNumberUpdateTime;
+        }
+
+        public void setTrackNumberUpdateTime(Object trackNumberUpdateTime) {
+            this.trackNumberUpdateTime = trackNumberUpdateTime;
+        }
+
+        public SongBean getSong() {
+            return song;
+        }
+
+        public void setSong(SongBean song) {
+            this.song = song;
+        }
+
+        public String getAlg() {
+            return alg;
+        }
+
+        public void setAlg(String alg) {
+            this.alg = alg;
+        }
+
+        public static class SongBean {
             /**
-             * name : Skellige Ard-Skellig Settlements Exploration Layer
-             * id : 1820603565
-             * pst : 0
-             * t : 0
-             * ar : [{"id":1195052,"name":"Super Xiang","tns":[],"alias":[]}]
-             * alia : []
-             * pop : 90
-             * st : 0
-             * rt :
+             * name : 想见你想见你想见你 (Live版)
+             * id : 2030766928
+             * position : 0
+             * alias : []
+             * status : 0
              * fee : 8
-             * v : 8
+             * copyrightId : 2712403
+             * disc : 01
+             * no : 15
+             * artists : [{"name":"张杰","id":6472,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}]
+             * album : {"name":"声生不息·宝岛季 第1期","id":161799333,"type":"专辑","size":16,"picId":109951168469139970,"blurPicUrl":"http://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg","companyId":0,"pic":109951168469139970,"picUrl":"http://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg","publishTime":1678896000000,"description":"","tags":"","company":"","briefDesc":"","artist":{"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0},"songs":[],"alias":[],"status":1,"copyrightId":2712403,"commentThreadId":"R_AL_3_161799333","artists":[{"name":"声生不息","id":52391958,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}],"subType":"录音室版","transName":null,"onSale":false,"mark":0,"gapless":0,"picId_str":"109951168469139967"}
+             * starred : false
+             * popularity : 100
+             * score : 100
+             * starredNum : 0
+             * duration : 236588
+             * playedNum : 0
+             * dayPlays : 0
+             * hearTime : 0
+             * sqMusic : {"name":null,"id":7968728710,"size":28536168,"extension":"flac","sr":48000,"dfsId":0,"bitrate":964919,"playTime":236588,"volumeDelta":-40352}
+             * hrMusic : {"name":null,"id":7968728705,"size":51279443,"extension":"flac","sr":48000,"dfsId":0,"bitrate":1733958,"playTime":236588,"volumeDelta":-40177}
+             * ringtone :
              * crbt : null
-             * cf :
-             * al : {"id":123071508,"name":"Skellige Ard-Skellig Settlements Exploration Layer","picUrl":"http://p3.music.126.net/-W3AVAIG5e7cdF4lghzong==/109951165730391214.jpg","tns":[],"pic_str":"109951165730391214","pic":109951165730391220}
-             * dt : 140564
-             * h : {"br":320000,"fid":0,"size":5624729,"vd":46875,"sr":44100}
-             * m : {"br":192000,"fid":0,"size":3374855,"vd":49514,"sr":44100}
-             * l : {"br":128000,"fid":0,"size":2249918,"vd":51337,"sr":44100}
-             * sq : null
-             * hr : null
-             * a : null
-             * cd : 01
-             * no : 1
+             * audition : null
+             * copyFrom :
+             * commentThreadId : R_SO_4_2030766928
              * rtUrl : null
              * ftype : 0
              * rtUrls : []
-             * djId : 0
              * copyright : 0
-             * s_id : 0
-             * mark : 131136
-             * originCoverType : 0
-             * originSongSimpleData : null
-             * tagPicList : null
-             * resourceState : true
-             * version : 8
-             * songJumpInfo : null
-             * entertainmentTags : null
+             * transName : null
+             * sign : null
+             * mark : 0
+             * originCoverType : 2
+             * originSongSimpleData : {"songId":1403215687,"name":"想见你想见你想见你","artists":[{"id":11109,"name":"八三夭"}],"albumMeta":{"id":83291813,"name":"想见你想见你想见你"}}
              * single : 0
              * noCopyrightRcmd : null
-             * mst : 9
-             * cp : 0
-             * mv : 0
              * rtype : 0
              * rurl : null
-             * publishTime : 0
-             * reason : 小众推荐
-             * recommendReason : 小众推荐
-             * privilege : {"id":1820603565,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":320000,"fl":128000,"toast":false,"flag":2,"preSell":false,"playMaxbr":320000,"downloadMaxbr":320000,"maxBrLevel":"exhigh","playMaxBrLevel":"exhigh","downloadMaxBrLevel":"exhigh","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":0},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}
-             * alg : itembased_on
-             * tns : ["行星之上"]
-             * s_ctrp : yunbeiRcmd_rcmdInfo_371788462&1321297488
+             * mp3Url : null
+             * mvid : 0
+             * bMusic : {"name":null,"id":7968728711,"size":3786285,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":236588,"volumeDelta":-35985}
+             * hMusic : {"name":null,"id":7968728712,"size":9465645,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":320000,"playTime":236588,"volumeDelta":-40155}
+             * mMusic : {"name":null,"id":7968728714,"size":5679405,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":192000,"playTime":236588,"volumeDelta":-37615}
+             * lMusic : {"name":null,"id":7968728711,"size":3786285,"extension":"mp3","sr":48000,"dfsId":0,"bitrate":128000,"playTime":236588,"volumeDelta":-35985}
+             * exclusive : false
+             * privilege : {"id":2030766928,"fee":8,"payed":0,"st":0,"pl":128000,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":128000,"toast":false,"flag":4,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"hires","playMaxBrLevel":"hires","downloadMaxBrLevel":"hires","plLevel":"standard","dlLevel":"none","flLevel":"standard","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":null},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":1999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}
              */
 
             private String name;
             private int id;
-            private int pst;
-            private int t;
-            private int pop;
-            private int st;
-            private String rt;
+            private int position;
+            private int status;
             private int fee;
-            private int v;
-            private Object crbt;
-            private String cf;
-            private AlBean al;
-            private int dt;
-            private HBean h;
-            private MBean m;
-            private LBean l;
-            private Object sq;
-            private Object hr;
-            private Object a;
-            private String cd;
+            private int copyrightId;
+            private String disc;
             private int no;
+            private AlbumBean album;
+            private boolean starred;
+            private int popularity;
+            private int score;
+            private int starredNum;
+            private int duration;
+            private int playedNum;
+            private int dayPlays;
+            private int hearTime;
+            private SqMusicBean sqMusic;
+            private HrMusicBean hrMusic;
+            private String ringtone;
+            private Object crbt;
+            private Object audition;
+            private String copyFrom;
+            private String commentThreadId;
             private Object rtUrl;
             private int ftype;
-            private int djId;
             private int copyright;
-            private int s_id;
+            private Object transName;
+            private Object sign;
             private int mark;
             private int originCoverType;
-            private Object originSongSimpleData;
-            private Object tagPicList;
-            private boolean resourceState;
-            private int version;
-            private Object songJumpInfo;
-            private Object entertainmentTags;
+            private OriginSongSimpleDataBean originSongSimpleData;
             private int single;
             private Object noCopyrightRcmd;
-            private int mst;
-            private int cp;
-            private int mv;
             private int rtype;
             private Object rurl;
-            private int publishTime;
-            private String reason;
-            private String recommendReason;
+            private Object mp3Url;
+            private int mvid;
+            private BMusicBean bMusic;
+            private HMusicBean hMusic;
+            private MMusicBean mMusic;
+            private LMusicBean lMusic;
+            private boolean exclusive;
             private PrivilegeBean privilege;
-            private String alg;
-            private String s_ctrp;
-            private List<ArBean> ar;
-            private List<?> alia;
+            private List<?> alias;
+            private List<ArtistsBeanXX> artists;
             private List<?> rtUrls;
-            private List<String> tns;
 
             public String getName() {
                 return name;
@@ -207,44 +260,20 @@ public class HomeSongEnerty {
                 this.id = id;
             }
 
-            public int getPst() {
-                return pst;
+            public int getPosition() {
+                return position;
             }
 
-            public void setPst(int pst) {
-                this.pst = pst;
+            public void setPosition(int position) {
+                this.position = position;
             }
 
-            public int getT() {
-                return t;
+            public int getStatus() {
+                return status;
             }
 
-            public void setT(int t) {
-                this.t = t;
-            }
-
-            public int getPop() {
-                return pop;
-            }
-
-            public void setPop(int pop) {
-                this.pop = pop;
-            }
-
-            public int getSt() {
-                return st;
-            }
-
-            public void setSt(int st) {
-                this.st = st;
-            }
-
-            public String getRt() {
-                return rt;
-            }
-
-            public void setRt(String rt) {
-                this.rt = rt;
+            public void setStatus(int status) {
+                this.status = status;
             }
 
             public int getFee() {
@@ -255,12 +284,124 @@ public class HomeSongEnerty {
                 this.fee = fee;
             }
 
-            public int getV() {
-                return v;
+            public int getCopyrightId() {
+                return copyrightId;
             }
 
-            public void setV(int v) {
-                this.v = v;
+            public void setCopyrightId(int copyrightId) {
+                this.copyrightId = copyrightId;
+            }
+
+            public String getDisc() {
+                return disc;
+            }
+
+            public void setDisc(String disc) {
+                this.disc = disc;
+            }
+
+            public int getNo() {
+                return no;
+            }
+
+            public void setNo(int no) {
+                this.no = no;
+            }
+
+            public AlbumBean getAlbum() {
+                return album;
+            }
+
+            public void setAlbum(AlbumBean album) {
+                this.album = album;
+            }
+
+            public boolean isStarred() {
+                return starred;
+            }
+
+            public void setStarred(boolean starred) {
+                this.starred = starred;
+            }
+
+            public int getPopularity() {
+                return popularity;
+            }
+
+            public void setPopularity(int popularity) {
+                this.popularity = popularity;
+            }
+
+            public int getScore() {
+                return score;
+            }
+
+            public void setScore(int score) {
+                this.score = score;
+            }
+
+            public int getStarredNum() {
+                return starredNum;
+            }
+
+            public void setStarredNum(int starredNum) {
+                this.starredNum = starredNum;
+            }
+
+            public int getDuration() {
+                return duration;
+            }
+
+            public void setDuration(int duration) {
+                this.duration = duration;
+            }
+
+            public int getPlayedNum() {
+                return playedNum;
+            }
+
+            public void setPlayedNum(int playedNum) {
+                this.playedNum = playedNum;
+            }
+
+            public int getDayPlays() {
+                return dayPlays;
+            }
+
+            public void setDayPlays(int dayPlays) {
+                this.dayPlays = dayPlays;
+            }
+
+            public int getHearTime() {
+                return hearTime;
+            }
+
+            public void setHearTime(int hearTime) {
+                this.hearTime = hearTime;
+            }
+
+            public SqMusicBean getSqMusic() {
+                return sqMusic;
+            }
+
+            public void setSqMusic(SqMusicBean sqMusic) {
+                this.sqMusic = sqMusic;
+            }
+
+            public HrMusicBean getHrMusic() {
+                return hrMusic;
+            }
+
+            public void setHrMusic(HrMusicBean hrMusic) {
+                this.hrMusic = hrMusic;
+            }
+
+            public String getRingtone() {
+                return ringtone;
+            }
+
+            public void setRingtone(String ringtone) {
+                this.ringtone = ringtone;
             }
 
             public Object getCrbt() {
@@ -271,92 +412,28 @@ public class HomeSongEnerty {
                 this.crbt = crbt;
             }
 
-            public String getCf() {
-                return cf;
+            public Object getAudition() {
+                return audition;
             }
 
-            public void setCf(String cf) {
-                this.cf = cf;
+            public void setAudition(Object audition) {
+                this.audition = audition;
             }
 
-            public AlBean getAl() {
-                return al;
+            public String getCopyFrom() {
+                return copyFrom;
             }
 
-            public void setAl(AlBean al) {
-                this.al = al;
+            public void setCopyFrom(String copyFrom) {
+                this.copyFrom = copyFrom;
             }
 
-            public int getDt() {
-                return dt;
+            public String getCommentThreadId() {
+                return commentThreadId;
             }
 
-            public void setDt(int dt) {
-                this.dt = dt;
-            }
-
-            public HBean getH() {
-                return h;
-            }
-
-            public void setH(HBean h) {
-                this.h = h;
-            }
-
-            public MBean getM() {
-                return m;
-            }
-
-            public void setM(MBean m) {
-                this.m = m;
-            }
-
-            public LBean getL() {
-                return l;
-            }
-
-            public void setL(LBean l) {
-                this.l = l;
-            }
-
-            public Object getSq() {
-                return sq;
-            }
-
-            public void setSq(Object sq) {
-                this.sq = sq;
-            }
-
-            public Object getHr() {
-                return hr;
-            }
-
-            public void setHr(Object hr) {
-                this.hr = hr;
-            }
-
-            public Object getA() {
-                return a;
-            }
-
-            public void setA(Object a) {
-                this.a = a;
-            }
-
-            public String getCd() {
-                return cd;
-            }
-
-            public void setCd(String cd) {
-                this.cd = cd;
-            }
-
-            public int getNo() {
-                return no;
-            }
-
-            public void setNo(int no) {
-                this.no = no;
+            public void setCommentThreadId(String commentThreadId) {
+                this.commentThreadId = commentThreadId;
             }
 
             public Object getRtUrl() {
@@ -375,14 +452,6 @@ public class HomeSongEnerty {
                 this.ftype = ftype;
             }
 
-            public int getDjId() {
-                return djId;
-            }
-
-            public void setDjId(int djId) {
-                this.djId = djId;
-            }
-
             public int getCopyright() {
                 return copyright;
             }
@@ -391,12 +460,20 @@ public class HomeSongEnerty {
                 this.copyright = copyright;
             }
 
-            public int getS_id() {
-                return s_id;
+            public Object getTransName() {
+                return transName;
             }
 
-            public void setS_id(int s_id) {
-                this.s_id = s_id;
+            public void setTransName(Object transName) {
+                this.transName = transName;
+            }
+
+            public Object getSign() {
+                return sign;
+            }
+
+            public void setSign(Object sign) {
+                this.sign = sign;
             }
 
             public int getMark() {
@@ -415,52 +492,12 @@ public class HomeSongEnerty {
                 this.originCoverType = originCoverType;
             }
 
-            public Object getOriginSongSimpleData() {
+            public OriginSongSimpleDataBean getOriginSongSimpleData() {
                 return originSongSimpleData;
             }
 
-            public void setOriginSongSimpleData(Object originSongSimpleData) {
+            public void setOriginSongSimpleData(OriginSongSimpleDataBean originSongSimpleData) {
                 this.originSongSimpleData = originSongSimpleData;
-            }
-
-            public Object getTagPicList() {
-                return tagPicList;
-            }
-
-            public void setTagPicList(Object tagPicList) {
-                this.tagPicList = tagPicList;
-            }
-
-            public boolean isResourceState() {
-                return resourceState;
-            }
-
-            public void setResourceState(boolean resourceState) {
-                this.resourceState = resourceState;
-            }
-
-            public int getVersion() {
-                return version;
-            }
-
-            public void setVersion(int version) {
-                this.version = version;
-            }
-
-            public Object getSongJumpInfo() {
-                return songJumpInfo;
-            }
-
-            public void setSongJumpInfo(Object songJumpInfo) {
-                this.songJumpInfo = songJumpInfo;
-            }
-
-            public Object getEntertainmentTags() {
-                return entertainmentTags;
-            }
-
-            public void setEntertainmentTags(Object entertainmentTags) {
-                this.entertainmentTags = entertainmentTags;
             }
 
             public int getSingle() {
@@ -479,30 +516,6 @@ public class HomeSongEnerty {
                 this.noCopyrightRcmd = noCopyrightRcmd;
             }
 
-            public int getMst() {
-                return mst;
-            }
-
-            public void setMst(int mst) {
-                this.mst = mst;
-            }
-
-            public int getCp() {
-                return cp;
-            }
-
-            public void setCp(int cp) {
-                this.cp = cp;
-            }
-
-            public int getMv() {
-                return mv;
-            }
-
-            public void setMv(int mv) {
-                this.mv = mv;
-            }
-
             public int getRtype() {
                 return rtype;
             }
@@ -519,28 +532,60 @@ public class HomeSongEnerty {
                 this.rurl = rurl;
             }
 
-            public int getPublishTime() {
-                return publishTime;
+            public Object getMp3Url() {
+                return mp3Url;
             }
 
-            public void setPublishTime(int publishTime) {
-                this.publishTime = publishTime;
+            public void setMp3Url(Object mp3Url) {
+                this.mp3Url = mp3Url;
             }
 
-            public String getReason() {
-                return reason;
+            public int getMvid() {
+                return mvid;
             }
 
-            public void setReason(String reason) {
-                this.reason = reason;
+            public void setMvid(int mvid) {
+                this.mvid = mvid;
             }
 
-            public String getRecommendReason() {
-                return recommendReason;
+            public BMusicBean getBMusic() {
+                return bMusic;
             }
 
-            public void setRecommendReason(String recommendReason) {
-                this.recommendReason = recommendReason;
+            public void setBMusic(BMusicBean bMusic) {
+                this.bMusic = bMusic;
+            }
+
+            public HMusicBean getHMusic() {
+                return hMusic;
+            }
+
+            public void setHMusic(HMusicBean hMusic) {
+                this.hMusic = hMusic;
+            }
+
+            public MMusicBean getMMusic() {
+                return mMusic;
+            }
+
+            public void setMMusic(MMusicBean mMusic) {
+                this.mMusic = mMusic;
+            }
+
+            public LMusicBean getLMusic() {
+                return lMusic;
+            }
+
+            public void setLMusic(LMusicBean lMusic) {
+                this.lMusic = lMusic;
+            }
+
+            public boolean isExclusive() {
+                return exclusive;
+            }
+
+            public void setExclusive(boolean exclusive) {
+                this.exclusive = exclusive;
             }
 
             public PrivilegeBean getPrivilege() {
@@ -551,36 +596,20 @@ public class HomeSongEnerty {
                 this.privilege = privilege;
             }
 
-            public String getAlg() {
-                return alg;
+            public List<?> getAlias() {
+                return alias;
             }
 
-            public void setAlg(String alg) {
-                this.alg = alg;
+            public void setAlias(List<?> alias) {
+                this.alias = alias;
             }
 
-            public String getS_ctrp() {
-                return s_ctrp;
+            public List<ArtistsBeanXX> getArtists() {
+                return artists;
             }
 
-            public void setS_ctrp(String s_ctrp) {
-                this.s_ctrp = s_ctrp;
-            }
-
-            public List<ArBean> getAr() {
-                return ar;
-            }
-
-            public void setAr(List<ArBean> ar) {
-                this.ar = ar;
-            }
-
-            public List<?> getAlia() {
-                return alia;
-            }
-
-            public void setAlia(List<?> alia) {
-                this.alia = alia;
+            public void setArtists(List<ArtistsBeanXX> artists) {
+                this.artists = artists;
             }
 
             public List<?> getRtUrls() {
@@ -591,38 +620,64 @@ public class HomeSongEnerty {
                 this.rtUrls = rtUrls;
             }
 
-            public List<String> getTns() {
-                return tns;
-            }
-
-            public void setTns(List<String> tns) {
-                this.tns = tns;
-            }
-
-            public static class AlBean {
+            public static class AlbumBean {
                 /**
-                 * id : 123071508
-                 * name : Skellige Ard-Skellig Settlements Exploration Layer
-                 * picUrl : http://p3.music.126.net/-W3AVAIG5e7cdF4lghzong==/109951165730391214.jpg
-                 * tns : []
-                 * pic_str : 109951165730391214
-                 * pic : 109951165730391220
+                 * name : 声生不息·宝岛季 第1期
+                 * id : 161799333
+                 * type : 专辑
+                 * size : 16
+                 * picId : 109951168469139970
+                 * blurPicUrl : http://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg
+                 * companyId : 0
+                 * pic : 109951168469139970
+                 * picUrl : http://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg
+                 * publishTime : 1678896000000
+                 * description :
+                 * tags :
+                 * company :
+                 * briefDesc :
+                 * artist : {"name":"","id":0,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}
+                 * songs : []
+                 * alias : []
+                 * status : 1
+                 * copyrightId : 2712403
+                 * commentThreadId : R_AL_3_161799333
+                 * artists : [{"name":"声生不息","id":52391958,"picId":0,"img1v1Id":0,"briefDesc":"","picUrl":"http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1Url":"http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","albumSize":0,"alias":[],"trans":"","musicSize":0,"topicPerson":0}]
+                 * subType : 录音室版
+                 * transName : null
+                 * onSale : false
+                 * mark : 0
+                 * gapless : 0
+                 * picId_str : 109951168469139967
                  */
 
-                private int id;
                 private String name;
-                private String picUrl;
-                private String pic_str;
+                private int id;
+                private String type;
+                private int size;
+                private long picId;
+                private String blurPicUrl;
+                private int companyId;
                 private long pic;
-                private List<?> tns;
-
-                public int getId() {
-                    return id;
-                }
-
-                public void setId(int id) {
-                    this.id = id;
-                }
+                private String picUrl;
+                private long publishTime;
+                private String description;
+                private String tags;
+                private String company;
+                private String briefDesc;
+                private ArtistBean artist;
+                private int status;
+                private int copyrightId;
+                private String commentThreadId;
+                private String subType;
+                private Object transName;
+                private boolean onSale;
+                private int mark;
+                private int gapless;
+                private String picId_str;
+                private List<?> songs;
+                private List<?> alias;
+                private List<ArtistsBean> artists;
 
                 public String getName() {
                     return name;
@@ -632,20 +687,52 @@ public class HomeSongEnerty {
                     this.name = name;
                 }
 
-                public String getPicUrl() {
-                    return picUrl;
+                public int getId() {
+                    return id;
                 }
 
-                public void setPicUrl(String picUrl) {
-                    this.picUrl = picUrl;
+                public void setId(int id) {
+                    this.id = id;
                 }
 
-                public String getPic_str() {
-                    return pic_str;
+                public String getType() {
+                    return type;
                 }
 
-                public void setPic_str(String pic_str) {
-                    this.pic_str = pic_str;
+                public void setType(String type) {
+                    this.type = type;
+                }
+
+                public int getSize() {
+                    return size;
+                }
+
+                public void setSize(int size) {
+                    this.size = size;
+                }
+
+                public long getPicId() {
+                    return picId;
+                }
+
+                public void setPicId(long picId) {
+                    this.picId = picId;
+                }
+
+                public String getBlurPicUrl() {
+                    return blurPicUrl;
+                }
+
+                public void setBlurPicUrl(String blurPicUrl) {
+                    this.blurPicUrl = blurPicUrl;
+                }
+
+                public int getCompanyId() {
+                    return companyId;
+                }
+
+                public void setCompanyId(int companyId) {
+                    this.companyId = companyId;
                 }
 
                 public long getPic() {
@@ -656,44 +743,448 @@ public class HomeSongEnerty {
                     this.pic = pic;
                 }
 
-                public List<?> getTns() {
-                    return tns;
+                public String getPicUrl() {
+                    return picUrl;
                 }
 
-                public void setTns(List<?> tns) {
-                    this.tns = tns;
+                public void setPicUrl(String picUrl) {
+                    this.picUrl = picUrl;
+                }
+
+                public long getPublishTime() {
+                    return publishTime;
+                }
+
+                public void setPublishTime(long publishTime) {
+                    this.publishTime = publishTime;
+                }
+
+                public String getDescription() {
+                    return description;
+                }
+
+                public void setDescription(String description) {
+                    this.description = description;
+                }
+
+                public String getTags() {
+                    return tags;
+                }
+
+                public void setTags(String tags) {
+                    this.tags = tags;
+                }
+
+                public String getCompany() {
+                    return company;
+                }
+
+                public void setCompany(String company) {
+                    this.company = company;
+                }
+
+                public String getBriefDesc() {
+                    return briefDesc;
+                }
+
+                public void setBriefDesc(String briefDesc) {
+                    this.briefDesc = briefDesc;
+                }
+
+                public ArtistBean getArtist() {
+                    return artist;
+                }
+
+                public void setArtist(ArtistBean artist) {
+                    this.artist = artist;
+                }
+
+                public int getStatus() {
+                    return status;
+                }
+
+                public void setStatus(int status) {
+                    this.status = status;
+                }
+
+                public int getCopyrightId() {
+                    return copyrightId;
+                }
+
+                public void setCopyrightId(int copyrightId) {
+                    this.copyrightId = copyrightId;
+                }
+
+                public String getCommentThreadId() {
+                    return commentThreadId;
+                }
+
+                public void setCommentThreadId(String commentThreadId) {
+                    this.commentThreadId = commentThreadId;
+                }
+
+                public String getSubType() {
+                    return subType;
+                }
+
+                public void setSubType(String subType) {
+                    this.subType = subType;
+                }
+
+                public Object getTransName() {
+                    return transName;
+                }
+
+                public void setTransName(Object transName) {
+                    this.transName = transName;
+                }
+
+                public boolean isOnSale() {
+                    return onSale;
+                }
+
+                public void setOnSale(boolean onSale) {
+                    this.onSale = onSale;
+                }
+
+                public int getMark() {
+                    return mark;
+                }
+
+                public void setMark(int mark) {
+                    this.mark = mark;
+                }
+
+                public int getGapless() {
+                    return gapless;
+                }
+
+                public void setGapless(int gapless) {
+                    this.gapless = gapless;
+                }
+
+                public String getPicId_str() {
+                    return picId_str;
+                }
+
+                public void setPicId_str(String picId_str) {
+                    this.picId_str = picId_str;
+                }
+
+                public List<?> getSongs() {
+                    return songs;
+                }
+
+                public void setSongs(List<?> songs) {
+                    this.songs = songs;
+                }
+
+                public List<?> getAlias() {
+                    return alias;
+                }
+
+                public void setAlias(List<?> alias) {
+                    this.alias = alias;
+                }
+
+                public List<ArtistsBean> getArtists() {
+                    return artists;
+                }
+
+                public void setArtists(List<ArtistsBean> artists) {
+                    this.artists = artists;
+                }
+
+                public static class ArtistBean {
+                    /**
+                     * name :
+                     * id : 0
+                     * picId : 0
+                     * img1v1Id : 0
+                     * briefDesc :
+                     * picUrl : http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg
+                     * img1v1Url : http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg
+                     * albumSize : 0
+                     * alias : []
+                     * trans :
+                     * musicSize : 0
+                     * topicPerson : 0
+                     */
+
+                    private String name;
+                    private int id;
+                    private int picId;
+                    private int img1v1Id;
+                    private String briefDesc;
+                    private String picUrl;
+                    private String img1v1Url;
+                    private int albumSize;
+                    private String trans;
+                    private int musicSize;
+                    private int topicPerson;
+                    private List<?> alias;
+
+                    public String getName() {
+                        return name;
+                    }
+
+                    public void setName(String name) {
+                        this.name = name;
+                    }
+
+                    public int getId() {
+                        return id;
+                    }
+
+                    public void setId(int id) {
+                        this.id = id;
+                    }
+
+                    public int getPicId() {
+                        return picId;
+                    }
+
+                    public void setPicId(int picId) {
+                        this.picId = picId;
+                    }
+
+                    public int getImg1v1Id() {
+                        return img1v1Id;
+                    }
+
+                    public void setImg1v1Id(int img1v1Id) {
+                        this.img1v1Id = img1v1Id;
+                    }
+
+                    public String getBriefDesc() {
+                        return briefDesc;
+                    }
+
+                    public void setBriefDesc(String briefDesc) {
+                        this.briefDesc = briefDesc;
+                    }
+
+                    public String getPicUrl() {
+                        return picUrl;
+                    }
+
+                    public void setPicUrl(String picUrl) {
+                        this.picUrl = picUrl;
+                    }
+
+                    public String getImg1v1Url() {
+                        return img1v1Url;
+                    }
+
+                    public void setImg1v1Url(String img1v1Url) {
+                        this.img1v1Url = img1v1Url;
+                    }
+
+                    public int getAlbumSize() {
+                        return albumSize;
+                    }
+
+                    public void setAlbumSize(int albumSize) {
+                        this.albumSize = albumSize;
+                    }
+
+                    public String getTrans() {
+                        return trans;
+                    }
+
+                    public void setTrans(String trans) {
+                        this.trans = trans;
+                    }
+
+                    public int getMusicSize() {
+                        return musicSize;
+                    }
+
+                    public void setMusicSize(int musicSize) {
+                        this.musicSize = musicSize;
+                    }
+
+                    public int getTopicPerson() {
+                        return topicPerson;
+                    }
+
+                    public void setTopicPerson(int topicPerson) {
+                        this.topicPerson = topicPerson;
+                    }
+
+                    public List<?> getAlias() {
+                        return alias;
+                    }
+
+                    public void setAlias(List<?> alias) {
+                        this.alias = alias;
+                    }
+                }
+
+                public static class ArtistsBean {
+                    /**
+                     * name : 声生不息
+                     * id : 52391958
+                     * picId : 0
+                     * img1v1Id : 0
+                     * briefDesc :
+                     * picUrl : http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg
+                     * img1v1Url : http://p3.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg
+                     * albumSize : 0
+                     * alias : []
+                     * trans :
+                     * musicSize : 0
+                     * topicPerson : 0
+                     */
+
+                    private String name;
+                    private int id;
+                    private int picId;
+                    private int img1v1Id;
+                    private String briefDesc;
+                    private String picUrl;
+                    private String img1v1Url;
+                    private int albumSize;
+                    private String trans;
+                    private int musicSize;
+                    private int topicPerson;
+                    private List<?> alias;
+
+                    public String getName() {
+                        return name;
+                    }
+
+                    public void setName(String name) {
+                        this.name = name;
+                    }
+
+                    public int getId() {
+                        return id;
+                    }
+
+                    public void setId(int id) {
+                        this.id = id;
+                    }
+
+                    public int getPicId() {
+                        return picId;
+                    }
+
+                    public void setPicId(int picId) {
+                        this.picId = picId;
+                    }
+
+                    public int getImg1v1Id() {
+                        return img1v1Id;
+                    }
+
+                    public void setImg1v1Id(int img1v1Id) {
+                        this.img1v1Id = img1v1Id;
+                    }
+
+                    public String getBriefDesc() {
+                        return briefDesc;
+                    }
+
+                    public void setBriefDesc(String briefDesc) {
+                        this.briefDesc = briefDesc;
+                    }
+
+                    public String getPicUrl() {
+                        return picUrl;
+                    }
+
+                    public void setPicUrl(String picUrl) {
+                        this.picUrl = picUrl;
+                    }
+
+                    public String getImg1v1Url() {
+                        return img1v1Url;
+                    }
+
+                    public void setImg1v1Url(String img1v1Url) {
+                        this.img1v1Url = img1v1Url;
+                    }
+
+                    public int getAlbumSize() {
+                        return albumSize;
+                    }
+
+                    public void setAlbumSize(int albumSize) {
+                        this.albumSize = albumSize;
+                    }
+
+                    public String getTrans() {
+                        return trans;
+                    }
+
+                    public void setTrans(String trans) {
+                        this.trans = trans;
+                    }
+
+                    public int getMusicSize() {
+                        return musicSize;
+                    }
+
+                    public void setMusicSize(int musicSize) {
+                        this.musicSize = musicSize;
+                    }
+
+                    public int getTopicPerson() {
+                        return topicPerson;
+                    }
+
+                    public void setTopicPerson(int topicPerson) {
+                        this.topicPerson = topicPerson;
+                    }
+
+                    public List<?> getAlias() {
+                        return alias;
+                    }
+
+                    public void setAlias(List<?> alias) {
+                        this.alias = alias;
+                    }
                 }
             }
 
-            public static class HBean {
+            public static class SqMusicBean {
                 /**
-                 * br : 320000
-                 * fid : 0
-                 * size : 5624729
-                 * vd : 46875
-                 * sr : 44100
+                 * name : null
+                 * id : 7968728710
+                 * size : 28536168
+                 * extension : flac
+                 * sr : 48000
+                 * dfsId : 0
+                 * bitrate : 964919
+                 * playTime : 236588
+                 * volumeDelta : -40352
                  */
 
-                private int br;
-                private int fid;
+                private Object name;
+                private long id;
                 private int size;
-                private int vd;
+                private String extension;
                 private int sr;
+                private int dfsId;
+                private int bitrate;
+                private int playTime;
+                private int volumeDelta;
 
-                public int getBr() {
-                    return br;
+                public Object getName() {
+                    return name;
                 }
 
-                public void setBr(int br) {
-                    this.br = br;
+                public void setName(Object name) {
+                    this.name = name;
                 }
 
-                public int getFid() {
-                    return fid;
+                public long getId() {
+                    return id;
                 }
 
-                public void setFid(int fid) {
-                    this.fid = fid;
+                public void setId(long id) {
+                    this.id = id;
                 }
 
                 public int getSize() {
@@ -704,12 +1195,12 @@ public class HomeSongEnerty {
                     this.size = size;
                 }
 
-                public int getVd() {
-                    return vd;
+                public String getExtension() {
+                    return extension;
                 }
 
-                public void setVd(int vd) {
-                    this.vd = vd;
+                public void setExtension(String extension) {
+                    this.extension = extension;
                 }
 
                 public int getSr() {
@@ -719,37 +1210,77 @@ public class HomeSongEnerty {
                 public void setSr(int sr) {
                     this.sr = sr;
                 }
+
+                public int getDfsId() {
+                    return dfsId;
+                }
+
+                public void setDfsId(int dfsId) {
+                    this.dfsId = dfsId;
+                }
+
+                public int getBitrate() {
+                    return bitrate;
+                }
+
+                public void setBitrate(int bitrate) {
+                    this.bitrate = bitrate;
+                }
+
+                public int getPlayTime() {
+                    return playTime;
+                }
+
+                public void setPlayTime(int playTime) {
+                    this.playTime = playTime;
+                }
+
+                public int getVolumeDelta() {
+                    return volumeDelta;
+                }
+
+                public void setVolumeDelta(int volumeDelta) {
+                    this.volumeDelta = volumeDelta;
+                }
             }
 
-            public static class MBean {
+            public static class HrMusicBean {
                 /**
-                 * br : 192000
-                 * fid : 0
-                 * size : 3374855
-                 * vd : 49514
-                 * sr : 44100
+                 * name : null
+                 * id : 7968728705
+                 * size : 51279443
+                 * extension : flac
+                 * sr : 48000
+                 * dfsId : 0
+                 * bitrate : 1733958
+                 * playTime : 236588
+                 * volumeDelta : -40177
                  */
 
-                private int br;
-                private int fid;
+                private Object name;
+                private long id;
                 private int size;
-                private int vd;
+                private String extension;
                 private int sr;
+                private int dfsId;
+                private int bitrate;
+                private int playTime;
+                private int volumeDelta;
 
-                public int getBr() {
-                    return br;
+                public Object getName() {
+                    return name;
                 }
 
-                public void setBr(int br) {
-                    this.br = br;
+                public void setName(Object name) {
+                    this.name = name;
                 }
 
-                public int getFid() {
-                    return fid;
+                public long getId() {
+                    return id;
                 }
 
-                public void setFid(int fid) {
-                    this.fid = fid;
+                public void setId(long id) {
+                    this.id = id;
                 }
 
                 public int getSize() {
@@ -760,12 +1291,12 @@ public class HomeSongEnerty {
                     this.size = size;
                 }
 
-                public int getVd() {
-                    return vd;
+                public String getExtension() {
+                    return extension;
                 }
 
-                public void setVd(int vd) {
-                    this.vd = vd;
+                public void setExtension(String extension) {
+                    this.extension = extension;
                 }
 
                 public int getSr() {
@@ -775,37 +1306,175 @@ public class HomeSongEnerty {
                 public void setSr(int sr) {
                     this.sr = sr;
                 }
+
+                public int getDfsId() {
+                    return dfsId;
+                }
+
+                public void setDfsId(int dfsId) {
+                    this.dfsId = dfsId;
+                }
+
+                public int getBitrate() {
+                    return bitrate;
+                }
+
+                public void setBitrate(int bitrate) {
+                    this.bitrate = bitrate;
+                }
+
+                public int getPlayTime() {
+                    return playTime;
+                }
+
+                public void setPlayTime(int playTime) {
+                    this.playTime = playTime;
+                }
+
+                public int getVolumeDelta() {
+                    return volumeDelta;
+                }
+
+                public void setVolumeDelta(int volumeDelta) {
+                    this.volumeDelta = volumeDelta;
+                }
             }
 
-            public static class LBean {
+            public static class OriginSongSimpleDataBean {
                 /**
-                 * br : 128000
-                 * fid : 0
-                 * size : 2249918
-                 * vd : 51337
-                 * sr : 44100
+                 * songId : 1403215687
+                 * name : 想见你想见你想见你
+                 * artists : [{"id":11109,"name":"八三夭"}]
+                 * albumMeta : {"id":83291813,"name":"想见你想见你想见你"}
                  */
 
-                private int br;
-                private int fid;
+                private int songId;
+                private String name;
+                private AlbumMetaBean albumMeta;
+                private List<ArtistsBeanX> artists;
+
+                public int getSongId() {
+                    return songId;
+                }
+
+                public void setSongId(int songId) {
+                    this.songId = songId;
+                }
+
+                public String getName() {
+                    return name;
+                }
+
+                public void setName(String name) {
+                    this.name = name;
+                }
+
+                public AlbumMetaBean getAlbumMeta() {
+                    return albumMeta;
+                }
+
+                public void setAlbumMeta(AlbumMetaBean albumMeta) {
+                    this.albumMeta = albumMeta;
+                }
+
+                public List<ArtistsBeanX> getArtists() {
+                    return artists;
+                }
+
+                public void setArtists(List<ArtistsBeanX> artists) {
+                    this.artists = artists;
+                }
+
+                public static class AlbumMetaBean {
+                    /**
+                     * id : 83291813
+                     * name : 想见你想见你想见你
+                     */
+
+                    private int id;
+                    private String name;
+
+                    public int getId() {
+                        return id;
+                    }
+
+                    public void setId(int id) {
+                        this.id = id;
+                    }
+
+                    public String getName() {
+                        return name;
+                    }
+
+                    public void setName(String name) {
+                        this.name = name;
+                    }
+                }
+
+                public static class ArtistsBeanX {
+                    /**
+                     * id : 11109
+                     * name : 八三夭
+                     */
+
+                    private int id;
+                    private String name;
+
+                    public int getId() {
+                        return id;
+                    }
+
+                    public void setId(int id) {
+                        this.id = id;
+                    }
+
+                    public String getName() {
+                        return name;
+                    }
+
+                    public void setName(String name) {
+                        this.name = name;
+                    }
+                }
+            }
+
+            public static class BMusicBean {
+                /**
+                 * name : null
+                 * id : 7968728711
+                 * size : 3786285
+                 * extension : mp3
+                 * sr : 48000
+                 * dfsId : 0
+                 * bitrate : 128000
+                 * playTime : 236588
+                 * volumeDelta : -35985
+                 */
+
+                private Object name;
+                private long id;
                 private int size;
-                private int vd;
+                private String extension;
                 private int sr;
+                private int dfsId;
+                private int bitrate;
+                private int playTime;
+                private int volumeDelta;
 
-                public int getBr() {
-                    return br;
+                public Object getName() {
+                    return name;
                 }
 
-                public void setBr(int br) {
-                    this.br = br;
+                public void setName(Object name) {
+                    this.name = name;
                 }
 
-                public int getFid() {
-                    return fid;
+                public long getId() {
+                    return id;
                 }
 
-                public void setFid(int fid) {
-                    this.fid = fid;
+                public void setId(long id) {
+                    this.id = id;
                 }
 
                 public int getSize() {
@@ -816,12 +1485,12 @@ public class HomeSongEnerty {
                     this.size = size;
                 }
 
-                public int getVd() {
-                    return vd;
+                public String getExtension() {
+                    return extension;
                 }
 
-                public void setVd(int vd) {
-                    this.vd = vd;
+                public void setExtension(String extension) {
+                    this.extension = extension;
                 }
 
                 public int getSr() {
@@ -830,12 +1499,332 @@ public class HomeSongEnerty {
 
                 public void setSr(int sr) {
                     this.sr = sr;
+                }
+
+                public int getDfsId() {
+                    return dfsId;
+                }
+
+                public void setDfsId(int dfsId) {
+                    this.dfsId = dfsId;
+                }
+
+                public int getBitrate() {
+                    return bitrate;
+                }
+
+                public void setBitrate(int bitrate) {
+                    this.bitrate = bitrate;
+                }
+
+                public int getPlayTime() {
+                    return playTime;
+                }
+
+                public void setPlayTime(int playTime) {
+                    this.playTime = playTime;
+                }
+
+                public int getVolumeDelta() {
+                    return volumeDelta;
+                }
+
+                public void setVolumeDelta(int volumeDelta) {
+                    this.volumeDelta = volumeDelta;
+                }
+            }
+
+            public static class HMusicBean {
+                /**
+                 * name : null
+                 * id : 7968728712
+                 * size : 9465645
+                 * extension : mp3
+                 * sr : 48000
+                 * dfsId : 0
+                 * bitrate : 320000
+                 * playTime : 236588
+                 * volumeDelta : -40155
+                 */
+
+                private Object name;
+                private long id;
+                private int size;
+                private String extension;
+                private int sr;
+                private int dfsId;
+                private int bitrate;
+                private int playTime;
+                private int volumeDelta;
+
+                public Object getName() {
+                    return name;
+                }
+
+                public void setName(Object name) {
+                    this.name = name;
+                }
+
+                public long getId() {
+                    return id;
+                }
+
+                public void setId(long id) {
+                    this.id = id;
+                }
+
+                public int getSize() {
+                    return size;
+                }
+
+                public void setSize(int size) {
+                    this.size = size;
+                }
+
+                public String getExtension() {
+                    return extension;
+                }
+
+                public void setExtension(String extension) {
+                    this.extension = extension;
+                }
+
+                public int getSr() {
+                    return sr;
+                }
+
+                public void setSr(int sr) {
+                    this.sr = sr;
+                }
+
+                public int getDfsId() {
+                    return dfsId;
+                }
+
+                public void setDfsId(int dfsId) {
+                    this.dfsId = dfsId;
+                }
+
+                public int getBitrate() {
+                    return bitrate;
+                }
+
+                public void setBitrate(int bitrate) {
+                    this.bitrate = bitrate;
+                }
+
+                public int getPlayTime() {
+                    return playTime;
+                }
+
+                public void setPlayTime(int playTime) {
+                    this.playTime = playTime;
+                }
+
+                public int getVolumeDelta() {
+                    return volumeDelta;
+                }
+
+                public void setVolumeDelta(int volumeDelta) {
+                    this.volumeDelta = volumeDelta;
+                }
+            }
+
+            public static class MMusicBean {
+                /**
+                 * name : null
+                 * id : 7968728714
+                 * size : 5679405
+                 * extension : mp3
+                 * sr : 48000
+                 * dfsId : 0
+                 * bitrate : 192000
+                 * playTime : 236588
+                 * volumeDelta : -37615
+                 */
+
+                private Object name;
+                private long id;
+                private int size;
+                private String extension;
+                private int sr;
+                private int dfsId;
+                private int bitrate;
+                private int playTime;
+                private int volumeDelta;
+
+                public Object getName() {
+                    return name;
+                }
+
+                public void setName(Object name) {
+                    this.name = name;
+                }
+
+                public long getId() {
+                    return id;
+                }
+
+                public void setId(long id) {
+                    this.id = id;
+                }
+
+                public int getSize() {
+                    return size;
+                }
+
+                public void setSize(int size) {
+                    this.size = size;
+                }
+
+                public String getExtension() {
+                    return extension;
+                }
+
+                public void setExtension(String extension) {
+                    this.extension = extension;
+                }
+
+                public int getSr() {
+                    return sr;
+                }
+
+                public void setSr(int sr) {
+                    this.sr = sr;
+                }
+
+                public int getDfsId() {
+                    return dfsId;
+                }
+
+                public void setDfsId(int dfsId) {
+                    this.dfsId = dfsId;
+                }
+
+                public int getBitrate() {
+                    return bitrate;
+                }
+
+                public void setBitrate(int bitrate) {
+                    this.bitrate = bitrate;
+                }
+
+                public int getPlayTime() {
+                    return playTime;
+                }
+
+                public void setPlayTime(int playTime) {
+                    this.playTime = playTime;
+                }
+
+                public int getVolumeDelta() {
+                    return volumeDelta;
+                }
+
+                public void setVolumeDelta(int volumeDelta) {
+                    this.volumeDelta = volumeDelta;
+                }
+            }
+
+            public static class LMusicBean {
+                /**
+                 * name : null
+                 * id : 7968728711
+                 * size : 3786285
+                 * extension : mp3
+                 * sr : 48000
+                 * dfsId : 0
+                 * bitrate : 128000
+                 * playTime : 236588
+                 * volumeDelta : -35985
+                 */
+
+                private Object name;
+                private long id;
+                private int size;
+                private String extension;
+                private int sr;
+                private int dfsId;
+                private int bitrate;
+                private int playTime;
+                private int volumeDelta;
+
+                public Object getName() {
+                    return name;
+                }
+
+                public void setName(Object name) {
+                    this.name = name;
+                }
+
+                public long getId() {
+                    return id;
+                }
+
+                public void setId(long id) {
+                    this.id = id;
+                }
+
+                public int getSize() {
+                    return size;
+                }
+
+                public void setSize(int size) {
+                    this.size = size;
+                }
+
+                public String getExtension() {
+                    return extension;
+                }
+
+                public void setExtension(String extension) {
+                    this.extension = extension;
+                }
+
+                public int getSr() {
+                    return sr;
+                }
+
+                public void setSr(int sr) {
+                    this.sr = sr;
+                }
+
+                public int getDfsId() {
+                    return dfsId;
+                }
+
+                public void setDfsId(int dfsId) {
+                    this.dfsId = dfsId;
+                }
+
+                public int getBitrate() {
+                    return bitrate;
+                }
+
+                public void setBitrate(int bitrate) {
+                    this.bitrate = bitrate;
+                }
+
+                public int getPlayTime() {
+                    return playTime;
+                }
+
+                public void setPlayTime(int playTime) {
+                    this.playTime = playTime;
+                }
+
+                public int getVolumeDelta() {
+                    return volumeDelta;
+                }
+
+                public void setVolumeDelta(int volumeDelta) {
+                    this.volumeDelta = volumeDelta;
                 }
             }
 
             public static class PrivilegeBean {
                 /**
-                 * id : 1820603565
+                 * id : 2030766928
                  * fee : 8
                  * payed : 0
                  * st : 0
@@ -845,22 +1834,22 @@ public class HomeSongEnerty {
                  * cp : 1
                  * subp : 1
                  * cs : false
-                 * maxbr : 320000
+                 * maxbr : 999000
                  * fl : 128000
                  * toast : false
-                 * flag : 2
+                 * flag : 4
                  * preSell : false
-                 * playMaxbr : 320000
-                 * downloadMaxbr : 320000
-                 * maxBrLevel : exhigh
-                 * playMaxBrLevel : exhigh
-                 * downloadMaxBrLevel : exhigh
+                 * playMaxbr : 999000
+                 * downloadMaxbr : 999000
+                 * maxBrLevel : hires
+                 * playMaxBrLevel : hires
+                 * downloadMaxBrLevel : hires
                  * plLevel : standard
                  * dlLevel : none
                  * flLevel : standard
                  * rscl : null
-                 * freeTrialPrivilege : {"resConsumable":false,"userConsumable":false,"listenType":0}
-                 * chargeInfoList : [{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]
+                 * freeTrialPrivilege : {"resConsumable":false,"userConsumable":false,"listenType":null}
+                 * chargeInfoList : [{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":1999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]
                  */
 
                 private int id;
@@ -1102,12 +2091,12 @@ public class HomeSongEnerty {
                     /**
                      * resConsumable : false
                      * userConsumable : false
-                     * listenType : 0
+                     * listenType : null
                      */
 
                     private boolean resConsumable;
                     private boolean userConsumable;
-                    private int listenType;
+                    private Object listenType;
 
                     public boolean isResConsumable() {
                         return resConsumable;
@@ -1125,11 +2114,11 @@ public class HomeSongEnerty {
                         this.userConsumable = userConsumable;
                     }
 
-                    public int getListenType() {
+                    public Object getListenType() {
                         return listenType;
                     }
 
-                    public void setListenType(int listenType) {
+                    public void setListenType(Object listenType) {
                         this.listenType = listenType;
                     }
                 }
@@ -1181,26 +2170,34 @@ public class HomeSongEnerty {
                 }
             }
 
-            public static class ArBean {
+            public static class ArtistsBeanXX {
                 /**
-                 * id : 1195052
-                 * name : Super Xiang
-                 * tns : []
+                 * name : 张杰
+                 * id : 6472
+                 * picId : 0
+                 * img1v1Id : 0
+                 * briefDesc :
+                 * picUrl : http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg
+                 * img1v1Url : http://p4.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg
+                 * albumSize : 0
                  * alias : []
+                 * trans :
+                 * musicSize : 0
+                 * topicPerson : 0
                  */
 
-                private int id;
                 private String name;
-                private List<?> tns;
+                private int id;
+                private int picId;
+                private int img1v1Id;
+                private String briefDesc;
+                private String picUrl;
+                private String img1v1Url;
+                private int albumSize;
+                private String trans;
+                private int musicSize;
+                private int topicPerson;
                 private List<?> alias;
-
-                public int getId() {
-                    return id;
-                }
-
-                public void setId(int id) {
-                    this.id = id;
-                }
 
                 public String getName() {
                     return name;
@@ -1210,12 +2207,84 @@ public class HomeSongEnerty {
                     this.name = name;
                 }
 
-                public List<?> getTns() {
-                    return tns;
+                public int getId() {
+                    return id;
                 }
 
-                public void setTns(List<?> tns) {
-                    this.tns = tns;
+                public void setId(int id) {
+                    this.id = id;
+                }
+
+                public int getPicId() {
+                    return picId;
+                }
+
+                public void setPicId(int picId) {
+                    this.picId = picId;
+                }
+
+                public int getImg1v1Id() {
+                    return img1v1Id;
+                }
+
+                public void setImg1v1Id(int img1v1Id) {
+                    this.img1v1Id = img1v1Id;
+                }
+
+                public String getBriefDesc() {
+                    return briefDesc;
+                }
+
+                public void setBriefDesc(String briefDesc) {
+                    this.briefDesc = briefDesc;
+                }
+
+                public String getPicUrl() {
+                    return picUrl;
+                }
+
+                public void setPicUrl(String picUrl) {
+                    this.picUrl = picUrl;
+                }
+
+                public String getImg1v1Url() {
+                    return img1v1Url;
+                }
+
+                public void setImg1v1Url(String img1v1Url) {
+                    this.img1v1Url = img1v1Url;
+                }
+
+                public int getAlbumSize() {
+                    return albumSize;
+                }
+
+                public void setAlbumSize(int albumSize) {
+                    this.albumSize = albumSize;
+                }
+
+                public String getTrans() {
+                    return trans;
+                }
+
+                public void setTrans(String trans) {
+                    this.trans = trans;
+                }
+
+                public int getMusicSize() {
+                    return musicSize;
+                }
+
+                public void setMusicSize(int musicSize) {
+                    this.musicSize = musicSize;
+                }
+
+                public int getTopicPerson() {
+                    return topicPerson;
+                }
+
+                public void setTopicPerson(int topicPerson) {
+                    this.topicPerson = topicPerson;
                 }
 
                 public List<?> getAlias() {
@@ -1225,52 +2294,6 @@ public class HomeSongEnerty {
                 public void setAlias(List<?> alias) {
                     this.alias = alias;
                 }
-            }
-        }
-
-        public static class RecommendReasonsBean {
-            /**
-             * songId : 1820603565
-             * reason : 小众推荐
-             * reasonId : title_10012
-             * targetUrl : null
-             */
-
-            private int songId;
-            private String reason;
-            private String reasonId;
-            private Object targetUrl;
-
-            public int getSongId() {
-                return songId;
-            }
-
-            public void setSongId(int songId) {
-                this.songId = songId;
-            }
-
-            public String getReason() {
-                return reason;
-            }
-
-            public void setReason(String reason) {
-                this.reason = reason;
-            }
-
-            public String getReasonId() {
-                return reasonId;
-            }
-
-            public void setReasonId(String reasonId) {
-                this.reasonId = reasonId;
-            }
-
-            public Object getTargetUrl() {
-                return targetUrl;
-            }
-
-            public void setTargetUrl(Object targetUrl) {
-                this.targetUrl = targetUrl;
             }
         }
     }

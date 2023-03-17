@@ -5,8 +5,6 @@ import android.app.Application;
 
 import com.tencent.mmkv.MMKV;
 import com.zpp.mobile.zmusic.BuildConfig;
-import com.zpp.mobile.zmusic.utils.MusicPlayerUtils;
-
 import rxhttp.RxHttpPlugins;
 
 /**
@@ -36,10 +34,4 @@ public class MyApp extends Application {
         RxHttpPlugins.init(null).setDebug(BuildConfig.DEBUG);
     }
 
-    /**
-     * 初始化音乐服务
-     */
-    private void setMusicService(){
-        MusicPlayerUtils.getInstance().setContext(getApplicationContext()).setMusicPlayerUtils();
-    }
 }
