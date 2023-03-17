@@ -31,6 +31,7 @@ import com.zpp.mobile.zmusic.enerty.HomeEnerty;
 import com.zpp.mobile.zmusic.enerty.HomeSongEnerty;
 import com.zpp.mobile.zmusic.enerty.PlayUrlsEnerty;
 import com.zpp.mobile.zmusic.ui.MusicPlayerActivity;
+import com.zpp.mobile.zmusic.ui.SearchActivity;
 import com.zpp.mobile.zmusic.ui.SongSheetInfo;
 import com.zpp.mobile.zmusic.utils.PlayerUtil;
 import com.zpp.mobile.zmusic.utils.SongUtils;
@@ -95,7 +96,7 @@ public class HomeFragment extends Fragment {
         });
         homeFragmentBinding.search.setOnClickListener(v -> {
             Intent intent = new Intent();
-            intent.setClass(getActivity(), MusicPlayerActivity.class);
+            intent.setClass(getActivity(), SearchActivity.class);
             getActivity().startActivity(intent);
         });
     }

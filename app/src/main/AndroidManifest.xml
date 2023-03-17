@@ -36,12 +36,16 @@
             android:name=".ui.MusicPlayerActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SearchActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
 
         <service
             android:name=".app.MyMusicService"
             android:exported="true"
-            tools:ignore="ExportedService"
-            android:foregroundServiceType="mediaPlayback">
+            android:foregroundServiceType="mediaPlayback"
+            tools:ignore="ExportedService">
             <intent-filter>
                 <action android:name="android.media.browse.MediaBrowserService" />
             </intent-filter>

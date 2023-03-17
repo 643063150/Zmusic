@@ -1,7 +1,6 @@
 package com.zpp.mobile.zmusic.mainfragment;
 
-import android.graphics.Bitmap;
-import android.graphics.Color;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,7 +12,7 @@ import androidx.fragment.app.Fragment;
 
 import com.leaf.library.StatusBarUtil;
 import com.zpp.mobile.zmusic.databinding.SongsheetGragmentBinding;
-import com.zpp.mobile.zmusic.view.SongSheetBg;
+import com.zpp.mobile.zmusic.ui.MusicPlayerActivity;
 
 
 /**
@@ -40,6 +39,15 @@ public class SongSheetFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         songsheetGragmentBinding = SongsheetGragmentBinding.inflate(inflater, container, false);
         StatusBarUtil.setPaddingTop(getActivity(), songsheetGragmentBinding.view);
+        setSongsheetGragmentBinding();
         return songsheetGragmentBinding.getRoot();
+    }
+
+    private void setSongsheetGragmentBinding(){
+        songsheetGragmentBinding.search.setOnClickListener(v -> {
+            Intent intent=new Intent();
+            intent.setClass(getActivity(), MusicPlayerActivity.class);
+            getActivity().startActivity(intent);
+        });
     }
 }
