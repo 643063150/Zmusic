@@ -12,4 +12,7 @@
     <string name="http_network_error">网络异常</string>
     <string name="songsheetinfo">歌单详情</string>
     <string name="back">返回</string>
+    <string name="web_concentration">网友精选</string>
+    <string name="boutiqueConcentration">精品歌单</string>
+    <string name="more">更多</string>
 </resources>

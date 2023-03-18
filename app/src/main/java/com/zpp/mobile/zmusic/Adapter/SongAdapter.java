@@ -19,6 +19,8 @@ import com.zpp.mobile.zmusic.utils.SongUtils;
 import java.security.spec.PSSParameterSpec;
 import java.util.List;
 
+import snow.player.util.ProgressClock;
+
 /**
  * @ProjectName: Zmusic
  * @Package: com.zpp.mobile.zmusic.Adapter
@@ -38,6 +40,8 @@ public class SongAdapter extends BaseQuickAdapter<SongSheetInfoEnerty.PlaylistBe
         Glide.with(getContext()).load(songlistBean.getAl().getPicUrl()).error(R.mipmap.a4).into(songItemBinding.cover);
         songItemBinding.title.setText(songlistBean.getName());
         songItemBinding.singer.setText(songlistBean.getAr().get(0).getName());
+        songItemBinding.albumName.setText(songlistBean.getAl().getName());
+        songItemBinding.time.setText(ProgressClock.asText((songlistBean.getDt()/1000)));
     }
 
     @NonNull

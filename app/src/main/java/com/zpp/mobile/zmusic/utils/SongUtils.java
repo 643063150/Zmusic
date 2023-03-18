@@ -5,6 +5,8 @@ import com.zpp.mobile.zmusic.enerty.HomeSongEnerty;
 import com.zpp.mobile.zmusic.enerty.PlayUrlsEnerty;
 import com.zpp.mobile.zmusic.enerty.SongSheetInfoEnerty;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.ArrayList;
 
 import snow.player.audio.MusicItem;
@@ -37,5 +39,21 @@ public class SongUtils {
          }
          return mids;
      }
+
+    /**
+     * 毫秒换算
+     * @param duration
+     * @return
+     */
+    public String convertMillis (@NotNull long duration) {
+            long hour = duration/ 3600;
+            long minute = (duration % 3600) / 60;
+            long second = (duration % 3600) % 60;
+            String hourStr = hour == 0 ? "00" : hour > 10 ? hour + "" : "0" + hour;
+            String minuteStr = minute == 0 ? "00" : minute > 10 ? minute + "" : "0" + minute;
+            String secondStr = second == 0 ? "00" : second > 10 ? second + "" : "0" + second;
+            return hourStr + ":" + minuteStr + ":" + secondStr;
+
+    }
 
 }

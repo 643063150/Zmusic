@@ -15,6 +15,8 @@ import com.zpp.mobile.zmusic.enerty.HomeEnerty;
 import com.zpp.mobile.zmusic.enerty.HomeSongEnerty;
 import com.zpp.mobile.zmusic.enerty.SongEnerty;
 
+import snow.player.util.ProgressClock;
+
 /**
  * @ProjectName: Zmusic
  * @Package: com.zpp.mobile.zmusic.Adapter
@@ -42,7 +44,9 @@ public class HomeAdapter extends BaseQuickAdapter<HomeSongEnerty.ResultBean, Hom
     protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable HomeSongEnerty.ResultBean songBean) {
         Glide.with(getContext()).load(songBean.getPicUrl()).into(binding.cover);
         binding.title.setText(songBean.getName());
+        binding.albumName.setText(songBean.getSong().getAlbum().getName());
         binding.singer.setText(songBean.getSong().getArtists().get(0).getName());
+        binding.time.setText(ProgressClock.asText(songBean.getSong().getDuration()/1000));
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

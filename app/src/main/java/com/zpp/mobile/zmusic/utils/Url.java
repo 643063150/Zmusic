@@ -15,7 +15,7 @@ import rxhttp.wrapper.annotation.DefaultDomain;
  */
 public class Url {
     @DefaultDomain
-    public static String baseUrl = " http://txwrku.natappfree.cc";
+    public static String baseUrl = "http://music.zppnet.cn/";
 
     public static String homeRecommend = "/personalized";
 
@@ -28,4 +28,8 @@ public class Url {
     public static String songPlyer = "/song/url/v1";
 
     public static String search = "/search";
+
+    public static String webConUrl="/top/playlist";
+
+    public static String authorityUrl="/top/playlist/highquality";
 }
