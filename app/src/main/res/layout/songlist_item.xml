@@ -1,46 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="117dp"
     android:layout_height="wrap_content"
+    android:layout_gravity="center"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.cardview.widget.CardView
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_width="130dp"
-        app:cardCornerRadius="6dp"
-        app:cardPreventCornerOverlap="true"
-        app:cardUseCompatPadding="true"
-        android:layout_height="150dp">
-        <RelativeLayout
-            android:layout_width="match_parent"
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <ImageView
-                android:id="@+id/cover"
-                android:src="@mipmap/a"
-                android:scaleType="centerCrop"
-                android:layout_width="150dp"
-                android:layout_height="150dp"/>
-            <net.center.blurview.ShapeBlurView
-                android:layout_above="@id/title"
-                android:layout_centerHorizontal="true"
-                android:id="@+id/blurview"
-                android:layout_width="150dp"
-                android:layout_height="40dp"
-                android:layout_alignParentBottom="true"
-               />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cover"
+                    android:layout_width="117dp"
+                    android:layout_height="117dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/a"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <net.center.blurview.ShapeBlurView
+                    android:id="@+id/blurview"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    app:blur_corner_radius="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/counts"
+                    android:drawableLeft="@mipmap/listen"
+                    android:text="1000"
+                    android:textSize="10sp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/blurview"
+                    app:layout_constraintEnd_toEndOf="@+id/blurview"
+                    app:layout_constraintStart_toStartOf="@+id/blurview"
+                    app:layout_constraintTop_toTopOf="@+id/blurview" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
 
             <TextView
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
                 android:text="Trap Rap丨慵懒毒性的迷幻说唱"
                 android:textColor="@color/purple_500"
                 android:textSize="13sp" />
-        </RelativeLayout>
-    </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
 </RelativeLayout>

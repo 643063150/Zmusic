@@ -9,6 +9,8 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.CenterCrop;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.zpp.mobile.zmusic.databinding.SongItemBinding;
 import com.zpp.mobile.zmusic.enerty.HomeEnerty;
@@ -42,10 +44,9 @@ public class HomeAdapter extends BaseQuickAdapter<HomeSongEnerty.ResultBean, Hom
 
     @Override
     protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable HomeSongEnerty.ResultBean songBean) {
-        Glide.with(getContext()).load(songBean.getPicUrl()).into(binding.cover);
+        Glide.with(getContext()).load(songBean.getPicUrl()).transform(new CenterCrop(),new RoundedCorners(15)).into(binding.cover);
         binding.title.setText(songBean.getName());
-        binding.albumName.setText(songBean.getSong().getAlbum().getName());
-        binding.singer.setText(songBean.getSong().getArtists().get(0).getName());
+        binding.singer.setText(songBean.getSong().getArtists().get(0).getName()+"-"+songBean.getSong().getAlbum().getName());
         binding.time.setText(ProgressClock.asText(songBean.getSong().getDuration()/1000));
     }
 

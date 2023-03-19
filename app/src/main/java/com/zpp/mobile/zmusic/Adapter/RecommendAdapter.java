@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.CenterCrop;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.zpp.mobile.zmusic.databinding.SonglistItemBinding;
 import com.zpp.mobile.zmusic.enerty.HomeEnerty;
@@ -32,8 +34,9 @@ public class RecommendAdapter extends BaseQuickAdapter<HomeEnerty.ResultBean, Re
 
     @Override
     protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable HomeEnerty.ResultBean vHotBean) {
-        Glide.with(getContext()).load(vHotBean.getPicUrl()).into(songlistItemBinding.cover);
+        Glide.with(getContext()).load(vHotBean.getPicUrl()).transform(new CenterCrop(),new RoundedCorners(15)).into(songlistItemBinding.cover);
         songlistItemBinding.title.setText(vHotBean.getName());
+        songlistItemBinding.counts.setText(vHotBean.getPlayCount()+"");
     }
 
     @NonNull

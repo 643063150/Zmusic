@@ -21,6 +21,7 @@ import com.leaf.library.StatusBarUtil;
 import com.stx.xhb.androidx.transformers.Transformer;
 import com.tencent.mmkv.MMKV;
 import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
+import com.yqritc.recyclerviewflexibledivider.VerticalDividerItemDecoration;
 import com.zpp.mobile.zmusic.Adapter.HomeAdapter;
 import com.zpp.mobile.zmusic.Adapter.RecommendAdapter;
 import com.zpp.mobile.zmusic.R;
@@ -106,11 +107,6 @@ public class HomeFragment extends Fragment {
      */
     private void setRecyclerView() {
         homeFragmentBinding.songList.setLayoutManager(new LinearLayoutManager(getActivity()));
-        homeFragmentBinding.songList.addItemDecoration(
-                new HorizontalDividerItemDecoration.Builder(getActivity())
-                        .color(Color.parseColor("#00000000"))
-                        .sizeResId(R.dimen.dividers)
-                        .build());
         homeAdapter = new HomeAdapter();
         homeFragmentBinding.songList.setAdapter(homeAdapter);
         homeAdapter.setOnItemClickListener((songBeanBaseQuickAdapter, view, integer) -> null);
@@ -123,6 +119,11 @@ public class HomeFragment extends Fragment {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
         linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
         homeFragmentBinding.recomPlaylist.setLayoutManager(linearLayoutManager);
+        homeFragmentBinding.recomPlaylist.addItemDecoration(
+                new VerticalDividerItemDecoration.Builder(getActivity())
+                        .color(Color.parseColor("#00000000"))
+                        .sizeResId(R.dimen.dividers)
+                        .build());
         recommendAdapter = new RecommendAdapter();
         homeFragmentBinding.recomPlaylist.setAdapter(recommendAdapter);
         recommendAdapter.setOnItemClickListener((vHotBeanBaseQuickAdapter, view, integer) -> {

@@ -75,7 +75,10 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
                     android:text="歌单推荐"
+                    android:paddingBottom="5dp"
+                    android:layout_marginTop="5dp"
                     android:textSize="18sp"
+                    android:textColor="#FF333333"
                     android:textStyle="bold" />
 
                 <com.zpp.mobile.zmusic.view.NestedScrollableHost
@@ -84,6 +87,10 @@
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/recomPlaylist"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:nestedScrollingEnabled="false"
+                        android:clipToPadding="false"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </com.zpp.mobile.zmusic.view.NestedScrollableHost>
@@ -93,7 +100,9 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
                     android:text="新歌首发"
+                    android:layout_marginTop="5dp"
                     android:textSize="18sp"
+                    android:textColor="#FF333333"
                     android:textStyle="bold" />
 
                 <androidx.recyclerview.widget.RecyclerView

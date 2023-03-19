@@ -10,6 +10,8 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.CenterCrop;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.zpp.mobile.zmusic.R;
 import com.zpp.mobile.zmusic.databinding.SongItemBinding;
@@ -37,10 +39,9 @@ public class SongAdapter extends BaseQuickAdapter<SongSheetInfoEnerty.PlaylistBe
 
     @Override
     protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable SongSheetInfoEnerty.PlaylistBean.TracksBean songlistBean) {
-        Glide.with(getContext()).load(songlistBean.getAl().getPicUrl()).error(R.mipmap.a4).into(songItemBinding.cover);
+        Glide.with(getContext()).load(songlistBean.getAl().getPicUrl()).error(R.mipmap.a4).transform(new CenterCrop(),new RoundedCorners(15)).into(songItemBinding.cover);
         songItemBinding.title.setText(songlistBean.getName());
-        songItemBinding.singer.setText(songlistBean.getAr().get(0).getName());
-        songItemBinding.albumName.setText(songlistBean.getAl().getName());
+        songItemBinding.singer.setText(songlistBean.getAr().get(0).getName()+"-"+songlistBean.getAl().getName());
         songItemBinding.time.setText(ProgressClock.asText((songlistBean.getDt()/1000)));
     }
 
