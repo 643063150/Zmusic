@@ -26,34 +26,46 @@ import snow.player.playlist.Playlist;
 public class SongUtils {
     /**
      * 首页歌曲id集合
+     *
      * @param songEnertyArrayList
      * @return
      */
-     public static String getHomeSongId(ArrayList<HomeSongEnerty.ResultBean> songEnertyArrayList ){
-         String mids="";
-         for ( int i=0;i<songEnertyArrayList.size();i++){
-             mids=mids+","+songEnertyArrayList.get(i).getId();
-         }
-         if (mids.startsWith(",")){
-             mids=mids.substring(1);
-         }
-         return mids;
-     }
+    public static String getHomeSongId(ArrayList<HomeSongEnerty.ResultBean> songEnertyArrayList) {
+        String mids = "";
+        for (int i = 0; i < songEnertyArrayList.size(); i++) {
+            mids = mids + "," + songEnertyArrayList.get(i).getId();
+        }
+        if (mids.startsWith(",")) {
+            mids = mids.substring(1);
+        }
+        return mids;
+    }
 
     /**
      * 毫秒换算
+     *
      * @param duration
      * @return
      */
-    public String convertMillis (@NotNull long duration) {
-            long hour = duration/ 3600;
-            long minute = (duration % 3600) / 60;
-            long second = (duration % 3600) % 60;
-            String hourStr = hour == 0 ? "00" : hour > 10 ? hour + "" : "0" + hour;
-            String minuteStr = minute == 0 ? "00" : minute > 10 ? minute + "" : "0" + minute;
-            String secondStr = second == 0 ? "00" : second > 10 ? second + "" : "0" + second;
-            return hourStr + ":" + minuteStr + ":" + secondStr;
+    public String convertMillis(@NotNull long duration) {
+        long hour = duration / 3600;
+        long minute = (duration % 3600) / 60;
+        long second = (duration % 3600) % 60;
+        String hourStr = hour == 0 ? "00" : hour > 10 ? hour + "" : "0" + hour;
+        String minuteStr = minute == 0 ? "00" : minute > 10 ? minute + "" : "0" + minute;
+        String secondStr = second == 0 ? "00" : second > 10 ? second + "" : "0" + second;
+        return hourStr + ":" + minuteStr + ":" + secondStr;
 
+    }
+
+    public static String convertToTenThousandFormat(long number) {
+        String FORMAT = "%.0f万";
+        if (number < 10000) {
+            return String.valueOf(number);
+        } else {
+            double result = (double) number / 10000;
+            return String.format(FORMAT, result);
+        }
     }
 
 }

@@ -11,16 +11,13 @@
         <com.stx.xhb.androidx.XBanner
             android:id="@+id/banner4"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="135dp"
             app:AutoPlayTime="6000"
             app:isAutoPlay="true"
             app:isHandLoop="true"
             app:isShowIndicatorOnlyOne="true"
             app:isShowNumberIndicator="false"
             app:pageChangeDuration="800"
-            app:pointNormal="@drawable/dot_shape_unselected"
-            app:pointSelect="@drawable/dot_shape_selected"
-            app:pointsContainerBackground="@android:color/transparent"
             app:pointsVisibility="false" />
     </com.zpp.mobile.zmusic.view.NestedScrollableHost>
 </LinearLayout>

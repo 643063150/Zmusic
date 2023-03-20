@@ -4,6 +4,8 @@ import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
+
 import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.palette.graphics.Palette;
@@ -13,15 +15,20 @@ import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
+import com.chad.library.adapter.base.QuickAdapterHelper;
+import com.chad.library.adapter.base.loadState.LoadState;
+import com.chad.library.adapter.base.loadState.trailing.TrailingLoadStateAdapter;
 import com.google.gson.Gson;
 import com.leaf.library.StatusBarUtil;
 import com.tencent.mmkv.MMKV;
 import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
+import com.zpp.mobile.zmusic.Adapter.HeadAdapter;
 import com.zpp.mobile.zmusic.Adapter.SongAdapter;
 import com.zpp.mobile.zmusic.R;
 import com.zpp.mobile.zmusic.app.BaseActivity;
 import com.zpp.mobile.zmusic.app.MyMusicService;
 import com.zpp.mobile.zmusic.databinding.SongsheetInfoLayoutBinding;
+import com.zpp.mobile.zmusic.enerty.HomeBanner;
 import com.zpp.mobile.zmusic.enerty.PlayUrlsEnerty;
 import com.zpp.mobile.zmusic.enerty.SongSheetInfoEnerty;
 import com.zpp.mobile.zmusic.utils.PlayerUtil;
@@ -50,6 +57,7 @@ public class SongSheetInfo extends BaseActivity {
     String id;
     SongAdapter setAdapter;
     private PlayerViewModel mPlayerViewModel;
+    QuickAdapterHelper helper;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,11 +101,24 @@ public class SongSheetInfo extends BaseActivity {
                         .sizeResId(R.dimen.dividers)
                         .build());
         setAdapter = new SongAdapter();
-        binding.songList.setAdapter(setAdapter);
+
         setAdapter.setOnItemClickListener((songlistBeanBaseQuickAdapter, view, integer) -> {
             getMusicPlayerUrl(integer);
             return null;
         });
+        helper=new QuickAdapterHelper.Builder(setAdapter).setTrailingLoadStateAdapter(new TrailingLoadStateAdapter.OnTrailingListener() {
+            @Override
+            public void onLoad() {
+                Log.e("加载","------------------------");
+            }
+
+            @Override
+            public void onFailRetry() {
+                Log.e("加载","------------------------");
+            }
+        }).build();
+        helper.setTrailingLoadState(new LoadState.NotLoading(false));
+        binding.songList.setAdapter(helper.getAdapter());
     }
 
     /**

@@ -13,6 +13,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.zpp.mobile.zmusic.databinding.SongItemBinding;
 import com.zpp.mobile.zmusic.databinding.SongSheetItemBinding;
 import com.zpp.mobile.zmusic.enerty.WebSongSheetEnerty;
+import com.zpp.mobile.zmusic.utils.SongUtils;
 
 import java.util.List;
 
@@ -23,7 +24,7 @@ public class SongSheetAdapter extends BaseQuickAdapter<WebSongSheetEnerty.Playli
     protected void onBindViewHolder(@NonNull ViewHolder viewHolder, int i, @Nullable WebSongSheetEnerty.PlaylistsBean playlistsBean) {
         Glide.with(getContext()).load(playlistsBean.getCoverImgUrl()).into(binding.cover);
         binding.title.setText(playlistsBean.getName());
-        binding.counts.setText(playlistsBean.getPlayCount()+"");
+        binding.counts.setText(SongUtils.convertToTenThousandFormat(playlistsBean.getPlayCount())+"");
     }
 
     @NonNull

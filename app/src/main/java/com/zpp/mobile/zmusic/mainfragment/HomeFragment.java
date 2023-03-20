@@ -3,6 +3,7 @@ package com.zpp.mobile.zmusic.mainfragment;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,12 +18,16 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
+import com.chad.library.adapter.base.QuickAdapterHelper;
+import com.chad.library.adapter.base.loadState.leading.LeadingLoadStateAdapter;
 import com.leaf.library.StatusBarUtil;
 import com.stx.xhb.androidx.transformers.Transformer;
 import com.tencent.mmkv.MMKV;
 import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
 import com.yqritc.recyclerviewflexibledivider.VerticalDividerItemDecoration;
+import com.zpp.mobile.zmusic.Adapter.HeadAdapter;
 import com.zpp.mobile.zmusic.Adapter.HomeAdapter;
+import com.zpp.mobile.zmusic.Adapter.HomeHeadAdapter;
 import com.zpp.mobile.zmusic.Adapter.RecommendAdapter;
 import com.zpp.mobile.zmusic.R;
 import com.zpp.mobile.zmusic.app.MyMusicService;
@@ -60,10 +65,13 @@ import snow.player.playlist.Playlist;
  */
 public class HomeFragment extends Fragment {
     HomeFragmentBinding homeFragmentBinding;
-    RecommendAdapter recommendAdapter;
     HomeAdapter homeAdapter;
     ArrayList<HomeSongEnerty.ResultBean> songEnertyArrayList = new ArrayList<>();
+    HeadAdapter headAdapter;
     private PlayerViewModel mPlayerViewModel;
+    QuickAdapterHelper helper;
+    HomeBanner homeBanner;
+    HomeHeadAdapter homeHeadAdapter;
     public static HomeFragment getInstance() {
         HomeFragment homeFragment = new HomeFragment();
         return homeFragment;
@@ -77,11 +85,10 @@ public class HomeFragment extends Fragment {
         ViewModelProvider viewModelProvider = new ViewModelProvider(requireActivity());
         mPlayerViewModel = viewModelProvider.get(PlayerViewModel.class);
         PlayerUtil.initPlayerViewModel(getContext(), mPlayerViewModel, MyMusicService.class);
+        setRecyclerView();
         getBanner();
         getHomeSong();
         getListResult();
-        setRecommend();
-        setRecyclerView();
         setRefresh();
         return homeFragmentBinding.getRoot();
     }
@@ -108,45 +115,29 @@ public class HomeFragment extends Fragment {
     private void setRecyclerView() {
         homeFragmentBinding.songList.setLayoutManager(new LinearLayoutManager(getActivity()));
         homeAdapter = new HomeAdapter();
-        homeFragmentBinding.songList.setAdapter(homeAdapter);
         homeAdapter.setOnItemClickListener((songBeanBaseQuickAdapter, view, integer) -> null);
+        helper = new QuickAdapterHelper.Builder(homeAdapter).build();
+        homeFragmentBinding.songList.setAdapter(helper.getAdapter());
+        setBanner();
+        setRecommend();
     }
 
     /**
      * 推荐歌单
      */
     private void setRecommend() {
-        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());
-        linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
-        homeFragmentBinding.recomPlaylist.setLayoutManager(linearLayoutManager);
-        homeFragmentBinding.recomPlaylist.addItemDecoration(
-                new VerticalDividerItemDecoration.Builder(getActivity())
-                        .color(Color.parseColor("#00000000"))
-                        .sizeResId(R.dimen.dividers)
-                        .build());
-        recommendAdapter = new RecommendAdapter();
-        homeFragmentBinding.recomPlaylist.setAdapter(recommendAdapter);
-        recommendAdapter.setOnItemClickListener((vHotBeanBaseQuickAdapter, view, integer) -> {
-            Intent intent = new Intent();
-            intent.setClass(getActivity(), SongSheetInfo.class);
-            intent.putExtra("id", recommendAdapter.getItems().get(integer).getId() + "");
-            getActivity().startActivity(intent);
-            return null;
-        });
+        homeHeadAdapter=new HomeHeadAdapter();
+        helper.addBeforeAdapter(1,homeHeadAdapter);
     }
 
     /**
      * 推荐banner
      *
-     * @param homeBanner
      */
-    private void setBanner(HomeBanner homeBanner) {
-        homeFragmentBinding.banner4.setPageTransformer(Transformer.Default);
-        homeFragmentBinding.banner4.setBannerData(R.layout.home_banner, homeBanner.getBanners());
-        homeFragmentBinding.banner4.loadImage((banner, model, view, psition) -> {
-            ImageView imageView = view.findViewById(R.id.bannerimg);
-            Glide.with(getActivity()).load(homeBanner.getBanners().get(psition).getPic()).into(imageView);
-        });
+    private void setBanner() {
+        homeBanner = new HomeBanner();
+        headAdapter = new HeadAdapter(homeBanner);
+        helper.addBeforeAdapter(headAdapter);
     }
 
     /**
@@ -169,7 +160,7 @@ public class HomeFragment extends Fragment {
     private void getListResult() {
         RxHttp.postForm(Url.homeRecommend).toObservable(HomeEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(homeEnerty -> {
             homeFragmentBinding.refresh.setRefreshing(false);
-            recommendAdapter.submitList(homeEnerty.getResult());
+            homeHeadAdapter.setHomeEnerty(homeEnerty);
         }, throwable -> {
             homeFragmentBinding.refresh.setRefreshing(false);
             throwable.printStackTrace();
@@ -179,28 +170,28 @@ public class HomeFragment extends Fragment {
     /**
      * 缓存当前歌单
      */
-    private void playSongSheet(int integer,PlayUrlsEnerty playUrlsEnerty){
-        MMKV.defaultMMKV().putString("playlistInfo",SongUtils.getHomeSongId(songEnertyArrayList));
-        ArrayList<MusicItem> arrayList=new ArrayList<>();
-        for (int i=0;i<homeAdapter.getItems().size();i++){
-            HomeSongEnerty.ResultBean songlistBean=homeAdapter.getItems().get(i);
-            for (int j=0;j<playUrlsEnerty.getData().size();j++){
-                PlayUrlsEnerty.DataBean dataBean=playUrlsEnerty.getData().get(j);
-                if (dataBean.getId().equals(songlistBean.getId())){
+    private void playSongSheet(int integer, PlayUrlsEnerty playUrlsEnerty) {
+        MMKV.defaultMMKV().putString("playlistInfo", SongUtils.getHomeSongId(songEnertyArrayList));
+        ArrayList<MusicItem> arrayList = new ArrayList<>();
+        for (int i = 0; i < homeAdapter.getItems().size(); i++) {
+            HomeSongEnerty.ResultBean songlistBean = homeAdapter.getItems().get(i);
+            for (int j = 0; j < playUrlsEnerty.getData().size(); j++) {
+                PlayUrlsEnerty.DataBean dataBean = playUrlsEnerty.getData().get(j);
+                if (dataBean.getId().equals(songlistBean.getId())) {
                     MusicItem song = new MusicItem.Builder()
                             .setTitle(songlistBean.getName())
                             .setArtist(songlistBean.getSong().getArtists().get(0).getName())
                             .setAlbum(songlistBean.getSong().getAlbum().getName())
                             .setDuration(dataBean.getTime())
-                            .setUri(dataBean.getUrl()== null ? "" : dataBean.getUrl())
+                            .setUri(dataBean.getUrl() == null ? "" : dataBean.getUrl())
                             .setIconUri(songlistBean.getPicUrl())
                             .build();
                     arrayList.add(song);
                 }
             }
         }
-        Playlist playlist=new Playlist("",arrayList,true,null);
-        mPlayerViewModel.getPlayerClient().setPlaylist(playlist, integer,true);
+        Playlist playlist = new Playlist("", arrayList, true, null);
+        mPlayerViewModel.getPlayerClient().setPlaylist(playlist, integer, true);
     }
 
     /**
@@ -208,7 +199,8 @@ public class HomeFragment extends Fragment {
      */
     private void getBanner() {
         RxHttp.get(Url.BANNER).add("type", 1).toObservable(HomeBanner.class).observeOn(AndroidSchedulers.mainThread()).subscribe(homeBanner -> {
-            setBanner(homeBanner);
+            Log.e("更新banner","-----------------------");
+            headAdapter.setHomeBanner(homeBanner);
         }, throwable -> {
             throwable.printStackTrace();
         });
@@ -224,10 +216,10 @@ public class HomeFragment extends Fragment {
     /**
      * 获取播放链接
      */
-    private void getMusicPlayerUrl(int integer,String songIds){
-        RxHttp.postForm(Url.songPlyer).add("id",songIds).add("level","exhigh").toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
-            playSongSheet(integer,s);
-        },throwable -> {
+    private void getMusicPlayerUrl(int integer, String songIds) {
+        RxHttp.postForm(Url.songPlyer).add("id", songIds).add("level", "exhigh").toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
+            playSongSheet(integer, s);
+        }, throwable -> {
             throwable.printStackTrace();
         });
     }

@@ -17,6 +17,8 @@ import com.zpp.mobile.zmusic.enerty.HomeEnerty;
 import com.zpp.mobile.zmusic.enerty.HomeSongEnerty;
 import com.zpp.mobile.zmusic.enerty.SongEnerty;
 
+import java.util.List;
+
 import snow.player.util.ProgressClock;
 
 /**
@@ -48,6 +50,11 @@ public class HomeAdapter extends BaseQuickAdapter<HomeSongEnerty.ResultBean, Hom
         binding.title.setText(songBean.getName());
         binding.singer.setText(songBean.getSong().getArtists().get(0).getName()+"-"+songBean.getSong().getAlbum().getName());
         binding.time.setText(ProgressClock.asText(songBean.getSong().getDuration()/1000));
+    }
+
+    @Override
+    protected int getItemViewType(int position, @NonNull List<? extends HomeSongEnerty.ResultBean> list) {
+        return position;
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
