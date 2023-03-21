@@ -2,19 +2,24 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/home_shape"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="@drawable/home_shape">
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
     <RelativeLayout
         android:id="@+id/rl_action"
+        android:layout_below="@id/view"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginLeft="10dp">
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginRight="10dp"
             android:layout_toLeftOf="@id/tv_cancel"
@@ -26,12 +31,13 @@
             <EditText
                 android:id="@+id/et_search"
                 android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@null"
                 android:drawableLeft="@mipmap/search_search_nor"
                 android:drawablePadding="10dp"
                 android:focusable="true"
+                android:gravity="center_vertical"
                 android:focusableInTouchMode="true"
                 android:hint="@string/search"
                 android:lines="1"
@@ -44,26 +50,45 @@
                 android:id="@+id/iv_search_delete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
                 android:src="@mipmap/deletes" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/tv_cancel"
             android:layout_width="48dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
             android:gravity="center"
             android:text="取消"
             android:textColor="@color/purple_500"
             android:textSize="15dp" />
     </RelativeLayout>
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_below="@id/rl_action"
-        android:id="@+id/songList"
+
+    <com.flyco.tablayout.SlidingScaleTabLayout
+        android:id="@+id/tl_tabs"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="false"
-        android:paddingBottom="10dp"
-        tools:listitem="@layout/song_item" />
+        android:layout_height="48dp"
+        android:layout_below="@id/rl_action"
+        android:layout_weight="1"
+        app:tl_divider_padding="6dp"
+        app:tl_indicator_color="@color/black"
+        app:tl_indicator_corner_radius="1.5dp"
+        app:tl_indicator_height="3dp"
+        app:tl_indicator_style="NORMAL"
+        app:tl_indicator_width="19dp"
+        app:tl_tab_padding="10dp"
+        app:tl_tab_space_equal="true"
+        app:tl_textBold="BOTH"
+        app:tl_textSelectColor="@color/black"
+        app:tl_textSelectSize="17sp"
+        app:tl_textUnSelectColor="@color/black"
+        app:tl_textUnSelectSize="15sp" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/searchPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tl_tabs" />
 </RelativeLayout>

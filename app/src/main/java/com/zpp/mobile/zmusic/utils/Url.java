@@ -27,7 +27,7 @@ public class Url {
 
     public static String songPlyer = "/song/url/v1";
 
-    public static String search = "/search";
+    public static String search = "/cloudsearch";
 
     public static String webConUrl="/top/playlist";
 

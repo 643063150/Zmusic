@@ -5,9 +5,15 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.leaf.library.StatusBarUtil;
 import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
@@ -19,6 +25,9 @@ import com.zpp.mobile.zmusic.app.MyMusicService;
 import com.zpp.mobile.zmusic.databinding.SerachLayoutBinding;
 import com.zpp.mobile.zmusic.enerty.PlayUrlsEnerty;
 import com.zpp.mobile.zmusic.enerty.SearchEnerty;
+import com.zpp.mobile.zmusic.search.SearchSheetFragment;
+import com.zpp.mobile.zmusic.search.SearchSongFragment;
+import com.zpp.mobile.zmusic.ui.modelview.SearchModelView;
 import com.zpp.mobile.zmusic.utils.PlayerUtil;
 import com.zpp.mobile.zmusic.utils.Url;
 
@@ -41,8 +50,11 @@ import snow.player.lifecycle.PlayerViewModel;
  */
 public class SearchActivity extends BaseActivity {
     SerachLayoutBinding binding;
-    SearchSongAdapter searchSongAdapter;
     private PlayerViewModel mPlayerViewModel;
+    SearchModelView searchModelView;
+    SearchSongFragment searchSongFragment;
+    SearchSheetFragment searchSheetFragment;
+    SearchPageAdapter searchPageAdapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -51,9 +63,9 @@ public class SearchActivity extends BaseActivity {
         setContentView(binding.getRoot());
         initAllViewModel();
         setPlayerClient(mPlayerViewModel.getPlayerClient());
-        StatusBarUtil.setGradientColor(this, binding.rlAction);
+        StatusBarUtil.setTransparentForWindow(this);
+        StatusBarUtil.setPaddingTop(this,binding.view);
         setBinding();
-        setSearchSongAdapter();
     }
 
     /**
@@ -62,6 +74,7 @@ public class SearchActivity extends BaseActivity {
     private void initAllViewModel() {
         ViewModelProvider viewModelProvider = new ViewModelProvider(this);
         mPlayerViewModel = viewModelProvider.get(PlayerViewModel.class);
+        searchModelView = viewModelProvider.get(SearchModelView.class);
         PlayerUtil.initPlayerViewModel(this, mPlayerViewModel, MyMusicService.class);
     }
 
@@ -69,6 +82,9 @@ public class SearchActivity extends BaseActivity {
      * 视图操作
      */
     private void setBinding() {
+        searchPageAdapter=new SearchPageAdapter(getSupportFragmentManager());
+        binding.searchPage.setAdapter(searchPageAdapter);
+        binding.tlTabs.setViewPager(binding.searchPage);
         binding.etSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -82,41 +98,15 @@ public class SearchActivity extends BaseActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                search(s.toString().trim());
+                searchModelView.getKey().setValue(s.toString().trim());
             }
         });
         binding.tvCancel.setOnClickListener(v -> {
             finish();
         });
         binding.ivSearchDelete.setOnClickListener(v -> binding.etSearch.setText(""));
-    }
-
-    private void setSearchSongAdapter() {
-        binding.songList.setLayoutManager(new LinearLayoutManager(this));
-        binding.songList.addItemDecoration(
-                new HorizontalDividerItemDecoration.Builder(this)
-                        .color(Color.parseColor("#00000000"))
-                        .sizeResId(R.dimen.dividers)
-                        .build());
-        searchSongAdapter = new SearchSongAdapter();
-        binding.songList.setAdapter(searchSongAdapter);
-        searchSongAdapter.setOnItemClickListener((songlistBeanBaseQuickAdapter, view, integer) -> {
-            SearchEnerty.ResultBean.SongsBean songsBean = searchSongAdapter.getItems().get(integer);
-            String songId = songsBean.getId();
-
-            getMusicPlayerUrl(songId, songsBean);
-            return null;
-        });
-    }
-
-    /**
-     *
-     */
-    public void search(String key) {
-        RxHttp.get(Url.search).add("keywords", key).toObservable(SearchEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(searchEnerty -> {
-            searchSongAdapter.submitList(searchEnerty.getResult().getSongs());
-        }, throwable -> {
-            throwable.printStackTrace();
+        searchModelView.getSongId().observe(this, s -> {
+            getMusicPlayerUrl(s.getId(), s);
         });
     }
 
@@ -128,16 +118,64 @@ public class SearchActivity extends BaseActivity {
             PlayUrlsEnerty.DataBean dataBean = s.getData().get(0);
             MusicItem song = new MusicItem.Builder()
                     .setTitle(songsBean.getName())
-                    .setArtist(songsBean.getArtists().get(0).getName())
-                    .setAlbum(songsBean.getAlbum().getName())
-                    .setDuration(songsBean.getDuration())
+                    .setArtist(songsBean.getAr().get(0).getName())
+                    .setAlbum(songsBean.getAl().getName())
+                    .setDuration(songsBean.getDt())
                     .setUri(dataBean.getUrl() == null ? "" : dataBean.getUrl())
-                    .setIconUri(songsBean.getAlbum().getArtist().getImg1v1Url())
+                    .setIconUri(songsBean.getAl().getPicUrl())
                     .build();
             mPlayerViewModel.getPlayerClient().setNextPlay(song);
-            mPlayerViewModel.getPlayerClient().skipToPosition(mPlayerViewModel.getPlayPosition().getValue()+1);
+            mPlayerViewModel.getPlayerClient().skipToPosition(mPlayerViewModel.getPlayPosition().getValue() + 1);
         }, throwable -> {
             throwable.printStackTrace();
         });
+    }
+
+    private class SearchPageAdapter extends FragmentPagerAdapter {
+
+
+        public SearchPageAdapter(@NonNull FragmentManager fm) {
+            super(fm);
+        }
+
+        @NonNull
+        @Override
+        public Fragment getItem(int position) {
+            switch (position) {
+                case 0:
+                    if (searchSongFragment == null) {
+                        searchSongFragment = SearchSongFragment.getInstance();
+                    }
+                    return searchSongFragment;
+                case 1:
+                    if (searchSheetFragment == null) {
+                        searchSheetFragment = SearchSheetFragment.getInstance();
+                    }
+                    return searchSheetFragment;
+                default:
+                    break;
+            }
+            return null;
+        }
+
+        @Override
+        public int getCount() {
+            return 2;
+        }
+
+        @Nullable
+        @Override
+        public CharSequence getPageTitle(int position) {
+            switch (position) {
+                case 0:
+                    return "单曲";
+
+                case 1:
+                    return "歌单";
+                default:
+                    break;
+            }
+            return null;
+        }
     }
 }

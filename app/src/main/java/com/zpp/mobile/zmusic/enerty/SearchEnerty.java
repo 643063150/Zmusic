@@ -15,6 +15,11 @@ import java.util.List;
  */
 public class SearchEnerty {
 
+    /**
+     * result : {"searchQcReminder":null,"songs":[{"name":"海阔天空","id":347230,"pst":0,"t":0,"ar":[{"id":11127,"name":"Beyond","tns":["超越"],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":"600902000004240302","fee":1,"v":114,"crbt":null,"cf":"","al":{"id":34209,"name":"海阔天空","picUrl":"http://p4.music.126.net/8y8KJC1eCSO_vUKf2MyZwA==/109951165796899183.jpg","tns":[],"pic_str":"109951165796899183","pic":109951165796899180},"dt":326000,"h":{"br":320001,"fid":0,"size":13042460,"vd":-5649,"sr":44100},"m":{"br":192001,"fid":0,"size":7825493,"vd":-3083,"sr":44100},"l":{"br":128001,"fid":0,"size":5217010,"vd":-1486,"sr":44100},"sq":{"br":798710,"fid":0,"size":32547445,"vd":-5639,"sr":44100},"hr":null,"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":8192,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":114,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mst":9,"cp":7002,"mv":376199,"publishTime":747504000000,"privilege":{"id":347230,"fee":1,"payed":0,"st":0,"pl":0,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":0,"toast":false,"flag":1284,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"none","dlLevel":"none","flLevel":"none","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":5},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},{"name":"海阔天空-海阔天空（王理事live）（@王理事 remix）","id":1940607211,"pst":0,"t":0,"ar":[{"id":47776625,"name":"@王理事","tns":[],"alias":[]}],"alia":[],"pop":60,"st":0,"rt":"","fee":0,"v":3,"crbt":null,"cf":"","al":{"id":126789489,"name":"@侠肝义胆","picUrl":"http://p4.music.126.net/nCeq1BtVI67SoN87elQtXg==/109951167268166071.jpg","tns":[],"pic_str":"109951167268166071","pic":109951167268166060},"dt":176143,"h":{"br":320002,"fid":0,"size":7047880,"vd":-25084,"sr":44100},"m":{"br":192002,"fid":0,"size":4228746,"vd":-22438,"sr":44100},"l":{"br":128002,"fid":0,"size":2819178,"vd":-20634,"sr":44100},"sq":{"br":447453,"fid":0,"size":9852017,"vd":-25506,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":128,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":3,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mst":9,"cp":0,"mv":0,"publishTime":0,"privilege":{"id":1940607211,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":129,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":5},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}}],"songCount":300}
+     * code : 200
+     */
+
     private ResultBean result;
     private int code;
 
@@ -35,18 +40,22 @@ public class SearchEnerty {
     }
 
     public static class ResultBean {
+        /**
+         * searchQcReminder : null
+         * songs : [{"name":"海阔天空","id":347230,"pst":0,"t":0,"ar":[{"id":11127,"name":"Beyond","tns":["超越"],"alias":[]}],"alia":[],"pop":100,"st":0,"rt":"600902000004240302","fee":1,"v":114,"crbt":null,"cf":"","al":{"id":34209,"name":"海阔天空","picUrl":"http://p4.music.126.net/8y8KJC1eCSO_vUKf2MyZwA==/109951165796899183.jpg","tns":[],"pic_str":"109951165796899183","pic":109951165796899180},"dt":326000,"h":{"br":320001,"fid":0,"size":13042460,"vd":-5649,"sr":44100},"m":{"br":192001,"fid":0,"size":7825493,"vd":-3083,"sr":44100},"l":{"br":128001,"fid":0,"size":5217010,"vd":-1486,"sr":44100},"sq":{"br":798710,"fid":0,"size":32547445,"vd":-5639,"sr":44100},"hr":null,"a":null,"cd":"1","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":1,"s_id":0,"mark":8192,"originCoverType":1,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":114,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mst":9,"cp":7002,"mv":376199,"publishTime":747504000000,"privilege":{"id":347230,"fee":1,"payed":0,"st":0,"pl":0,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":0,"toast":false,"flag":1284,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"none","dlLevel":"none","flLevel":"none","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":5},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}},{"name":"海阔天空-海阔天空（王理事live）（@王理事 remix）","id":1940607211,"pst":0,"t":0,"ar":[{"id":47776625,"name":"@王理事","tns":[],"alias":[]}],"alia":[],"pop":60,"st":0,"rt":"","fee":0,"v":3,"crbt":null,"cf":"","al":{"id":126789489,"name":"@侠肝义胆","picUrl":"http://p4.music.126.net/nCeq1BtVI67SoN87elQtXg==/109951167268166071.jpg","tns":[],"pic_str":"109951167268166071","pic":109951167268166060},"dt":176143,"h":{"br":320002,"fid":0,"size":7047880,"vd":-25084,"sr":44100},"m":{"br":192002,"fid":0,"size":4228746,"vd":-22438,"sr":44100},"l":{"br":128002,"fid":0,"size":2819178,"vd":-20634,"sr":44100},"sq":{"br":447453,"fid":0,"size":9852017,"vd":-25506,"sr":44100},"hr":null,"a":null,"cd":"01","no":1,"rtUrl":null,"ftype":0,"rtUrls":[],"djId":0,"copyright":0,"s_id":0,"mark":128,"originCoverType":0,"originSongSimpleData":null,"tagPicList":null,"resourceState":true,"version":3,"songJumpInfo":null,"entertainmentTags":null,"single":0,"noCopyrightRcmd":null,"rtype":0,"rurl":null,"mst":9,"cp":0,"mv":0,"publishTime":0,"privilege":{"id":1940607211,"fee":0,"payed":0,"st":0,"pl":320000,"dl":999000,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":320000,"toast":false,"flag":129,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"exhigh","dlLevel":"lossless","flLevel":"exhigh","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":5},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":0},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}}]
+         * songCount : 300
+         */
 
-
-        private boolean hasMore;
+        private Object searchQcReminder;
         private int songCount;
         private List<SongsBean> songs;
 
-        public boolean isHasMore() {
-            return hasMore;
+        public Object getSearchQcReminder() {
+            return searchQcReminder;
         }
 
-        public void setHasMore(boolean hasMore) {
-            this.hasMore = hasMore;
+        public void setSearchQcReminder(Object searchQcReminder) {
+            this.searchQcReminder = searchQcReminder;
         }
 
         public int getSongCount() {
@@ -67,46 +76,100 @@ public class SearchEnerty {
 
         public static class SongsBean {
             /**
-             * id : 347230
              * name : 海阔天空
-             * artists : [{"id":11127,"name":"Beyond","picUrl":null,"alias":[],"albumSize":0,"picId":0,"fansGroup":null,"img1v1Url":"https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1":0,"trans":null}]
-             * album : {"id":34209,"name":"海阔天空","artist":{"id":0,"name":"","picUrl":null,"alias":[],"albumSize":0,"picId":0,"fansGroup":null,"img1v1Url":"https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1":0,"trans":null},"publishTime":747504000000,"size":10,"copyrightId":1003,"status":1,"picId":109951165796899180,"mark":0}
-             * duration : 326000
-             * copyrightId : 7002
-             * status : 0
-             * alias : []
-             * rtype : 0
-             * ftype : 0
-             * mvid : 376199
+             * id : 347230
+             * pst : 0
+             * t : 0
+             * ar : [{"id":11127,"name":"Beyond","tns":["超越"],"alias":[]}]
+             * alia : []
+             * pop : 100
+             * st : 0
+             * rt : 600902000004240302
              * fee : 1
-             * rUrl : null
+             * v : 114
+             * crbt : null
+             * cf :
+             * al : {"id":34209,"name":"海阔天空","picUrl":"http://p4.music.126.net/8y8KJC1eCSO_vUKf2MyZwA==/109951165796899183.jpg","tns":[],"pic_str":"109951165796899183","pic":109951165796899180}
+             * dt : 326000
+             * h : {"br":320001,"fid":0,"size":13042460,"vd":-5649,"sr":44100}
+             * m : {"br":192001,"fid":0,"size":7825493,"vd":-3083,"sr":44100}
+             * l : {"br":128001,"fid":0,"size":5217010,"vd":-1486,"sr":44100}
+             * sq : {"br":798710,"fid":0,"size":32547445,"vd":-5639,"sr":44100}
+             * hr : null
+             * a : null
+             * cd : 1
+             * no : 1
+             * rtUrl : null
+             * ftype : 0
+             * rtUrls : []
+             * djId : 0
+             * copyright : 1
+             * s_id : 0
              * mark : 8192
-             * transNames : ["Boundless Oceans, Vast Skies"]
+             * originCoverType : 1
+             * originSongSimpleData : null
+             * tagPicList : null
+             * resourceState : true
+             * version : 114
+             * songJumpInfo : null
+             * entertainmentTags : null
+             * single : 0
+             * noCopyrightRcmd : null
+             * rtype : 0
+             * rurl : null
+             * mst : 9
+             * cp : 7002
+             * mv : 376199
+             * publishTime : 747504000000
+             * privilege : {"id":347230,"fee":1,"payed":0,"st":0,"pl":0,"dl":0,"sp":7,"cp":1,"subp":1,"cs":false,"maxbr":999000,"fl":0,"toast":false,"flag":1284,"preSell":false,"playMaxbr":999000,"downloadMaxbr":999000,"maxBrLevel":"lossless","playMaxBrLevel":"lossless","downloadMaxBrLevel":"lossless","plLevel":"none","dlLevel":"none","flLevel":"none","rscl":null,"freeTrialPrivilege":{"resConsumable":false,"userConsumable":false,"listenType":5},"chargeInfoList":[{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]}
              */
 
-            private String id;
             private String name;
-            private AlbumBean album;
-            private int duration;
-            private int copyrightId;
-            private int status;
-            private int rtype;
-            private int ftype;
-            private int mvid;
+            private String id;
+            private int pst;
+            private int t;
+            private int pop;
+            private int st;
+            private String rt;
             private int fee;
-            private Object rUrl;
+            private int v;
+            private Object crbt;
+            private String cf;
+            private AlBean al;
+            private int dt;
+            private HBean h;
+            private MBean m;
+            private LBean l;
+            private SqBean sq;
+            private Object hr;
+            private Object a;
+            private String cd;
+            private int no;
+            private Object rtUrl;
+            private int ftype;
+            private int djId;
+            private int copyright;
+            private int s_id;
             private int mark;
-            private List<ArtistsBean> artists;
-            private List<?> alias;
-            private List<String> transNames;
-
-            public String getId() {
-                return id;
-            }
-
-            public void setId(String id) {
-                this.id = id;
-            }
+            private int originCoverType;
+            private Object originSongSimpleData;
+            private Object tagPicList;
+            private boolean resourceState;
+            private int version;
+            private Object songJumpInfo;
+            private Object entertainmentTags;
+            private int single;
+            private Object noCopyrightRcmd;
+            private int rtype;
+            private Object rurl;
+            private int mst;
+            private int cp;
+            private int mv;
+            private long publishTime;
+            private PrivilegeBean privilege;
+            private List<ArBean> ar;
+            private List<?> alia;
+            private List<?> rtUrls;
 
             public String getName() {
                 return name;
@@ -116,60 +179,52 @@ public class SearchEnerty {
                 this.name = name;
             }
 
-            public AlbumBean getAlbum() {
-                return album;
+            public String getId() {
+                return id;
             }
 
-            public void setAlbum(AlbumBean album) {
-                this.album = album;
+            public void setId(String id) {
+                this.id = id;
             }
 
-            public int getDuration() {
-                return duration;
+            public int getPst() {
+                return pst;
             }
 
-            public void setDuration(int duration) {
-                this.duration = duration;
+            public void setPst(int pst) {
+                this.pst = pst;
             }
 
-            public int getCopyrightId() {
-                return copyrightId;
+            public int getT() {
+                return t;
             }
 
-            public void setCopyrightId(int copyrightId) {
-                this.copyrightId = copyrightId;
+            public void setT(int t) {
+                this.t = t;
             }
 
-            public int getStatus() {
-                return status;
+            public int getPop() {
+                return pop;
             }
 
-            public void setStatus(int status) {
-                this.status = status;
+            public void setPop(int pop) {
+                this.pop = pop;
             }
 
-            public int getRtype() {
-                return rtype;
+            public int getSt() {
+                return st;
             }
 
-            public void setRtype(int rtype) {
-                this.rtype = rtype;
+            public void setSt(int st) {
+                this.st = st;
             }
 
-            public int getFtype() {
-                return ftype;
+            public String getRt() {
+                return rt;
             }
 
-            public void setFtype(int ftype) {
-                this.ftype = ftype;
-            }
-
-            public int getMvid() {
-                return mvid;
-            }
-
-            public void setMvid(int mvid) {
-                this.mvid = mvid;
+            public void setRt(String rt) {
+                this.rt = rt;
             }
 
             public int getFee() {
@@ -180,12 +235,148 @@ public class SearchEnerty {
                 this.fee = fee;
             }
 
-            public Object getRUrl() {
-                return rUrl;
+            public int getV() {
+                return v;
             }
 
-            public void setRUrl(Object rUrl) {
-                this.rUrl = rUrl;
+            public void setV(int v) {
+                this.v = v;
+            }
+
+            public Object getCrbt() {
+                return crbt;
+            }
+
+            public void setCrbt(Object crbt) {
+                this.crbt = crbt;
+            }
+
+            public String getCf() {
+                return cf;
+            }
+
+            public void setCf(String cf) {
+                this.cf = cf;
+            }
+
+            public AlBean getAl() {
+                return al;
+            }
+
+            public void setAl(AlBean al) {
+                this.al = al;
+            }
+
+            public int getDt() {
+                return dt;
+            }
+
+            public void setDt(int dt) {
+                this.dt = dt;
+            }
+
+            public HBean getH() {
+                return h;
+            }
+
+            public void setH(HBean h) {
+                this.h = h;
+            }
+
+            public MBean getM() {
+                return m;
+            }
+
+            public void setM(MBean m) {
+                this.m = m;
+            }
+
+            public LBean getL() {
+                return l;
+            }
+
+            public void setL(LBean l) {
+                this.l = l;
+            }
+
+            public SqBean getSq() {
+                return sq;
+            }
+
+            public void setSq(SqBean sq) {
+                this.sq = sq;
+            }
+
+            public Object getHr() {
+                return hr;
+            }
+
+            public void setHr(Object hr) {
+                this.hr = hr;
+            }
+
+            public Object getA() {
+                return a;
+            }
+
+            public void setA(Object a) {
+                this.a = a;
+            }
+
+            public String getCd() {
+                return cd;
+            }
+
+            public void setCd(String cd) {
+                this.cd = cd;
+            }
+
+            public int getNo() {
+                return no;
+            }
+
+            public void setNo(int no) {
+                this.no = no;
+            }
+
+            public Object getRtUrl() {
+                return rtUrl;
+            }
+
+            public void setRtUrl(Object rtUrl) {
+                this.rtUrl = rtUrl;
+            }
+
+            public int getFtype() {
+                return ftype;
+            }
+
+            public void setFtype(int ftype) {
+                this.ftype = ftype;
+            }
+
+            public int getDjId() {
+                return djId;
+            }
+
+            public void setDjId(int djId) {
+                this.djId = djId;
+            }
+
+            public int getCopyright() {
+                return copyright;
+            }
+
+            public void setCopyright(int copyright) {
+                this.copyright = copyright;
+            }
+
+            public int getS_id() {
+                return s_id;
+            }
+
+            public void setS_id(int s_id) {
+                this.s_id = s_id;
             }
 
             public int getMark() {
@@ -196,52 +387,174 @@ public class SearchEnerty {
                 this.mark = mark;
             }
 
-            public List<ArtistsBean> getArtists() {
-                return artists;
+            public int getOriginCoverType() {
+                return originCoverType;
             }
 
-            public void setArtists(List<ArtistsBean> artists) {
-                this.artists = artists;
+            public void setOriginCoverType(int originCoverType) {
+                this.originCoverType = originCoverType;
             }
 
-            public List<?> getAlias() {
-                return alias;
+            public Object getOriginSongSimpleData() {
+                return originSongSimpleData;
             }
 
-            public void setAlias(List<?> alias) {
-                this.alias = alias;
+            public void setOriginSongSimpleData(Object originSongSimpleData) {
+                this.originSongSimpleData = originSongSimpleData;
             }
 
-            public List<String> getTransNames() {
-                return transNames;
+            public Object getTagPicList() {
+                return tagPicList;
             }
 
-            public void setTransNames(List<String> transNames) {
-                this.transNames = transNames;
+            public void setTagPicList(Object tagPicList) {
+                this.tagPicList = tagPicList;
             }
 
-            public static class AlbumBean {
+            public boolean isResourceState() {
+                return resourceState;
+            }
+
+            public void setResourceState(boolean resourceState) {
+                this.resourceState = resourceState;
+            }
+
+            public int getVersion() {
+                return version;
+            }
+
+            public void setVersion(int version) {
+                this.version = version;
+            }
+
+            public Object getSongJumpInfo() {
+                return songJumpInfo;
+            }
+
+            public void setSongJumpInfo(Object songJumpInfo) {
+                this.songJumpInfo = songJumpInfo;
+            }
+
+            public Object getEntertainmentTags() {
+                return entertainmentTags;
+            }
+
+            public void setEntertainmentTags(Object entertainmentTags) {
+                this.entertainmentTags = entertainmentTags;
+            }
+
+            public int getSingle() {
+                return single;
+            }
+
+            public void setSingle(int single) {
+                this.single = single;
+            }
+
+            public Object getNoCopyrightRcmd() {
+                return noCopyrightRcmd;
+            }
+
+            public void setNoCopyrightRcmd(Object noCopyrightRcmd) {
+                this.noCopyrightRcmd = noCopyrightRcmd;
+            }
+
+            public int getRtype() {
+                return rtype;
+            }
+
+            public void setRtype(int rtype) {
+                this.rtype = rtype;
+            }
+
+            public Object getRurl() {
+                return rurl;
+            }
+
+            public void setRurl(Object rurl) {
+                this.rurl = rurl;
+            }
+
+            public int getMst() {
+                return mst;
+            }
+
+            public void setMst(int mst) {
+                this.mst = mst;
+            }
+
+            public int getCp() {
+                return cp;
+            }
+
+            public void setCp(int cp) {
+                this.cp = cp;
+            }
+
+            public int getMv() {
+                return mv;
+            }
+
+            public void setMv(int mv) {
+                this.mv = mv;
+            }
+
+            public long getPublishTime() {
+                return publishTime;
+            }
+
+            public void setPublishTime(long publishTime) {
+                this.publishTime = publishTime;
+            }
+
+            public PrivilegeBean getPrivilege() {
+                return privilege;
+            }
+
+            public void setPrivilege(PrivilegeBean privilege) {
+                this.privilege = privilege;
+            }
+
+            public List<ArBean> getAr() {
+                return ar;
+            }
+
+            public void setAr(List<ArBean> ar) {
+                this.ar = ar;
+            }
+
+            public List<?> getAlia() {
+                return alia;
+            }
+
+            public void setAlia(List<?> alia) {
+                this.alia = alia;
+            }
+
+            public List<?> getRtUrls() {
+                return rtUrls;
+            }
+
+            public void setRtUrls(List<?> rtUrls) {
+                this.rtUrls = rtUrls;
+            }
+
+            public static class AlBean {
                 /**
                  * id : 34209
                  * name : 海阔天空
-                 * artist : {"id":0,"name":"","picUrl":null,"alias":[],"albumSize":0,"picId":0,"fansGroup":null,"img1v1Url":"https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg","img1v1":0,"trans":null}
-                 * publishTime : 747504000000
-                 * size : 10
-                 * copyrightId : 1003
-                 * status : 1
-                 * picId : 109951165796899180
-                 * mark : 0
+                 * picUrl : http://p4.music.126.net/8y8KJC1eCSO_vUKf2MyZwA==/109951165796899183.jpg
+                 * tns : []
+                 * pic_str : 109951165796899183
+                 * pic : 109951165796899180
                  */
 
                 private int id;
                 private String name;
-                private ArtistBean artist;
-                private long publishTime;
-                private int size;
-                private int copyrightId;
-                private int status;
-                private long picId;
-                private int mark;
+                private String picUrl;
+                private String pic_str;
+                private long pic;
+                private List<?> tns;
 
                 public int getId() {
                     return id;
@@ -259,20 +572,68 @@ public class SearchEnerty {
                     this.name = name;
                 }
 
-                public ArtistBean getArtist() {
-                    return artist;
+                public String getPicUrl() {
+                    return picUrl;
                 }
 
-                public void setArtist(ArtistBean artist) {
-                    this.artist = artist;
+                public void setPicUrl(String picUrl) {
+                    this.picUrl = picUrl;
                 }
 
-                public long getPublishTime() {
-                    return publishTime;
+                public String getPic_str() {
+                    return pic_str;
                 }
 
-                public void setPublishTime(long publishTime) {
-                    this.publishTime = publishTime;
+                public void setPic_str(String pic_str) {
+                    this.pic_str = pic_str;
+                }
+
+                public long getPic() {
+                    return pic;
+                }
+
+                public void setPic(long pic) {
+                    this.pic = pic;
+                }
+
+                public List<?> getTns() {
+                    return tns;
+                }
+
+                public void setTns(List<?> tns) {
+                    this.tns = tns;
+                }
+            }
+
+            public static class HBean {
+                /**
+                 * br : 320001
+                 * fid : 0
+                 * size : 13042460
+                 * vd : -5649
+                 * sr : 44100
+                 */
+
+                private int br;
+                private int fid;
+                private int size;
+                private int vd;
+                private int sr;
+
+                public int getBr() {
+                    return br;
+                }
+
+                public void setBr(int br) {
+                    this.br = br;
+                }
+
+                public int getFid() {
+                    return fid;
+                }
+
+                public void setFid(int fid) {
+                    this.fid = fid;
                 }
 
                 public int getSize() {
@@ -283,168 +644,550 @@ public class SearchEnerty {
                     this.size = size;
                 }
 
-                public int getCopyrightId() {
-                    return copyrightId;
+                public int getVd() {
+                    return vd;
                 }
 
-                public void setCopyrightId(int copyrightId) {
-                    this.copyrightId = copyrightId;
+                public void setVd(int vd) {
+                    this.vd = vd;
                 }
 
-                public int getStatus() {
-                    return status;
+                public int getSr() {
+                    return sr;
                 }
 
-                public void setStatus(int status) {
-                    this.status = status;
+                public void setSr(int sr) {
+                    this.sr = sr;
+                }
+            }
+
+            public static class MBean {
+                /**
+                 * br : 192001
+                 * fid : 0
+                 * size : 7825493
+                 * vd : -3083
+                 * sr : 44100
+                 */
+
+                private int br;
+                private int fid;
+                private int size;
+                private int vd;
+                private int sr;
+
+                public int getBr() {
+                    return br;
                 }
 
-                public long getPicId() {
-                    return picId;
+                public void setBr(int br) {
+                    this.br = br;
                 }
 
-                public void setPicId(long picId) {
-                    this.picId = picId;
+                public int getFid() {
+                    return fid;
                 }
 
-                public int getMark() {
-                    return mark;
+                public void setFid(int fid) {
+                    this.fid = fid;
                 }
 
-                public void setMark(int mark) {
-                    this.mark = mark;
+                public int getSize() {
+                    return size;
                 }
 
-                public static class ArtistBean {
+                public void setSize(int size) {
+                    this.size = size;
+                }
+
+                public int getVd() {
+                    return vd;
+                }
+
+                public void setVd(int vd) {
+                    this.vd = vd;
+                }
+
+                public int getSr() {
+                    return sr;
+                }
+
+                public void setSr(int sr) {
+                    this.sr = sr;
+                }
+            }
+
+            public static class LBean {
+                /**
+                 * br : 128001
+                 * fid : 0
+                 * size : 5217010
+                 * vd : -1486
+                 * sr : 44100
+                 */
+
+                private int br;
+                private int fid;
+                private int size;
+                private int vd;
+                private int sr;
+
+                public int getBr() {
+                    return br;
+                }
+
+                public void setBr(int br) {
+                    this.br = br;
+                }
+
+                public int getFid() {
+                    return fid;
+                }
+
+                public void setFid(int fid) {
+                    this.fid = fid;
+                }
+
+                public int getSize() {
+                    return size;
+                }
+
+                public void setSize(int size) {
+                    this.size = size;
+                }
+
+                public int getVd() {
+                    return vd;
+                }
+
+                public void setVd(int vd) {
+                    this.vd = vd;
+                }
+
+                public int getSr() {
+                    return sr;
+                }
+
+                public void setSr(int sr) {
+                    this.sr = sr;
+                }
+            }
+
+            public static class SqBean {
+                /**
+                 * br : 798710
+                 * fid : 0
+                 * size : 32547445
+                 * vd : -5639
+                 * sr : 44100
+                 */
+
+                private int br;
+                private int fid;
+                private int size;
+                private int vd;
+                private int sr;
+
+                public int getBr() {
+                    return br;
+                }
+
+                public void setBr(int br) {
+                    this.br = br;
+                }
+
+                public int getFid() {
+                    return fid;
+                }
+
+                public void setFid(int fid) {
+                    this.fid = fid;
+                }
+
+                public int getSize() {
+                    return size;
+                }
+
+                public void setSize(int size) {
+                    this.size = size;
+                }
+
+                public int getVd() {
+                    return vd;
+                }
+
+                public void setVd(int vd) {
+                    this.vd = vd;
+                }
+
+                public int getSr() {
+                    return sr;
+                }
+
+                public void setSr(int sr) {
+                    this.sr = sr;
+                }
+            }
+
+            public static class PrivilegeBean {
+                /**
+                 * id : 347230
+                 * fee : 1
+                 * payed : 0
+                 * st : 0
+                 * pl : 0
+                 * dl : 0
+                 * sp : 7
+                 * cp : 1
+                 * subp : 1
+                 * cs : false
+                 * maxbr : 999000
+                 * fl : 0
+                 * toast : false
+                 * flag : 1284
+                 * preSell : false
+                 * playMaxbr : 999000
+                 * downloadMaxbr : 999000
+                 * maxBrLevel : lossless
+                 * playMaxBrLevel : lossless
+                 * downloadMaxBrLevel : lossless
+                 * plLevel : none
+                 * dlLevel : none
+                 * flLevel : none
+                 * rscl : null
+                 * freeTrialPrivilege : {"resConsumable":false,"userConsumable":false,"listenType":5}
+                 * chargeInfoList : [{"rate":128000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":192000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":320000,"chargeUrl":null,"chargeMessage":null,"chargeType":1},{"rate":999000,"chargeUrl":null,"chargeMessage":null,"chargeType":1}]
+                 */
+
+                private int id;
+                private int fee;
+                private int payed;
+                private int st;
+                private int pl;
+                private int dl;
+                private int sp;
+                private int cp;
+                private int subp;
+                private boolean cs;
+                private int maxbr;
+                private int fl;
+                private boolean toast;
+                private int flag;
+                private boolean preSell;
+                private int playMaxbr;
+                private int downloadMaxbr;
+                private String maxBrLevel;
+                private String playMaxBrLevel;
+                private String downloadMaxBrLevel;
+                private String plLevel;
+                private String dlLevel;
+                private String flLevel;
+                private Object rscl;
+                private FreeTrialPrivilegeBean freeTrialPrivilege;
+                private List<ChargeInfoListBean> chargeInfoList;
+
+                public int getId() {
+                    return id;
+                }
+
+                public void setId(int id) {
+                    this.id = id;
+                }
+
+                public int getFee() {
+                    return fee;
+                }
+
+                public void setFee(int fee) {
+                    this.fee = fee;
+                }
+
+                public int getPayed() {
+                    return payed;
+                }
+
+                public void setPayed(int payed) {
+                    this.payed = payed;
+                }
+
+                public int getSt() {
+                    return st;
+                }
+
+                public void setSt(int st) {
+                    this.st = st;
+                }
+
+                public int getPl() {
+                    return pl;
+                }
+
+                public void setPl(int pl) {
+                    this.pl = pl;
+                }
+
+                public int getDl() {
+                    return dl;
+                }
+
+                public void setDl(int dl) {
+                    this.dl = dl;
+                }
+
+                public int getSp() {
+                    return sp;
+                }
+
+                public void setSp(int sp) {
+                    this.sp = sp;
+                }
+
+                public int getCp() {
+                    return cp;
+                }
+
+                public void setCp(int cp) {
+                    this.cp = cp;
+                }
+
+                public int getSubp() {
+                    return subp;
+                }
+
+                public void setSubp(int subp) {
+                    this.subp = subp;
+                }
+
+                public boolean isCs() {
+                    return cs;
+                }
+
+                public void setCs(boolean cs) {
+                    this.cs = cs;
+                }
+
+                public int getMaxbr() {
+                    return maxbr;
+                }
+
+                public void setMaxbr(int maxbr) {
+                    this.maxbr = maxbr;
+                }
+
+                public int getFl() {
+                    return fl;
+                }
+
+                public void setFl(int fl) {
+                    this.fl = fl;
+                }
+
+                public boolean isToast() {
+                    return toast;
+                }
+
+                public void setToast(boolean toast) {
+                    this.toast = toast;
+                }
+
+                public int getFlag() {
+                    return flag;
+                }
+
+                public void setFlag(int flag) {
+                    this.flag = flag;
+                }
+
+                public boolean isPreSell() {
+                    return preSell;
+                }
+
+                public void setPreSell(boolean preSell) {
+                    this.preSell = preSell;
+                }
+
+                public int getPlayMaxbr() {
+                    return playMaxbr;
+                }
+
+                public void setPlayMaxbr(int playMaxbr) {
+                    this.playMaxbr = playMaxbr;
+                }
+
+                public int getDownloadMaxbr() {
+                    return downloadMaxbr;
+                }
+
+                public void setDownloadMaxbr(int downloadMaxbr) {
+                    this.downloadMaxbr = downloadMaxbr;
+                }
+
+                public String getMaxBrLevel() {
+                    return maxBrLevel;
+                }
+
+                public void setMaxBrLevel(String maxBrLevel) {
+                    this.maxBrLevel = maxBrLevel;
+                }
+
+                public String getPlayMaxBrLevel() {
+                    return playMaxBrLevel;
+                }
+
+                public void setPlayMaxBrLevel(String playMaxBrLevel) {
+                    this.playMaxBrLevel = playMaxBrLevel;
+                }
+
+                public String getDownloadMaxBrLevel() {
+                    return downloadMaxBrLevel;
+                }
+
+                public void setDownloadMaxBrLevel(String downloadMaxBrLevel) {
+                    this.downloadMaxBrLevel = downloadMaxBrLevel;
+                }
+
+                public String getPlLevel() {
+                    return plLevel;
+                }
+
+                public void setPlLevel(String plLevel) {
+                    this.plLevel = plLevel;
+                }
+
+                public String getDlLevel() {
+                    return dlLevel;
+                }
+
+                public void setDlLevel(String dlLevel) {
+                    this.dlLevel = dlLevel;
+                }
+
+                public String getFlLevel() {
+                    return flLevel;
+                }
+
+                public void setFlLevel(String flLevel) {
+                    this.flLevel = flLevel;
+                }
+
+                public Object getRscl() {
+                    return rscl;
+                }
+
+                public void setRscl(Object rscl) {
+                    this.rscl = rscl;
+                }
+
+                public FreeTrialPrivilegeBean getFreeTrialPrivilege() {
+                    return freeTrialPrivilege;
+                }
+
+                public void setFreeTrialPrivilege(FreeTrialPrivilegeBean freeTrialPrivilege) {
+                    this.freeTrialPrivilege = freeTrialPrivilege;
+                }
+
+                public List<ChargeInfoListBean> getChargeInfoList() {
+                    return chargeInfoList;
+                }
+
+                public void setChargeInfoList(List<ChargeInfoListBean> chargeInfoList) {
+                    this.chargeInfoList = chargeInfoList;
+                }
+
+                public static class FreeTrialPrivilegeBean {
                     /**
-                     * id : 0
-                     * name :
-                     * picUrl : null
-                     * alias : []
-                     * albumSize : 0
-                     * picId : 0
-                     * fansGroup : null
-                     * img1v1Url : https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg
-                     * img1v1 : 0
-                     * trans : null
+                     * resConsumable : false
+                     * userConsumable : false
+                     * listenType : 5
                      */
 
-                    private int id;
-                    private String name;
-                    private Object picUrl;
-                    private int albumSize;
-                    private int picId;
-                    private Object fansGroup;
-                    private String img1v1Url;
-                    private int img1v1;
-                    private Object trans;
-                    private List<?> alias;
+                    private boolean resConsumable;
+                    private boolean userConsumable;
+                    private int listenType;
 
-                    public int getId() {
-                        return id;
+                    public boolean isResConsumable() {
+                        return resConsumable;
                     }
 
-                    public void setId(int id) {
-                        this.id = id;
+                    public void setResConsumable(boolean resConsumable) {
+                        this.resConsumable = resConsumable;
                     }
 
-                    public String getName() {
-                        return name;
+                    public boolean isUserConsumable() {
+                        return userConsumable;
                     }
 
-                    public void setName(String name) {
-                        this.name = name;
+                    public void setUserConsumable(boolean userConsumable) {
+                        this.userConsumable = userConsumable;
                     }
 
-                    public Object getPicUrl() {
-                        return picUrl;
+                    public int getListenType() {
+                        return listenType;
                     }
 
-                    public void setPicUrl(Object picUrl) {
-                        this.picUrl = picUrl;
+                    public void setListenType(int listenType) {
+                        this.listenType = listenType;
+                    }
+                }
+
+                public static class ChargeInfoListBean {
+                    /**
+                     * rate : 128000
+                     * chargeUrl : null
+                     * chargeMessage : null
+                     * chargeType : 1
+                     */
+
+                    private int rate;
+                    private Object chargeUrl;
+                    private Object chargeMessage;
+                    private int chargeType;
+
+                    public int getRate() {
+                        return rate;
                     }
 
-                    public int getAlbumSize() {
-                        return albumSize;
+                    public void setRate(int rate) {
+                        this.rate = rate;
                     }
 
-                    public void setAlbumSize(int albumSize) {
-                        this.albumSize = albumSize;
+                    public Object getChargeUrl() {
+                        return chargeUrl;
                     }
 
-                    public int getPicId() {
-                        return picId;
+                    public void setChargeUrl(Object chargeUrl) {
+                        this.chargeUrl = chargeUrl;
                     }
 
-                    public void setPicId(int picId) {
-                        this.picId = picId;
+                    public Object getChargeMessage() {
+                        return chargeMessage;
                     }
 
-                    public Object getFansGroup() {
-                        return fansGroup;
+                    public void setChargeMessage(Object chargeMessage) {
+                        this.chargeMessage = chargeMessage;
                     }
 
-                    public void setFansGroup(Object fansGroup) {
-                        this.fansGroup = fansGroup;
+                    public int getChargeType() {
+                        return chargeType;
                     }
 
-                    public String getImg1v1Url() {
-                        return img1v1Url;
-                    }
-
-                    public void setImg1v1Url(String img1v1Url) {
-                        this.img1v1Url = img1v1Url;
-                    }
-
-                    public int getImg1v1() {
-                        return img1v1;
-                    }
-
-                    public void setImg1v1(int img1v1) {
-                        this.img1v1 = img1v1;
-                    }
-
-                    public Object getTrans() {
-                        return trans;
-                    }
-
-                    public void setTrans(Object trans) {
-                        this.trans = trans;
-                    }
-
-                    public List<?> getAlias() {
-                        return alias;
-                    }
-
-                    public void setAlias(List<?> alias) {
-                        this.alias = alias;
+                    public void setChargeType(int chargeType) {
+                        this.chargeType = chargeType;
                     }
                 }
             }
 
-            public static class ArtistsBean {
+            public static class ArBean {
                 /**
                  * id : 11127
                  * name : Beyond
-                 * picUrl : null
+                 * tns : ["超越"]
                  * alias : []
-                 * albumSize : 0
-                 * picId : 0
-                 * fansGroup : null
-                 * img1v1Url : https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg
-                 * img1v1 : 0
-                 * trans : null
                  */
 
                 private int id;
                 private String name;
-                private Object picUrl;
-                private int albumSize;
-                private int picId;
-                private Object fansGroup;
-                private String img1v1Url;
-                private int img1v1;
-                private Object trans;
+                private List<String> tns;
                 private List<?> alias;
 
                 public int getId() {
@@ -463,60 +1206,12 @@ public class SearchEnerty {
                     this.name = name;
                 }
 
-                public Object getPicUrl() {
-                    return picUrl;
+                public List<String> getTns() {
+                    return tns;
                 }
 
-                public void setPicUrl(Object picUrl) {
-                    this.picUrl = picUrl;
-                }
-
-                public int getAlbumSize() {
-                    return albumSize;
-                }
-
-                public void setAlbumSize(int albumSize) {
-                    this.albumSize = albumSize;
-                }
-
-                public int getPicId() {
-                    return picId;
-                }
-
-                public void setPicId(int picId) {
-                    this.picId = picId;
-                }
-
-                public Object getFansGroup() {
-                    return fansGroup;
-                }
-
-                public void setFansGroup(Object fansGroup) {
-                    this.fansGroup = fansGroup;
-                }
-
-                public String getImg1v1Url() {
-                    return img1v1Url;
-                }
-
-                public void setImg1v1Url(String img1v1Url) {
-                    this.img1v1Url = img1v1Url;
-                }
-
-                public int getImg1v1() {
-                    return img1v1;
-                }
-
-                public void setImg1v1(int img1v1) {
-                    this.img1v1 = img1v1;
-                }
-
-                public Object getTrans() {
-                    return trans;
-                }
-
-                public void setTrans(Object trans) {
-                    this.trans = trans;
+                public void setTns(List<String> tns) {
+                    this.tns = tns;
                 }
 
                 public List<?> getAlias() {
