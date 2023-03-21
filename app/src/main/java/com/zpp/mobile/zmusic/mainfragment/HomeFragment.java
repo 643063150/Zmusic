@@ -170,7 +170,7 @@ public class HomeFragment extends Fragment {
     /**
      * 缓存当前歌单
      */
-    private void playSongSheet(int integer, PlayUrlsEnerty playUrlsEnerty) {
+    private void playSongSheet(int integer, PlayUrlsEnerty playUrlsEnerty,String songsId) {
         MMKV.defaultMMKV().putString("playlistInfo", SongUtils.getHomeSongId(songEnertyArrayList));
         ArrayList<MusicItem> arrayList = new ArrayList<>();
         for (int i = 0; i < homeAdapter.getItems().size(); i++) {
@@ -190,8 +190,10 @@ public class HomeFragment extends Fragment {
                 }
             }
         }
-        Playlist playlist = new Playlist("", arrayList, true, null);
-        mPlayerViewModel.getPlayerClient().setPlaylist(playlist, integer, true);
+        if (arrayList.size()!=0){
+            Playlist playlist = new Playlist("", arrayList, true, null);
+            mPlayerViewModel.getPlayerClient().setPlaylist(playlist, integer, true);
+        }
     }
 
     /**
@@ -217,8 +219,8 @@ public class HomeFragment extends Fragment {
      * 获取播放链接
      */
     private void getMusicPlayerUrl(int integer, String songIds) {
-        RxHttp.postForm(Url.songPlyer).add("id", songIds).add("level", "exhigh").toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
-            playSongSheet(integer, s);
+        RxHttp.postForm(Url.songPlyer).add("id", songIds).add("level", "exhigh").add("timestamp",System.currentTimeMillis()).toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
+            playSongSheet(integer, s,songIds);
         }, throwable -> {
             throwable.printStackTrace();
         });

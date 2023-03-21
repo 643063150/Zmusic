@@ -114,18 +114,20 @@ public class SearchActivity extends BaseActivity {
      * 获取播放链接
      */
     private void getMusicPlayerUrl(String songId, SearchEnerty.ResultBean.SongsBean songsBean) {
-        RxHttp.postForm(Url.songPlyer).add("id", songId).add("level", "exhigh").toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
-            PlayUrlsEnerty.DataBean dataBean = s.getData().get(0);
-            MusicItem song = new MusicItem.Builder()
-                    .setTitle(songsBean.getName())
-                    .setArtist(songsBean.getAr().get(0).getName())
-                    .setAlbum(songsBean.getAl().getName())
-                    .setDuration(songsBean.getDt())
-                    .setUri(dataBean.getUrl() == null ? "" : dataBean.getUrl())
-                    .setIconUri(songsBean.getAl().getPicUrl())
-                    .build();
-            mPlayerViewModel.getPlayerClient().setNextPlay(song);
-            mPlayerViewModel.getPlayerClient().skipToPosition(mPlayerViewModel.getPlayPosition().getValue() + 1);
+        RxHttp.postForm(Url.songPlyer).add("id", songId).add("level", "exhigh").add("timestamp",System.currentTimeMillis()).toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
+            if (s.getData().size()!=0){
+                PlayUrlsEnerty.DataBean dataBean = s.getData().get(0);
+                MusicItem song = new MusicItem.Builder()
+                        .setTitle(songsBean.getName())
+                        .setArtist(songsBean.getAr().get(0).getName())
+                        .setAlbum(songsBean.getAl().getName())
+                        .setDuration(songsBean.getDt())
+                        .setUri(dataBean.getUrl() == null ? "" : dataBean.getUrl())
+                        .setIconUri(songsBean.getAl().getPicUrl())
+                        .build();
+                mPlayerViewModel.getPlayerClient().setNextPlay(song);
+                mPlayerViewModel.getPlayerClient().skipToPosition(mPlayerViewModel.getPlayPosition().getValue() + 1);
+            }
         }, throwable -> {
             throwable.printStackTrace();
         });

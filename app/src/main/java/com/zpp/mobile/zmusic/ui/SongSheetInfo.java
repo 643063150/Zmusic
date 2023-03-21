@@ -37,9 +37,11 @@ import com.zpp.mobile.zmusic.view.SongSheetBg;
 import java.util.ArrayList;
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import rxhttp.wrapper.param.RxHttp;
+import snow.player.Player;
 import snow.player.audio.MusicItem;
 import snow.player.lifecycle.PlayerViewModel;
 import snow.player.playlist.Playlist;
+import snow.player.playlist.PlaylistManager;
 
 /**
  * @ProjectName: Zmusic
@@ -106,19 +108,19 @@ public class SongSheetInfo extends BaseActivity {
             getMusicPlayerUrl(integer);
             return null;
         });
-        helper=new QuickAdapterHelper.Builder(setAdapter).setTrailingLoadStateAdapter(new TrailingLoadStateAdapter.OnTrailingListener() {
-            @Override
-            public void onLoad() {
-                Log.e("加载","------------------------");
-            }
-
-            @Override
-            public void onFailRetry() {
-                Log.e("加载","------------------------");
-            }
-        }).build();
-        helper.setTrailingLoadState(new LoadState.NotLoading(false));
+        helper=new QuickAdapterHelper.Builder(setAdapter).build();
         binding.songList.setAdapter(helper.getAdapter());
+        mPlayerViewModel.getPlayerClient().addOnPlaylistChangeListener(new Player.OnPlaylistChangeListener() {
+            @Override
+            public void onPlaylistChanged(PlaylistManager playlistManager, int position) {
+                playlistManager.getPlaylist(new PlaylistManager.Callback() {
+                    @Override
+                    public void onFinished(Playlist playlist) {
+                        Log.e("播放列表",playlist.size()+"");
+                    }
+                });
+            }
+        });
     }
 
     /**
@@ -200,8 +202,10 @@ public class SongSheetInfo extends BaseActivity {
                 }
             }
         }
-        Playlist playlist=new Playlist("",arrayList,true,null);
-        mPlayerViewModel.getPlayerClient().setPlaylist(playlist, integer,true);
+        if (arrayList.size()!=0){
+            Playlist playlist=new Playlist("",arrayList,true,null);
+            mPlayerViewModel.getPlayerClient().setPlaylist(playlist, integer,true);
+        }
     }
 
     /**
@@ -222,7 +226,7 @@ public class SongSheetInfo extends BaseActivity {
      * 获取播放链接
      */
     private void getMusicPlayerUrl(int integer){
-        RxHttp.postForm(Url.songPlyer).add("id",setSongMid()).add("level","exhigh").toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
+        RxHttp.postForm(Url.songPlyer).add("id",setSongMid()).add("level","exhigh").add("timestamp",System.currentTimeMillis()).toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
             playSongSheet(integer,s);
         },throwable -> {
             throwable.printStackTrace();
