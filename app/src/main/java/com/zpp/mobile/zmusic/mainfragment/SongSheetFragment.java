@@ -72,7 +72,7 @@ public class SongSheetFragment extends Fragment {
         });
         songsheetGragmentBinding.search.setOnClickListener(v -> {
             Intent intent = new Intent();
-            intent.setClass(getActivity(), SearchActivity.class);
+            intent.setClass(getActivity(), MusicPlayerActivity.class);
             getActivity().startActivity(intent);
         });
     }

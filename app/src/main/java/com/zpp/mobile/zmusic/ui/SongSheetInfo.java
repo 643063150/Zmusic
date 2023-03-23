@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.palette.graphics.Palette;
 import androidx.recyclerview.widget.LinearLayoutManager;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.GlideException;
@@ -34,7 +35,9 @@ import com.zpp.mobile.zmusic.enerty.SongSheetInfoEnerty;
 import com.zpp.mobile.zmusic.utils.PlayerUtil;
 import com.zpp.mobile.zmusic.utils.Url;
 import com.zpp.mobile.zmusic.view.SongSheetBg;
+
 import java.util.ArrayList;
+
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import rxhttp.wrapper.param.RxHttp;
 import snow.player.Player;
@@ -60,6 +63,7 @@ public class SongSheetInfo extends BaseActivity {
     SongAdapter setAdapter;
     private PlayerViewModel mPlayerViewModel;
     QuickAdapterHelper helper;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -108,7 +112,7 @@ public class SongSheetInfo extends BaseActivity {
             getMusicPlayerUrl(integer);
             return null;
         });
-        helper=new QuickAdapterHelper.Builder(setAdapter).build();
+        helper = new QuickAdapterHelper.Builder(setAdapter).build();
         binding.songList.setAdapter(helper.getAdapter());
         mPlayerViewModel.getPlayerClient().addOnPlaylistChangeListener(new Player.OnPlaylistChangeListener() {
             @Override
@@ -116,7 +120,7 @@ public class SongSheetInfo extends BaseActivity {
                 playlistManager.getPlaylist(new PlaylistManager.Callback() {
                     @Override
                     public void onFinished(Playlist playlist) {
-                        Log.e("播放列表",playlist.size()+"");
+                        Log.e("播放列表", playlist.size() + "");
                     }
                 });
             }
@@ -144,13 +148,13 @@ public class SongSheetInfo extends BaseActivity {
                 String hexColor;
                 try {
                     hexColor = String.format("#%06X", (0xFFFFFF & palette.getDarkMutedSwatch().getRgb()));
-                }catch (Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                     try {
                         hexColor = String.format("#%06X", (0xFFFFFF & palette.getDarkVibrantSwatch().getRgb()));
-                    }catch (Exception e2){
+                    } catch (Exception e2) {
                         e2.printStackTrace();
-                        hexColor="#FFBB86FC";
+                        hexColor = "#FFBB86FC";
                     }
                 }
                 binding.toolbar.setBackground(SongSheetBg.getDrawable(Color.parseColor(hexColor)));
@@ -162,15 +166,16 @@ public class SongSheetInfo extends BaseActivity {
 
     /**
      * 获取歌曲mid组
+     *
      * @return
      */
-    private String  setSongMid(){
-        String mids="";
-        for ( int i=0;i<setAdapter.getItems().size();i++){
-             mids=mids+","+setAdapter.getItems().get(i).getId();
+    private String setSongMid() {
+        String mids = "";
+        for (int i = 0; i < setAdapter.getItems().size(); i++) {
+            mids = mids + "," + setAdapter.getItems().get(i).getId();
         }
-        if (mids.startsWith(",")){
-            mids=mids.substring(1);
+        if (mids.startsWith(",")) {
+            mids = mids.substring(1);
         }
         return mids;
     }
@@ -182,29 +187,32 @@ public class SongSheetInfo extends BaseActivity {
     /**
      * 缓存当前歌单
      */
-    private void playSongSheet(int integer,PlayUrlsEnerty playUrlsEnerty){
-        MMKV.defaultMMKV().putString("playlistInfo",setSongMid());
-        ArrayList<MusicItem> arrayList=new ArrayList<>();
-        for (int i=0;i<setAdapter.getItems().size();i++){
-            SongSheetInfoEnerty.PlaylistBean.TracksBean songlistBean=setAdapter.getItems().get(i);
-            for (int j=0;j<playUrlsEnerty.getData().size();j++){
-                PlayUrlsEnerty.DataBean dataBean=playUrlsEnerty.getData().get(j);
-                if (dataBean.getId().equals(songlistBean.getId())){
+    private void playSongSheet(int integer, PlayUrlsEnerty playUrlsEnerty) {
+        MMKV.defaultMMKV().putString("playlistInfo", setSongMid());
+        ArrayList<MusicItem> arrayList = new ArrayList<>();
+        for (int i = 0; i < setAdapter.getItems().size(); i++) {
+            SongSheetInfoEnerty.PlaylistBean.TracksBean songlistBean = setAdapter.getItems().get(i);
+            for (int j = 0; j < playUrlsEnerty.getData().size(); j++) {
+                PlayUrlsEnerty.DataBean dataBean = playUrlsEnerty.getData().get(j);
+                if (dataBean.getId().equals(songlistBean.getId())) {
+                    Bundle bundle = new Bundle();
+                    bundle.putString("id", songlistBean.getId());
                     MusicItem song = new MusicItem.Builder()
                             .setTitle(songlistBean.getName())
                             .setArtist(songlistBean.getAr().get(0).getName())
                             .setAlbum(songlistBean.getAl().getName())
                             .setDuration(dataBean.getTime())
-                            .setUri(dataBean.getUrl()== null ? "" : dataBean.getUrl())
+                            .setUri(dataBean.getUrl() == null ? "" : dataBean.getUrl())
                             .setIconUri(songlistBean.getAl().getPicUrl())
+                            .setExtra(bundle)
                             .build();
                     arrayList.add(song);
                 }
             }
         }
-        if (arrayList.size()!=0){
-            Playlist playlist=new Playlist("",arrayList,true,null);
-            mPlayerViewModel.getPlayerClient().setPlaylist(playlist, integer,true);
+        if (arrayList.size() != 0) {
+            Playlist playlist = new Playlist("", arrayList, true, null);
+            mPlayerViewModel.getPlayerClient().setPlaylist(playlist, integer, true);
         }
     }
 
@@ -225,10 +233,10 @@ public class SongSheetInfo extends BaseActivity {
     /**
      * 获取播放链接
      */
-    private void getMusicPlayerUrl(int integer){
-        RxHttp.postForm(Url.songPlyer).add("id",setSongMid()).add("level","exhigh").add("timestamp",System.currentTimeMillis()).toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
-            playSongSheet(integer,s);
-        },throwable -> {
+    private void getMusicPlayerUrl(int integer) {
+        RxHttp.get(Url.songPlyer).add("id", setSongMid()).add("level", "exhigh").add("timestamp", System.currentTimeMillis()).toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
+            playSongSheet(integer, s);
+        }, throwable -> {
             throwable.printStackTrace();
         });
     }

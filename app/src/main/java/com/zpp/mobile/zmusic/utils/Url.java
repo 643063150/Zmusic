@@ -32,4 +32,8 @@ public class Url {
     public static String webConUrl="/top/playlist";
 
     public static String authorityUrl="/top/playlist/highquality";
+
+    public static String top="/toplist";
+
+    public static String cookie="/login/status";
 }

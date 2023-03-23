@@ -1,8 +1,13 @@
 package com.zpp.mobile.zmusic.app;
 
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import snow.player.HistoryRecorder;
 import snow.player.PlayerService;
 import snow.player.annotation.PersistenceId;
+import snow.player.audio.MusicItem;
 
 
 /**
@@ -18,9 +23,11 @@ import snow.player.annotation.PersistenceId;
  */
 @PersistenceId("ZppMusicService")
 public class MyMusicService extends PlayerService {
-//        @NonNull
-//    @Override
-//    protected MusicPlayer onCreateMusicPlayer(@NonNull Context context, @NonNull MusicItem musicItem, @NonNull Uri uri) {
-//        return new ExoMusicPlayer(context, uri);
-//    }
+    @Nullable
+    @Override
+    protected HistoryRecorder onCreateHistoryRecorder() {
+        return musicItem -> {
+
+        };
+    }
 }

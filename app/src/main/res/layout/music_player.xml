@@ -337,6 +337,7 @@
                 android:layout_weight="1">
 
                 <ImageButton
+                    android:id="@+id/playList"
                     android:layout_width="@dimen/image_button_size"
                     android:layout_height="@dimen/image_button_size"
                     android:layout_gravity="center"

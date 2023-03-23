@@ -72,6 +72,7 @@ public class HomeFragment extends Fragment {
     QuickAdapterHelper helper;
     HomeBanner homeBanner;
     HomeHeadAdapter homeHeadAdapter;
+
     public static HomeFragment getInstance() {
         HomeFragment homeFragment = new HomeFragment();
         return homeFragment;
@@ -126,13 +127,12 @@ public class HomeFragment extends Fragment {
      * 推荐歌单
      */
     private void setRecommend() {
-        homeHeadAdapter=new HomeHeadAdapter();
-        helper.addBeforeAdapter(1,homeHeadAdapter);
+        homeHeadAdapter = new HomeHeadAdapter();
+        helper.addBeforeAdapter(1, homeHeadAdapter);
     }
 
     /**
      * 推荐banner
-     *
      */
     private void setBanner() {
         homeBanner = new HomeBanner();
@@ -170,7 +170,7 @@ public class HomeFragment extends Fragment {
     /**
      * 缓存当前歌单
      */
-    private void playSongSheet(int integer, PlayUrlsEnerty playUrlsEnerty,String songsId) {
+    private void playSongSheet(int integer, PlayUrlsEnerty playUrlsEnerty) {
         MMKV.defaultMMKV().putString("playlistInfo", SongUtils.getHomeSongId(songEnertyArrayList));
         ArrayList<MusicItem> arrayList = new ArrayList<>();
         for (int i = 0; i < homeAdapter.getItems().size(); i++) {
@@ -178,6 +178,8 @@ public class HomeFragment extends Fragment {
             for (int j = 0; j < playUrlsEnerty.getData().size(); j++) {
                 PlayUrlsEnerty.DataBean dataBean = playUrlsEnerty.getData().get(j);
                 if (dataBean.getId().equals(songlistBean.getId())) {
+                    Bundle bundle = new Bundle();
+                    bundle.putString("id", dataBean.getId());
                     MusicItem song = new MusicItem.Builder()
                             .setTitle(songlistBean.getName())
                             .setArtist(songlistBean.getSong().getArtists().get(0).getName())
@@ -185,12 +187,13 @@ public class HomeFragment extends Fragment {
                             .setDuration(dataBean.getTime())
                             .setUri(dataBean.getUrl() == null ? "" : dataBean.getUrl())
                             .setIconUri(songlistBean.getPicUrl())
+                            .setExtra(bundle)
                             .build();
                     arrayList.add(song);
                 }
             }
         }
-        if (arrayList.size()!=0){
+        if (arrayList.size() != 0) {
             Playlist playlist = new Playlist("", arrayList, true, null);
             mPlayerViewModel.getPlayerClient().setPlaylist(playlist, integer, true);
         }
@@ -201,7 +204,7 @@ public class HomeFragment extends Fragment {
      */
     private void getBanner() {
         RxHttp.get(Url.BANNER).add("type", 1).toObservable(HomeBanner.class).observeOn(AndroidSchedulers.mainThread()).subscribe(homeBanner -> {
-            Log.e("更新banner","-----------------------");
+            Log.e("更新banner", "-----------------------");
             headAdapter.setHomeBanner(homeBanner);
         }, throwable -> {
             throwable.printStackTrace();
@@ -219,8 +222,8 @@ public class HomeFragment extends Fragment {
      * 获取播放链接
      */
     private void getMusicPlayerUrl(int integer, String songIds) {
-        RxHttp.postForm(Url.songPlyer).add("id", songIds).add("level", "exhigh").add("timestamp",System.currentTimeMillis()).toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
-            playSongSheet(integer, s,songIds);
+        RxHttp.get(Url.songPlyer).add("id", songIds).add("level", "exhigh").add("timestamp", System.currentTimeMillis()).toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
+            playSongSheet(integer, s);
         }, throwable -> {
             throwable.printStackTrace();
         });

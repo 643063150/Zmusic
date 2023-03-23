@@ -1,5 +1,11 @@
 package com.zpp.mobile.zmusic.utils;
 
+import android.content.Context;
+import android.os.Build;
+import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+
 import com.tencent.mmkv.MMKV;
 import com.zpp.mobile.zmusic.enerty.HomeSongEnerty;
 import com.zpp.mobile.zmusic.enerty.PlayUrlsEnerty;
@@ -9,8 +15,12 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
+import rxhttp.wrapper.param.RxHttp;
 import snow.player.audio.MusicItem;
+import snow.player.lifecycle.PlayerViewModel;
 import snow.player.playlist.Playlist;
+import snow.player.playlist.PlaylistManager;
 
 /**
  * @ProjectName: Zmusic
@@ -66,6 +76,56 @@ public class SongUtils {
             double result = (double) number / 10000;
             return String.format(FORMAT, result);
         }
+    }
+
+
+    /**
+     * 播放链接过期时重新获取播放链接
+     * @param context
+     * @param playerViewModel
+     */
+    public static void handleError(Context context, PlayerViewModel playerViewModel) {
+
+        playerViewModel.getPlayerClient().getPlaylist(playlist -> {
+            String mids = "";
+            for (int i = 0; i < playlist.size(); i++) {
+                Bundle bundle = playlist.get(i).getExtra();
+                mids = mids + "," + bundle.getString("id");
+            }
+            if (mids.startsWith(",")) {
+                mids = mids.substring(1);
+            }
+            RxHttp.get(Url.songPlyer).add("id", mids).add("level", "exhigh").add("timestamp", System.currentTimeMillis()).toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
+                ArrayList<MusicItem> arrayList = new ArrayList<>();
+                for (int i = 0; i < playlist.size(); i++) {
+                    MusicItem musicItem = playlist.get(i);
+                    Bundle bundle = musicItem.getExtra();
+                    String id = bundle.getString("id");
+                    for (int j = 0; j < s.getData().size(); j++) {
+                        PlayUrlsEnerty.DataBean dataBean = s.getData().get(j);
+                        if (id.equals(s.getData().get(j).getId())) {
+                            MusicItem song = new MusicItem.Builder()
+                                    .setTitle(musicItem.getTitle())
+                                    .setArtist(musicItem.getArtist())
+                                    .setAlbum(musicItem.getAlbum())
+                                    .setDuration(musicItem.getDuration())
+                                    .setUri(dataBean.getUrl() == null ? "" : dataBean.getUrl())
+                                    .setIconUri(musicItem.getIconUri())
+                                    .setExtra(bundle)
+                                    .build();
+                            arrayList.add(song);
+                        }
+                    }
+                }
+                if (arrayList.size() != 0) {
+                    int integer = playerViewModel.getPlayPosition().getValue();
+                    Playlist playlists = new Playlist("", arrayList, true, null);
+                    playerViewModel.getPlayerClient().setPlaylist(playlists, integer, true);
+                }
+            }, throwable -> {
+                throwable.printStackTrace();
+            });
+        });
     }
 
 }

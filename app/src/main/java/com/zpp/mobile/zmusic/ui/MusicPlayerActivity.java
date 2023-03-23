@@ -29,6 +29,7 @@ import com.zpp.mobile.zmusic.app.MyMusicService;
 import com.zpp.mobile.zmusic.databinding.MusicPlayerBinding;
 import com.zpp.mobile.zmusic.utils.AlbumIconAnimManager;
 import com.zpp.mobile.zmusic.utils.PlayerUtil;
+import com.zpp.mobile.zmusic.view.PlaylistDialog;
 import com.zpp.mobile.zmusic.view.SongSheetBg;
 
 import snow.player.PlaybackState;
@@ -72,6 +73,10 @@ public class MusicPlayerActivity extends BaseActivity {
         });
         binding.btnPlayPause.setOnClickListener(v -> {
             mPlayerClient.playPause();
+        });
+        binding.playList.setOnClickListener(v -> {
+            PlaylistDialog.newInstance()
+                    .show(getSupportFragmentManager(), "Playlist");
         });
     }
 

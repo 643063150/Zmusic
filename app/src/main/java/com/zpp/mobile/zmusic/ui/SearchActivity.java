@@ -31,11 +31,14 @@ import com.zpp.mobile.zmusic.ui.modelview.SearchModelView;
 import com.zpp.mobile.zmusic.utils.PlayerUtil;
 import com.zpp.mobile.zmusic.utils.Url;
 
+import java.util.ArrayList;
+
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.functions.Consumer;
 import rxhttp.wrapper.param.RxHttp;
 import snow.player.audio.MusicItem;
 import snow.player.lifecycle.PlayerViewModel;
+import snow.player.playlist.Playlist;
 
 /**
  * @ProjectName: Zmusic
@@ -64,7 +67,7 @@ public class SearchActivity extends BaseActivity {
         initAllViewModel();
         setPlayerClient(mPlayerViewModel.getPlayerClient());
         StatusBarUtil.setTransparentForWindow(this);
-        StatusBarUtil.setPaddingTop(this,binding.view);
+        StatusBarUtil.setPaddingTop(this, binding.view);
         setBinding();
     }
 
@@ -82,7 +85,7 @@ public class SearchActivity extends BaseActivity {
      * 视图操作
      */
     private void setBinding() {
-        searchPageAdapter=new SearchPageAdapter(getSupportFragmentManager());
+        searchPageAdapter = new SearchPageAdapter(getSupportFragmentManager());
         binding.searchPage.setAdapter(searchPageAdapter);
         binding.tlTabs.setViewPager(binding.searchPage);
         binding.etSearch.addTextChangedListener(new TextWatcher() {
@@ -114,9 +117,11 @@ public class SearchActivity extends BaseActivity {
      * 获取播放链接
      */
     private void getMusicPlayerUrl(String songId, SearchEnerty.ResultBean.SongsBean songsBean) {
-        RxHttp.postForm(Url.songPlyer).add("id", songId).add("level", "exhigh").add("timestamp",System.currentTimeMillis()).toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
-            if (s.getData().size()!=0){
+        RxHttp.get(Url.songPlyer).add("id", songId).add("level", "exhigh").add("timestamp", System.currentTimeMillis()).toObservable(PlayUrlsEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(s -> {
+            if (s.getData().size() != 0) {
                 PlayUrlsEnerty.DataBean dataBean = s.getData().get(0);
+                Bundle bundle = new Bundle();
+                bundle.putString("id",songId);
                 MusicItem song = new MusicItem.Builder()
                         .setTitle(songsBean.getName())
                         .setArtist(songsBean.getAr().get(0).getName())
@@ -124,9 +129,19 @@ public class SearchActivity extends BaseActivity {
                         .setDuration(songsBean.getDt())
                         .setUri(dataBean.getUrl() == null ? "" : dataBean.getUrl())
                         .setIconUri(songsBean.getAl().getPicUrl())
+                        .setExtra(bundle)
                         .build();
-                mPlayerViewModel.getPlayerClient().setNextPlay(song);
-                mPlayerViewModel.getPlayerClient().skipToPosition(mPlayerViewModel.getPlayPosition().getValue() + 1);
+                if (mPlayerViewModel.getPlayerClient().getPlaylistSize() == 0) {
+                    ArrayList<MusicItem> arrayList = new ArrayList<>();
+                    arrayList.add(song);
+                    Playlist playlist = new Playlist("", arrayList, true, null);
+                    mPlayerViewModel.getPlayerClient().setPlaylist(playlist, 0, true);
+                } else {
+                    mPlayerViewModel.getPlayerClient().setNextPlay(song);
+                    mPlayerViewModel.getPlayerClient().skipToNext();
+                }
+
+
             }
         }, throwable -> {
             throwable.printStackTrace();
