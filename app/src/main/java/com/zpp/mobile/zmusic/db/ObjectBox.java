@@ -2,6 +2,10 @@ package com.zpp.mobile.zmusic.db;
 
 import android.content.Context;
 
+import com.zpp.mobile.zmusic.db.entity.MyObjectBox;
+
+import io.objectbox.BoxStore;
+import io.objectbox.android.Admin;
 
 
 /**
@@ -16,14 +20,14 @@ import android.content.Context;
  * @UpdateRemark:
  */
 public class ObjectBox {
-//    private static BoxStore boxStore;
-//
-//    public static void init(Context context) {
-//        boxStore = MyObjectBox.builder()
-//                .androidContext(context.getApplicationContext())
-//                .build();
-//        new Admin(boxStore).start(context);
-//    }
-//
-//    public static BoxStore get() { return boxStore; }
+    private static BoxStore boxStore;
+
+    public static void init(Context context) {
+        boxStore = MyObjectBox.builder()
+                .androidContext(context.getApplicationContext())
+                .build();
+        new Admin(boxStore).start(context);
+    }
+
+    public static BoxStore get() { return boxStore; }
 }

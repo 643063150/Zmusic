@@ -1,6 +1,9 @@
 package com.zpp.mobile.zmusic.db.entity;
 
 
+import io.objectbox.annotation.Entity;
+import io.objectbox.annotation.Id;
+
 /**
  * @ProjectName: ObjectBoxTest
  * @Package: com.zpp.mobile.objectboxtest.db.entity
@@ -12,9 +15,9 @@ package com.zpp.mobile.zmusic.db.entity;
  * @UpdateDate: 2023/3/24 9:59
  * @UpdateRemark:
  */
-//@Entity
+@Entity
 public class Song {
-//    @Id
+    @Id
     public long id;
 
     public String songName;

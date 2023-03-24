@@ -28,7 +28,7 @@ public class MyApp extends Application {
         setOkhttp();
 //        setMusicService();
         MMKV.initialize(this);
-//        ObjectBox.init(this);
+        ObjectBox.init(this);
     }
 
     /**
