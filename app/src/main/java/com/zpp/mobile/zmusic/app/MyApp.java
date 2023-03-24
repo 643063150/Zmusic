@@ -1,20 +1,14 @@
 package com.zpp.mobile.zmusic.app;
 
 import android.app.Application;
-import android.text.TextUtils;
-import android.util.Log;
 
 
 import com.tencent.mmkv.MMKV;
 import com.zpp.mobile.zmusic.BuildConfig;
-import com.zpp.mobile.zmusic.enerty.Coookie;
-import com.zpp.mobile.zmusic.utils.Url;
-
-import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
+import com.zpp.mobile.zmusic.db.ObjectBox;
 import rxhttp.RxHttpPlugins;
-import rxhttp.wrapper.callback.Consumer;
-import rxhttp.wrapper.param.Param;
-import rxhttp.wrapper.param.RxHttp;
+
+
 
 /**
  * @ProjectName: MyMusic
@@ -34,6 +28,7 @@ public class MyApp extends Application {
         setOkhttp();
 //        setMusicService();
         MMKV.initialize(this);
+//        ObjectBox.init(this);
     }
 
     /**
