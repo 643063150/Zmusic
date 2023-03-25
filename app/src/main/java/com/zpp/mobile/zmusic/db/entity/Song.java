@@ -20,6 +20,8 @@ public class Song {
     @Id
     public long id;
 
+    public String songId;
+
     public String songName;
     
     private String title;
@@ -27,6 +29,14 @@ public class Song {
     private String artist;
 
     private String album;
+
+    public String getSongId() {
+        return songId;
+    }
+
+    public void setSongId(String songId) {
+        this.songId = songId;
+    }
 
     private String uri;
 
