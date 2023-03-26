@@ -25,4 +25,7 @@
     <color name="grey_900">#212121</color>
 
     <color name="red_500">#F44336</color>
+
+    <color name="tab_no">@color/black</color>
+    <color name="search_bg">@color/white</color>
 </resources>

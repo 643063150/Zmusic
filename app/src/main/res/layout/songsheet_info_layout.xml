@@ -48,11 +48,16 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop" />
 
-            <net.center.blurview.ShapeBlurView
-                android:id="@+id/blurview"
-                app:blur_overlay_color="@color/white"
+            <View
+                android:background="@color/search_bg"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"/>
+
+<!--            <net.center.blurview.ShapeBlurView-->
+<!--                android:id="@+id/blurview"-->
+<!--                app:blur_overlay_color="@color/white"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent" />-->
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/songList"

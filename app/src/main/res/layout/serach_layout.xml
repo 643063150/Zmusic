@@ -73,7 +73,7 @@
         android:layout_below="@id/rl_action"
         android:layout_weight="1"
         app:tl_divider_padding="6dp"
-        app:tl_indicator_color="@color/black"
+        app:tl_indicator_color="@color/tab_no"
         app:tl_indicator_corner_radius="1.5dp"
         app:tl_indicator_height="3dp"
         app:tl_indicator_style="NORMAL"
@@ -81,9 +81,9 @@
         app:tl_tab_padding="10dp"
         app:tl_tab_space_equal="true"
         app:tl_textBold="BOTH"
-        app:tl_textSelectColor="@color/black"
+        app:tl_textSelectColor="@color/tab_no"
         app:tl_textSelectSize="17sp"
-        app:tl_textUnSelectColor="@color/black"
+        app:tl_textUnSelectColor="@color/tab_no"
         app:tl_textUnSelectSize="15sp" />
 
     <androidx.viewpager.widget.ViewPager
