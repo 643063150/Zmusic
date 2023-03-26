@@ -78,6 +78,7 @@ public class MusicPlayerActivity extends BaseActivity {
             PlaylistDialog.newInstance()
                     .show(getSupportFragmentManager(), "Playlist");
         });
+        binding.back.setOnClickListener(view -> finish());
     }
 
     /**
