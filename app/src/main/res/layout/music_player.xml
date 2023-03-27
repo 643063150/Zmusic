@@ -38,7 +38,7 @@
                 android:background="@drawable/bg_button_48dp"
                 android:contentDescription="@string/back"
                 android:scaleType="centerInside"
-                android:src="@drawable/ic_back"
+                android:src="@drawable/ic_back_nor_w"
                 app:tint="@color/grey_300" />
 
             <LinearLayout

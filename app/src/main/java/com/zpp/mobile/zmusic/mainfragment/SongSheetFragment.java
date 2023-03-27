@@ -16,6 +16,7 @@ import com.leaf.library.StatusBarUtil;
 import com.zpp.mobile.zmusic.Adapter.SongSheetAdapter;
 import com.zpp.mobile.zmusic.databinding.SongsheetGragmentBinding;
 import com.zpp.mobile.zmusic.enerty.WebSongSheetEnerty;
+import com.zpp.mobile.zmusic.ui.MoreSheet;
 import com.zpp.mobile.zmusic.ui.MusicPlayerActivity;
 import com.zpp.mobile.zmusic.ui.SearchActivity;
 import com.zpp.mobile.zmusic.ui.SongSheetInfo;
@@ -73,6 +74,18 @@ public class SongSheetFragment extends Fragment {
         songsheetGragmentBinding.search.setOnClickListener(v -> {
             Intent intent = new Intent();
             intent.setClass(getActivity(), MusicPlayerActivity.class);
+            getActivity().startActivity(intent);
+        });
+        songsheetGragmentBinding.webMore.setOnClickListener(v -> {
+            Intent intent = new Intent();
+            intent.putExtra("type", 0);
+            intent.setClass(getActivity(), MoreSheet.class);
+            getActivity().startActivity(intent);
+        });
+        songsheetGragmentBinding.bouMore.setOnClickListener(v -> {
+            Intent intent = new Intent();
+            intent.putExtra("type", 1);
+            intent.setClass(getActivity(), MoreSheet.class);
             getActivity().startActivity(intent);
         });
     }

@@ -29,4 +29,5 @@
     <color name="tab_no">@color/black</color>
     <color name="search_bg">@color/white</color>
     <color name="search_icon">@color/grey_500</color>
+    <color name="sheetinfo">@color/grey_100</color>
 </resources>

@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.lifecycle.ViewModelProvider;
@@ -19,6 +20,7 @@ import com.bumptech.glide.request.target.Target;
 import com.chad.library.adapter.base.QuickAdapterHelper;
 import com.chad.library.adapter.base.loadState.LoadState;
 import com.chad.library.adapter.base.loadState.trailing.TrailingLoadStateAdapter;
+import com.google.android.material.appbar.AppBarLayout;
 import com.google.gson.Gson;
 import com.leaf.library.StatusBarUtil;
 import com.tencent.mmkv.MMKV;
@@ -33,6 +35,7 @@ import com.zpp.mobile.zmusic.enerty.HomeBanner;
 import com.zpp.mobile.zmusic.enerty.PlayUrlsEnerty;
 import com.zpp.mobile.zmusic.enerty.SongSheetInfoEnerty;
 import com.zpp.mobile.zmusic.utils.PlayerUtil;
+import com.zpp.mobile.zmusic.utils.SongUtils;
 import com.zpp.mobile.zmusic.utils.Url;
 import com.zpp.mobile.zmusic.view.SongSheetBg;
 
@@ -70,9 +73,11 @@ public class SongSheetInfo extends BaseActivity {
         super.onCreate(savedInstanceState);
         binding = SongsheetInfoLayoutBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        setSupportActionBar(binding.toolbar);
         initAllViewModel();
         setPlayerClient(mPlayerViewModel.getPlayerClient());
         id = getIntent().getStringExtra("id");
+        StatusBarUtil.setTransparentForWindow(this);
         StatusBarUtil.setGradientColor(this, binding.toolbar);
         setClick();
         setSongList();
@@ -94,6 +99,29 @@ public class SongSheetInfo extends BaseActivity {
      */
     private void setRefresh() {
         binding.refresh.setOnRefreshListener(() -> getList());
+        setTitle("");
+        binding.toolbar.setNavigationIcon(R.drawable.ic_back_nor_w);
+        binding.toolbar.setNavigationOnClickListener(v -> finish());
+        binding.appBar.addOnOffsetChangedListener((AppBarLayout.BaseOnOffsetChangedListener) (appBarLayout, verticalOffset) -> {
+            if (verticalOffset == 0) {
+                binding.toolbar.setVisibility(View.INVISIBLE);
+            } else if (verticalOffset == -appBarLayout.getTotalScrollRange()) {
+                binding.toolbar.setVisibility(View.VISIBLE);
+            } else {
+                float alpha = verticalOffset / -appBarLayout.getTotalScrollRange();
+                binding.toolbar.setVisibility(View.INVISIBLE);
+            }
+        });
+    }
+
+    /**
+     * 详情
+     */
+    private void setBinding(SongSheetInfoEnerty.PlaylistBean playlistBean){
+        binding.sheetname.setText(playlistBean.getName());
+        binding.introduce.setText(playlistBean.getDescription());
+        binding.playCount.setText("播放:"+ SongUtils.convertToTenThousandFormat(playlistBean.getPlayCount()));
+        binding.name.setText(playlistBean.getCreator().getNickname());
     }
 
 
@@ -158,10 +186,11 @@ public class SongSheetInfo extends BaseActivity {
                         hexColor = "#FFBB86FC";
                     }
                 }
+                binding.imageView2.setBackground(SongSheetBg.getDrawable(Color.parseColor(hexColor)));
                 binding.toolbar.setBackground(SongSheetBg.getDrawable(Color.parseColor(hexColor)));
                 return false;
             }
-        }).load(cover).into(binding.bg);
+        }).load(cover).into(binding.ivIcon);
 
     }
 
@@ -182,7 +211,7 @@ public class SongSheetInfo extends BaseActivity {
     }
 
     private void setClick() {
-        binding.back.setOnClickListener(v -> finish());
+
     }
 
     /**
@@ -224,6 +253,7 @@ public class SongSheetInfo extends BaseActivity {
         RxHttp.get(Url.songsheetinfo).add("id", id).toObservable(SongSheetInfoEnerty.class).observeOn(AndroidSchedulers.mainThread()).subscribe(songSheetInfoEnerty -> {
             binding.refresh.setRefreshing(false);
             setBg(songSheetInfoEnerty.getPlaylist().getCoverImgUrl());
+            setBinding(songSheetInfoEnerty.getPlaylist());
             setAdapter.submitList(songSheetInfoEnerty.getPlaylist().getTracks());
         }, throwable -> {
             throwable.printStackTrace();

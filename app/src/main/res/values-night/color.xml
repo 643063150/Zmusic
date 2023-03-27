@@ -3,4 +3,5 @@
     <color name="tab_no">@color/purple_500</color>
     <color name="search_bg">@color/grey_900</color>
     <color name="search_icon">@color/white</color>
+    <color name="sheetinfo">@color/grey_900</color>
 </resources>

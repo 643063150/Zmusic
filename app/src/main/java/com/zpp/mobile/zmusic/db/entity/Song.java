@@ -23,12 +23,22 @@ public class Song {
     public String songId;
 
     public String songName;
-    
-    private String title;
 
-    private String artist;
+    public String title;
 
-    private String album;
+    public String artist;
+
+    public long getListenTime() {
+        return listenTime;
+    }
+
+    public void setListenTime(long listenTime) {
+        this.listenTime = listenTime;
+    }
+
+    public String album;
+
+    public long listenTime;
 
     public String getSongId() {
         return songId;
