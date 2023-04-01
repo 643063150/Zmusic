@@ -1,6 +1,7 @@
 package com.zpp.mobile.zmusic;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.view.View;
@@ -26,6 +27,7 @@ import com.zpp.mobile.zmusic.mainfragment.PageAdapter;
 import com.zpp.mobile.zmusic.ui.MusicPlayerActivity;
 import com.zpp.mobile.zmusic.utils.PlayerUtil;
 import com.zpp.mobile.zmusic.utils.SongUtils;
+import com.zpp.mobile.zmusic.view.PlaylistDialog;
 
 import snow.player.PlaybackState;
 import snow.player.Player;
@@ -155,6 +157,8 @@ public class MainActivity extends BaseActivity {
     public void setFloat(View view) {
         TextView title = view.findViewById(R.id.title);
         ImageView ivAlbumIcon = view.findViewById(R.id.ivAlbumIcon);
+        ImageView play=view.findViewById(R.id.play);
+        ImageView playList=view.findViewById(R.id.playList);
         mPlayerViewModel.getTitle().observe(this, s -> {
             title.setText(mPlayerViewModel.getTitle().getValue());
         });
@@ -163,6 +167,25 @@ public class MainActivity extends BaseActivity {
                     Glide.with(MainActivity.this).load(musicItem.getIconUri()).error(R.mipmap.ic_player_album_default_icon_big).transform(new CenterCrop(), new CircleCrop())
                             .into(ivAlbumIcon);
                 });
+        mPlayerViewModel.getPlaybackState().observe(this, playbackState -> {
+            if (playbackState == PlaybackState.PLAYING) {
+                play.setImageResource(R.drawable.stop_flot);
+            } else {
+                play.setImageResource(R.drawable.play_flot);
+            }
+        });
+        play.setOnClickListener(view1 -> {
+            mPlayerClient.playPause();
+        });
+        playList.setOnClickListener(view1 -> {
+            PlaylistDialog.newInstance()
+                    .show(getSupportFragmentManager(), "Playlist");
+        });
+        ivAlbumIcon.setOnClickListener(view1 -> {
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this, MusicPlayerActivity.class);
+            startActivity(intent);
+        });
     }
 
 }
